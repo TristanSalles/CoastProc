@@ -1,0 +1,10 @@
+include README.md
+include MANIFEST.in
+include COPYING
+include COPYING.LESSER
+include CoastProc/__init__.py
+include CoastProc/altiwave.py
+include CoastProc/documentation.py
+include CoastProc/Notebooks/notebooks/*.ipynb
+include CoastProc/Notebooks/images/*
+include CoastProc/Notebooks/dataset/*
