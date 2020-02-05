@@ -21,15 +21,18 @@ The emphasise will be on:
 
 Numerical modelling is a widely applied technique to tackle complex coastal problems. It uses mathematical models to describe the physical conditions of natural systems using numbers and equations.
 
+
+.. image:: images/fig1.jpg
+   :scale: 25 %
+   :alt: Course content
+   :align: center
+
+
 With *numerical models*, scientists can use physical methods to approximate the solutions of many natural processes. Numerical experiments can then be performed, yielding the results that can be interpreted in the context of coastal processes.
 Both **qualitative** and **quantitative** understanding of a variety of marine environments and processes can be developed via these experiments.
 
 Over the last 50 years, major improvements in our understanding of coastal processes have been related to both physical and numerical modelling. Detail evaluation of any of these techniques require strong mathematical background and several years of study in specialised fields. Therefore the goal of this section of the course is more on an overview of the type of models that are used and to focus on few of the basic principles underlying these models.
 
-.. image:: images/fig1.jpg
-   :scale: 50 %
-   :alt: Course content
-   :align: center
 
 
 Lecture notes content
