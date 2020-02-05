@@ -11,21 +11,31 @@ CoastProc - *Coastal Processes, Environments & Systems*
   :alt: Documentation Status
 
 
-**Satellite radar altimeters** can be used to determine significant wave height and wind speed [Young2011]_. Since the first launch of the **GEOSAT** (GEOdetic SATellite) altimeter in 1985, there has been almost continuous data collection. From these measurements one can calculate wave conditions namely wave height, period and power [Young2018]_. Analysis of this long-term, high resolution spatio-temporal record brings new insights into inter-annual, seasonal and decadal variations of regional wave climates.
+This part of the course focuses on coastal system analysis using both *data* & *models*.
 
-.. image:: ../CoastProc/Notebooks/images/img2.jpg
+The emphasise will be on:
+* **What is a model? **
+* **How to analyse numerical and ocean data? **
+* **How to run different types of model?**
+
+Numerical modelling is a widely applied technique to tackle complex coastal problems. It uses mathematical models to describe the physical conditions of natural systems using numbers and equations.
+
+With *numerical models*, scientists can use physical methods to approximate the solutions of many natural processes. Numerical experiments can then be performed, yielding the results that can be interpreted in the context of coastal processes.
+Both **qualitative** and **quantitative** understanding of a variety of marine environments and processes can be developed via these experiments.
+
+Over the last 50 years, major improvements in our understanding of coastal processes have been related to both physical and numerical modelling. Detail evaluation of any of these techniques require strong mathematical background and several years of study in specialised fields. Therefore the goal of this section of the course is more on an overview of the type of models that are used and to focus on few of the basic principles underlying these models.
+
+.. image:: images/fig1.jpg
    :scale: 10 %
-   :alt: Altimeter analysis
+   :alt: Course content
    :align: center
 
-**CoastProc** is Python package that provides a mechanism to access altimeter datasets through web-enabled data services (THREDDS). The package capabilities are illustrated based on the Australian Ocean Data Network [`AODN <https://portal.aodn.org.au/>`_] database that spans from 1985-present and that has already been calibrated and validated by [Ribal2019]_. **CoastProc** allows to query over a range of spatial and temporal scales altimeter parameters in specific geographical regions and subsequently calculates significant wave heights, periods, group velocities, average wave energy densities and wave energy fluxes.
 
-.. hint::
-  **CoastProc** can be used to easily calculate past wave conditions and infers long term wave climate variability, providing new insights on wave modal conditions, seasonal changes, long-term trends and associated modulation by climate oscillations.
+Lecture notes content
+*****
 
-
-.. note::
-  Designed for researchers and industry partners focusing on offshore wave conditions globally, **CoastProc** enhances the ease of access and analysis of altimeter data.
+.. important::
+  During lectures we will be using computer-based modelling and you will need to bring an electronic device (preferably a laptop or a tablet or phone with internet access). As there will be a lot to cover, it is also recommended to go through each chapter prior to the lecture to be well prepared and able to get the most of it during classes.
 
 Contents
 --------
@@ -44,12 +54,3 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-
-.. [Ribal2019] Ribal, A. & Young, I. R. -
-    33 years of globally calibrated wave height and wind speed data based on altimeter observations. **Scientific Data** 6(77), p.100, 2019.
-
-.. [Young2011] Young, I. R., Zieger, S. & Babanin, A. V. -
-    Global trends in wind speed and wave height. **Science** 332(6028), p451–455, 2011.
-
-.. [Young2018] Young, I. R. & Donelan, M. -
-    On the determination of global ocean wind and wave climate from satellite observations. **Remote Sensing of Environment** 215, 228–241, 2018.
