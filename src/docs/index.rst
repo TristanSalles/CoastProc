@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-CoastProc - *Coastal Processes, Environments & Systems*
+Coastal Processes, Environments & Systems
 =============================================
 
 .. image:: https://readthedocs.org/projects/coastproc/badge/?version=latest
@@ -14,8 +14,9 @@ CoastProc - *Coastal Processes, Environments & Systems*
 This part of the course focuses on coastal system analysis using both *data* & *models*.
 
 The emphasise will be on:
-* **What is a model? **
-* **How to analyse numerical and ocean data? **
+
+* **What is a model?**
+* **How to analyse numerical and ocean data?**
 * **How to run different types of model?**
 
 Numerical modelling is a widely applied technique to tackle complex coastal problems. It uses mathematical models to describe the physical conditions of natural systems using numbers and equations.
@@ -26,7 +27,7 @@ Both **qualitative** and **quantitative** understanding of a variety of marine e
 Over the last 50 years, major improvements in our understanding of coastal processes have been related to both physical and numerical modelling. Detail evaluation of any of these techniques require strong mathematical background and several years of study in specialised fields. Therefore the goal of this section of the course is more on an overview of the type of models that are used and to focus on few of the basic principles underlying these models.
 
 .. image:: images/fig1.jpg
-   :scale: 10 %
+   :scale: 50 %
    :alt: Course content
    :align: center
 
