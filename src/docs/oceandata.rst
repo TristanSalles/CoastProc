@@ -4,9 +4,12 @@ Ocean data query
 An introduction to Coastal Ocean Observing Systems
 -----------
 
-
 The ocean plays a role in everyone’s life. The ocean affects weather and climate patterns around the globe, hosts an abundance of wildlife that support fishing industries and provide food for the world, serves as a highway for vessels that deliver everyday materials, and supports economies as a tourism destination. The coastal ocean is the part of the earth system where land, water, air, and people meet together. Populations, businesses, and infrastructure are increasing along coastlines, which are all susceptible to changing coastal ocean conditions. **Now, more than ever, there is a need for regional to global observing systems that can provide accurate real-time data and forecasts on coastal ocean conditions.**
 
+.. image:: images/od1.jpg
+  :scale: 25 %
+  :alt: Data acquisition instruments
+  :align: center
 
 **Coastal ocean observing systems** (COOS) are necessary for advancing our understanding on the state of the coastal ocean worldwide and its impact on matters of societal importance. These systems integrate a network of people, organisations, technologies, and data to share advances, improve research capabilities, and provide decision-makers with access to information and scientific interpretations.
 
@@ -21,8 +24,17 @@ The ocean plays a role in everyone’s life. The ocean affects weather and clima
 Coastal ocean observing systems development
 *****
 
-Most large-scale coastal ocean observing systems are funded through national governments for their own interests, often with different foci, but the world’s oceans are connected, therefore partnering is the key to success. U.S. IOOS, Australia’s Integrated Marine Observing System (IMOS), or Canada’s Ocean Tracking Network (OTN) are progressing in their respective regions and are working together to observe and compile ocean information in a way that is easily accessible to scientists and managers.
-The Australian IMOS was formed in 2007, with equipment deployed from the next year onward. Scientific ’nodes’ were formed broadly around state boundaries with both nationally unified overarching science goals and local priorities. The NSW-IMOS is an example of a successfully implemented ocean observing system along the coast of southeastern Australia. The current observational array is designed around pertinent science questions, leveraged existing data streams, and opportunities for further oceanographic research.
+Most large-scale coastal ocean observing systems are funded through national governments for their own interests, often with different foci, but the world’s oceans are connected, therefore partnering is the key to success. As an example, U.S. IOOS, **Australia’s Integrated Marine Observing System** (`IMOS <http://imos.org.au>`_), or Canada’s Ocean Tracking Network (OTN) are progressing in their respective regions and are working together to observe and compile ocean information in a way that is easily accessible to scientists and managers.
+
+.. note::
+
+  The Australian `IMOS <http://imos.org.au>`_ was formed in 2007, with equipment deployed from the next year onward. Scientific ’nodes’ were formed broadly around state boundaries with both nationally unified overarching science goals and local priorities. The **NSW-IMOS** is an example of a successfully implemented ocean observing system along the coast of southeastern Australia. The current observational array is designed around pertinent science questions, leveraged existing data streams, and opportunities for further oceanographic research.
+
+.. raw:: html
+
+      <iframe width="695" height="515"
+      src="http://imos.org.au"
+      frameborder="0" allowfullscreen></iframe>
 
 
 Why do we need ocean observing?
