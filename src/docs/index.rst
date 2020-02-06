@@ -21,8 +21,7 @@ The emphasise will be on:
     src="https://earth.nullschool.net/#current/ocean/primary/waves/overlay=currents/patterson=134.83,-24.24,984/loc=156.066,48.181"
     frameborder="0" allowfullscreen></iframe>
 
-
-| 
+|
 
 .. note::
   Today, numerical modelling and ocean data query techniques are routinely applied by governmental agencies, companies and research organisations to tackle complex coastal problems. It is based on advanced physical models and engineering approaches designed to describe and observe the connections between ocean dynamics and coastal evolution.
@@ -48,6 +47,7 @@ Contents
 --------
 
 .. toctree::
+   oceandata
    method
    installation
    usage
