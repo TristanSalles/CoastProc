@@ -1,12 +1,12 @@
 # docker login --username=yourhubusername --password=yourpassword
-# docker build -t pyreefmodel/radwave-bundle:latest -f Dockerfile-debian .
-# sudo docker push pyreefmodel/radwave-bundle:latest
+# docker build -t tristansalles/coastproc-bundle:latest -f Dockerfile-debian .
+# sudo docker push tristansalles/coastproc-bundle:latest
 
 FROM debian:latest
 
-MAINTAINER https://github.com/pyReef-model/RADWave
-ENV IMAGENAME=pyreefmodel/radwave-bundle
-ENV PROJ_NAME=radwave-bundle
+MAINTAINER https://github.com/TristanSalles/CoastProc
+ENV IMAGENAME=tristansalles/coastproc-bundle
+ENV PROJ_NAME=coastproc-bundle
 
 RUN apt-get update -qq && \
     DEBIAN_FRONTEND=noninteractive apt-get install -yq --no-install-recommends \
@@ -73,7 +73,7 @@ RUN python3 -m pip install --no-cache-dir setuptools wheel && \
     pandas \
     scikit-image \
     pymannkendall \
-    cmocean 
+    cmocean
 
 RUN HDF5_INCDIR=/usr/include/hdf5/serial \
     HDF5_LIBDIR=/usr/lib/x86_64-linux-gnu/hdf5/serial \

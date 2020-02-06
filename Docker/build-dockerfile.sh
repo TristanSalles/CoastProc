@@ -6,9 +6,9 @@
 # ./Docker/build-dockerfile.sh
 # sudo docker push pyreefmodel/radwave:latest
 
-FROM_IMG="pyreefmodel/radwave-bundle:latest"
-IMAGENAME=pyreefmodel/radwave:latest
-PROJ_NAME=RADWave
+FROM_IMG="tristansalles/coastproc-bundle:latest"
+IMAGENAME=tristansalles/coastproc-bundle:latest
+PROJ_NAME=CoastProc
 NB_PORT=8888
 NB_PASSWD=""
 NB_DIR=Notebooks

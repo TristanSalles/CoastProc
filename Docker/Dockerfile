@@ -2,7 +2,7 @@
 #  Short docker file to distribute some notebooks
 #################################################
 
-ARG FROMIMG_ARG=pyreefmodel/radwave-bundle:latest:latest
+ARG FROMIMG_ARG=tristansalles/coastproc-bundle:latest
 FROM ${FROMIMG_ARG}
 
 ##################################################
@@ -25,7 +25,7 @@ ADD --chown=jovyan:jovyan $MODULE_DIR $MODULE_DIR
 RUN   cd $MODULE_DIR && python3 -m pip install --no-cache-dir --no-deps --upgrade .
 
 
-RUN ipython3 -c 'import RADWave; RADWave.documentation.install_documentation(path="Notebooks")'
+RUN ipython3 -c 'import CoastProc; CoastProc.documentation.install_documentation(path="Notebooks")'
 ADD  --chown=jovyan:jovyan Notebooks/0-StartHere.ipynb Notebooks/0-StartHere.ipynb
 
 
@@ -50,7 +50,7 @@ USER jovyan
 ## build-dockerfile.sh
 
 ARG IMAGENAME_ARG
-ARG PROJ_NAME_ARG=RADWave
+ARG PROJ_NAME_ARG=CoastProc
 ARG NB_PORT_ARG=8888
 ARG NB_PASSWD_ARG=""
 ARG NB_DIR_ARG="Notebooks"
