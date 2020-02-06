@@ -4,7 +4,7 @@ Ocean data query
 Coastal Ocean Observing Systems
 -----------
 
-The ocean plays a role in everyone’s life. The ocean affects weather and climate patterns around the globe, hosts an abundance of wildlife that support fishing industries and provide food for the world, serves as a highway for vessels that deliver everyday materials, and supports economies as a tourism destination.
+The ocean plays a role in everyone’s life. It affects weather and climate patterns around the globe, hosts an abundance of wildlife that support fishing industries and provide food for the world, serves as a highway for vessels that deliver everyday materials, and supports economies as a tourism destination.
 
 The coastal ocean is the part of the earth system where land, water, air, and people meet together. Populations, businesses, and infrastructure are increasing along coastlines, which are all susceptible to changing coastal ocean conditions.
 
@@ -21,15 +21,51 @@ The coastal ocean is the part of the earth system where land, water, air, and pe
 
 
 .. important::
-  Data, observations, and models integrated into the **COOS** come from a variety of platforms, including, for example, moorings, high-frequency (HF) radars, underwater gliders and profilers, satellites, and ships. The resulting data are used to better understand, respond to, and prepare for short-term events such as oil spills, harmful algal blooms, and fish kills, longer term changes in our oceans resulting in acidification, hypoxia, and sea level rise, and in everyday decisions related to maritime operations, public health, and management of healthy ecosystems.
+  Data, observations, and models integrated into the **COOS** come from a variety of platforms, including, for example, **moorings**, high-frequency (HF) **radars**, underwater **gliders** and profilers, **satellites**, and **ships**. The resulting data are used to better understand, respond to, and prepare for **short-term** events such as oil spills, harmful algal blooms, and fish kills, **longer term** changes in our oceans resulting in acidification, hypoxia, and sea level rise, and in everyday decisions related to maritime operations, public health, and management of healthy ecosystems.
+
+
+Why do we need ocean observing tools?
+*****
+
+
+Until recently, the ocean was viewed as *being an unlimited resource to be exploited* (source: *US National Academies of Science report on Economic Benefits of Oceanographic Research, 1964*).  Subsequent science, including that from national and international observing efforts, has changed what we know about the ocean.
+
+Nowadays, we recognise that **the ocean is a finite and shared resource** that needs to be manage regionally, nationally, and worldwide.
+
+There are a number of significant societal threats and challenges facing humans due to the changing ocean:
+
+* The increased frequency and intensity of coastal storms and resulting storm surges will affect our coastal communities and disrupt commerce, nationwide.
+* Sea level changes are threatening critical infrastructure worldwide.
+* Harmful algal blooms and oxygen-deficient dead zones threaten water supplies, fisheries, and coastal recreation.
+* Ocean acidification is negatively impacting coral reefs and shellfish harvesting.
+* The increasing size and number of vessels calling on ports present challenges for our already inadequate maritime infrastructure, and pose potential environmental risks as well.
+* The world’s growing population will increasingly rely on the ocean for food, but fishing must be done sustainably.
+
+To be able to understand and manage the ocean, we need meaningful measures of the ocean’s state.
+
+
+National & Global Ocean Observing Infrastructure
+*****
+
+
+Observing systems are expensive; Australia invests billions of dollars in civil Earth observations to ensure that the nation’s decision-makers and managers have the information they need about climate and weather, disaster events, land-use change, ecosystem health, natural resources, and many other characteristics of the planet.
+
+The ocean is a harsh environment in which to operate an observing system, from corrosion due to salinity to bio-fouling. The costs of maintaining instrumentation in this environment, accessing remote locations, and establishing sufficient communications with deployed technologies are significant.
+
+`IMOS <http://imos.org.au>`_ had as its prime focus improving scientific understanding of ocean conditions, but the information it generates is increasingly being used by government agencies and other users to inform decisions. The main activities of `IMOS <http://imos.org.au>`_ are based around:
+
+* Deploying, maintaining, and developing advanced observations technologies
+* Providing free and open access to data in support of a wide range of users
+* Advancing modeling
+* Focusing on education
 
 
 Coastal ocean observing systems development
 *****
 
-Most large-scale coastal ocean observing systems are funded through national governments for their own interests, often with different foci, but the world’s oceans are connected, therefore partnering is the key to success. As an example, U.S. IOOS, **Australia’s Integrated Marine Observing System** (`IMOS <http://imos.org.au>`_), or Canada’s Ocean Tracking Network (OTN) are progressing in their respective regions and are working together to observe and compile ocean information in a way that is easily accessible to scientists and managers.
+Most large-scale coastal ocean observing systems are funded through national governments for their own interests, often with different foci, but the world’s oceans are connected, therefore partnering is the key to success. As an example, The U.S. Integrated Ocean Observing System (`**IOOS** <https://ioos.noaa.gov>_`), **Australia’s Integrated Marine Observing System** (`IMOS <http://imos.org.au>`_), or European Ocean Observing System (`**EOOS** <http://eurogoos.eu/eoos/>_`) are progressing in their respective regions and are working together to observe and compile ocean information in a way that is easily accessible to scientists and managers.
 
-**COOS** advances have benefited from an evolving set of ocean observing efforts. The envisioned concept was a coordinated national and international network of observations, data management, and analyses that systematically acquired and disseminated data and information on past, present, and future states of the oceans. In Australia, coastal ocean observing efforts are implemented via regional programs distributed around coastal regions.
+**IMOS** advances have benefited from an evolving set of ocean observing efforts. The envisioned concept was a coordinated national and international network of observations, data management, and analyses that systematically acquired and disseminated data and information on past, present, and future states of the oceans. The coastal ocean observing efforts are implemented via regional programs distributed around coastal regions.
 
 Each program is designed to assess and predict the effects of weather, climate, and human activities on the state of the coastal ocean, its ecosystems and living resources, and on the world’s economy.
 
@@ -45,29 +81,6 @@ Each program is designed to assess and predict the effects of weather, climate, 
   :alt: IMOS Facilities
   :align: center
 
-
-Why do we need ocean observing?
-*****
-
-
-In 1964, the National Academies of Science report titled the Economic Benefit Economic Benefits of Oceanographic Research characterised the ocean as being an unlimited resource to be exploited. Subsequent science, including that from national and international observing efforts, has changed what we know about the ocean. Today, we recognise the ocean is a finite and shared resource that we need to manage regionally, nationally, and worldwide for ocean health.
-There are a number of significant societal threats and challenges facing humans due to the changing ocean. The increased frequency and intensity of coastal storms and resulting storm surges will affect our coastal communities and disrupt commerce, nationwide. Sea level changes are threatening critical infrastructure worldwide. Harmful algal blooms and oxygen-deficient dead zones threaten water supplies, fisheries, and coastal recreation. Ocean acidification is negatively impacting coral reefs and shellfish harvesting. The increasing size and number of vessels calling on ports present challenges for our already inadequate maritime infrastructure, and pose potential environmental risks as well. The world’s growing population will increasingly rely on the ocean for food, but fishing must be done sustainably. Achieving sustainable marine fisheries will take improvements in stock assessment to which sustained observing systems can contribute.
-
-To be able to understand and manage the ocean, we need meaningful measures of the ocean’s state.
-
-
-Answering the call: National & Global Ocean Observing Infrastructure
-*****
-
-
-Observing systems are expensive; the United States invests billions of dollars in civil Earth observations to ensure that the nation’s decision-makers and managers have the information they need about climate and weather, disaster events, land-use change, ecosystem health, natural resources, and many other characteristics of the planet. The ocean is a harsh environment in which to operate an observing system, from corrosion due to salinity to bio-fouling. The costs of maintaining instrumentation in the ocean’s harsh environment, accessing remote locations, and establishing sufficient communications with deployed technologies are significant. Finally, the fact is that most people are not even aware that the ocean touches their lives every day. Therefore, not only do we need to work together to achieve an adequate understanding of three quarters of our planet, we must work together to articulate a compelling case to sustain the ocean observing systems.
-
-`IMOS <http://imos.org.au>`_ had as its prime focus improving scientific understanding of ocean conditions, but the information it generates is increasingly being used by government agencies and other users to inform decisions. The main activities of IMOS are based around:
-
-* Deploying, maintaining, and developing advanced observations technologies
-* Providing free and open access to data in support of a wide range of users
-* Advancing modeling
-* Focusing on education
 
 
 Ocean observing technologies
