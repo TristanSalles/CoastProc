@@ -65,7 +65,7 @@ In addition to providing observations and data to a large and growing number of 
 Coastal ocean observing systems development
 *****
 
-Most large-scale coastal ocean observing systems are funded through national governments for their own interests, often with different foci, but the world’s oceans are connected, therefore partnering is the key to success. As an example, The U.S. Integrated Ocean Observing System (`IOOS <https://ioos.noaa.gov>_`), **Australia’s Integrated Marine Observing System** (`IMOS <http://imos.org.au>`_), or European Ocean Observing System (`EOOS <http://eurogoos.eu/eoos/>_`) are progressing in their respective regions and are working together to observe and compile ocean information in a way that is easily accessible to scientists and managers.
+Most large-scale coastal ocean observing systems are funded through national governments for their own interests, often with different foci, but the world’s oceans are connected, therefore partnering is the key to success. As an example, The U.S. Integrated Ocean Observing System (`IOOS <https://ioos.noaa.gov>`_), **Australia’s Integrated Marine Observing System** (`IMOS <http://imos.org.au>`_), or European Ocean Observing System (`EOOS <http://eurogoos.eu/eoos/>`_) are progressing in their respective regions and are working together to observe and compile ocean information in a way that is easily accessible to scientists and managers.
 
 **IMOS** advances have benefited from an evolving set of ocean observing efforts. The envisioned concept was a coordinated national and international network of observations, data management, and analyses that systematically acquired and disseminated data and information on past, present, and future states of the oceans. The coastal ocean observing efforts are implemented via regional programs distributed around coastal regions.
 
@@ -91,14 +91,14 @@ It is a complex task to measure the ocean in ways that deliver useful products f
   :align: center
 
 
-`IMOS <http://imos.org.au>`_ is a global leader in ocean observation. It has infrastructures that operate on continental scales, field observing technologies, shares best practices for a broad suite of variables, and generate masses of data. `IMOS <http://imos.org.au>`_ is partner with `IOOS <https://ioos.noaa.gov>_` and `OTN <https://oceantrackingnetwork.org>_` (this later is a global ocean research and technology development platform, in the area of animal tagging and tracking). To understand animal movements and survival, you also have to understand how the animals respond to changes in environmental conditions. Thus, the animal tracking effort is tightly integrated with the observation of the physical and chemical environment, and all networks depend on common platforms for oceanographic observations. Other observing technologies include Argo, moored buoys, high-frequency radar (HFR), and autonomous underwater vehicles known as gliders.
+`IMOS <http://imos.org.au>`_ is a global leader in ocean observation. It has infrastructures that operate on continental scales, field observing technologies, shares best practices for a broad suite of variables, and generate masses of data. `IMOS <http://imos.org.au>`_ is partner with `IOOS <https://ioos.noaa.gov>`_ and `OTN <https://oceantrackingnetwork.org>`_ (this later is a global ocean research and technology development platform, in the area of animal tagging and tracking). To understand animal movements and survival, you also have to understand how the animals respond to changes in environmental conditions. Thus, the animal tracking effort is tightly integrated with the observation of the physical and chemical environment, and all networks depend on common platforms for oceanographic observations. Other observing technologies include Argo, moored buoys, high-frequency radar (HFR), and autonomous underwater vehicles known as gliders.
 
 
 Access to the data
 *****
 
 
-All the national systems that participate in the Global Ocean Observing System (`GOOS <https://www.goosocean.org>_`) and the Group on Earth Observations (`GEO <http://www.earthobservations.org/index.php>_`) subscribe to the principal of **free and open data**. It is **policy** within Australia that all observational data collected with governmental funding support are made freely and openly available, which makes sense from scientific, disaster response, and economic perspectives.
+All the national systems that participate in the Global Ocean Observing System (`GOOS <https://www.goosocean.org>`_) and the Group on Earth Observations (`GEO <http://www.earthobservations.org/index.php>`_) subscribe to the principal of **free and open data**. It is **policy** within Australia that all observational data collected with governmental funding support are made freely and openly available, which makes sense from scientific, disaster response, and economic perspectives.
 
 .. important::
   One challenge `IMOS <http://imos.org.au>`_ faces is the need to support operational systems, often with unique data formats, while simultaneously working to create mutually compatible data access systems and services, and common data formats and metadata standards, in order to facilitate access to this public resource through the internet.
@@ -124,7 +124,7 @@ Modeling and analysis
 
 Prediction of future conditions is critical to deliver the full benefits of an ocean observing system. The Australian ocean and coastal modeling community is a partnership between multiple universities and national organisations (CSIRO, IMOS, GA, BOM to cite a few) that is being asked to provide greater resolution models that cover not only traditional physical water circulation, which remains a critical need, but also expand outputs to include inundation forecasting and ecosystem modeling.
 
-In May 2014, `IMOS <http://imos.org.au>`_ published the **IMOS Strategy 2015-25** (`source <http://imos.org.au/fileadmin/user_upload/shared/IMOS%20General/documents/IMOS/Plans___Reports/IMOS_Strategic_Plan_3Jun2014_low_res.pdf>_`). In this plan, one can read that:
+In May 2014, `IMOS <http://imos.org.au>`_ published the **IMOS Strategy 2015-25** (`source <http://imos.org.au/fileadmin/user_upload/shared/IMOS%20General/documents/IMOS/Plans___Reports/IMOS_Strategic_Plan_3Jun2014_low_res.pdf>`_). In this plan, one can read that:
 
 .. note::
   `IMOS <http://imos.org.au>`_ has a concerted focus on making **data available** and **seeing that it is used**. `IMOS <http://imos.org.au>`_ has worked with the coastal modeling community to make sure that available data are informing numerical models. Going forward, `IMOS <http://imos.org.au>`_ will use its infrastructure to be a coordinating entity to advance the assimilation and further development of coastal modeling. `IMOS <http://imos.org.au>`_ has begun a structured engagement with the coastal and ocean modeling communities through development of joint products (e.g., in ocean reanalysis), national workshops, and targeted infrastructure investment at the model-data interface (such as virtual laboratories).
@@ -134,7 +134,7 @@ In May 2014, `IMOS <http://imos.org.au>`_ published the **IMOS Strategy 2015-25*
 Summary
 -----------
 
-Working together, agencies like `IMOS <http://imos.org.au>`_ or `IOOS <https://ioos.noaa.gov>_` help to manage our oceans by measuring them and connecting observations to people. Yet, ocean observing systems are only as good as our ability to observe and accurately model ocean systems.
+Working together, agencies like `IMOS <http://imos.org.au>`_ or `IOOS <https://ioos.noaa.gov>`_ help to manage our oceans by measuring them and connecting observations to people. Yet, ocean observing systems are only as good as our ability to observe and accurately model ocean systems.
 
 **Finding the resources to sustain coastal observations over relevant time scales is a big challenge**.
 
