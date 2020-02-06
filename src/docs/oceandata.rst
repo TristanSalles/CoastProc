@@ -4,10 +4,12 @@ Ocean data query
 Coastal Ocean Observing Systems
 -----------
 
-The ocean plays a role in everyone’s life. The ocean affects weather and climate patterns around the globe, hosts an abundance of wildlife that support fishing industries and provide food for the world, serves as a highway for vessels that deliver everyday materials, and supports economies as a tourism destination. The coastal ocean is the part of the earth system where land, water, air, and people meet together. Populations, businesses, and infrastructure are increasing along coastlines, which are all susceptible to changing coastal ocean conditions.
+The ocean plays a role in everyone’s life. The ocean affects weather and climate patterns around the globe, hosts an abundance of wildlife that support fishing industries and provide food for the world, serves as a highway for vessels that deliver everyday materials, and supports economies as a tourism destination.
+
+The coastal ocean is the part of the earth system where land, water, air, and people meet together. Populations, businesses, and infrastructure are increasing along coastlines, which are all susceptible to changing coastal ocean conditions.
 
 .. tip::
-  **Now, more than ever, there is a need for regional to global observing systems that can provide accurate real-time data and forecasts on coastal ocean conditions.**
+  Now, more than ever, there is a need for regional to global observing systems that can provide accurate real-time data and forecasts on coastal ocean conditions.
 
 
 .. image:: images/od1.jpg
@@ -22,13 +24,14 @@ The ocean plays a role in everyone’s life. The ocean affects weather and clima
   Data, observations, and models integrated into the **COOS** come from a variety of platforms, including, for example, moorings, high-frequency (HF) radars, underwater gliders and profilers, satellites, and ships. The resulting data are used to better understand, respond to, and prepare for short-term events such as oil spills, harmful algal blooms, and fish kills, longer term changes in our oceans resulting in acidification, hypoxia, and sea level rise, and in everyday decisions related to maritime operations, public health, and management of healthy ecosystems.
 
 
-**COOS** advances have benefited from an evolving set of ocean observing efforts. In the United States, for example, the concept of the U.S. Integrated Ocean Observing System (**IOOS**) was developed through the establishment of Ocean.US under the auspices of the National Oceanographic Partnership Program (**NOPP**) to help coordinate emerging activities. The envisioned concept was a coordinated national and international network of observations, data management, and analyses that systematically acquired and disseminated data and information on past, present, and future states of the oceans. **Its coastal component was designed to assess and predict the effects of weather, climate, and human activities on the state of the coastal ocean, its ecosystems and living resources, and on the world’s economy**. Coastal ocean observing efforts are implemented via regional programs distributed around coastal regions.
-
-
 Coastal ocean observing systems development
 *****
 
 Most large-scale coastal ocean observing systems are funded through national governments for their own interests, often with different foci, but the world’s oceans are connected, therefore partnering is the key to success. As an example, U.S. IOOS, **Australia’s Integrated Marine Observing System** (`IMOS <http://imos.org.au>`_), or Canada’s Ocean Tracking Network (OTN) are progressing in their respective regions and are working together to observe and compile ocean information in a way that is easily accessible to scientists and managers.
+
+**COOS** advances have benefited from an evolving set of ocean observing efforts. The envisioned concept was a coordinated national and international network of observations, data management, and analyses that systematically acquired and disseminated data and information on past, present, and future states of the oceans. In Australia, coastal ocean observing efforts are implemented via regional programs distributed around coastal regions.
+
+Each program is designed to assess and predict the effects of weather, climate, and human activities on the state of the coastal ocean, its ecosystems and living resources, and on the world’s economy.
 
 .. note::
 
