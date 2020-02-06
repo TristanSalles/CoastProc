@@ -182,4 +182,7 @@ Working together, agencies like `IMOS <http://imos.org.au>`_ or `IOOS <https://i
 
 **Finding the resources to sustain coastal observations over relevant time scales is a big challenge**.
 
+.. important::
+  As coastal data users we need to understand how ocean dataset are obtained, managed and stored. We also need to know how to efficiently load these dataset, query and analyse them.  
+
 As a growing population continues to stress our planet, quality observations will increase in importance. But it is not good enough to measure the planet, we also need to work to ensure this information comes into play in our communities, our economies, and in management decisions.
