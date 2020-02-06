@@ -18,7 +18,18 @@ RUN apt-get update -qq && \
 ### RADWave - Notebooks
 RUN python3 -m pip install --no-cache-dir \
     RADWave==0.0.2 \
-    statsmodels
+    statsmodels \
+    py-wave-runup \
+    earthengine-api==0.1.173 \
+    geopandas==0.4.1 \
+    pytz==2019.1 \
+    scikit-image==0.15.0 \
+    scikit-learn==0.20.3 \
+    shapely==1.6.4 \
+    scipy==1.2.1 \
+    spyder==3.3.4 \
+    notebook==5.7.8 \
+    astropy
 
 ENV MODULE_DIR="src"
 ADD --chown=jovyan:jovyan $MODULE_DIR $MODULE_DIR

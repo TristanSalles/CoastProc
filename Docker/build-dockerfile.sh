@@ -4,10 +4,10 @@
 # Run from the project top folder
 # docker login --username=yourhubusername --password=yourpassword
 # ./Docker/build-dockerfile.sh
-# sudo docker push pyreefmodel/radwave:latest
+# sudo docker push tristansalles/coastproc:latest
 
 FROM_IMG="tristansalles/coastproc-bundle:latest"
-IMAGENAME=tristansalles/coastproc-bundle:latest
+IMAGENAME=tristansalles/coastproc:latest
 PROJ_NAME=CoastProc
 NB_PORT=8888
 NB_PASSWD=""
