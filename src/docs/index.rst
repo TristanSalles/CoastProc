@@ -17,9 +17,9 @@ The emphasise will be on:
 
 .. raw:: html
 
-    <iframe width="700" height="515"
+    <iframe width="690" height="515"
     src="https://earth.nullschool.net/#current/ocean/primary/waves/overlay=currents/patterson=134.83,-24.24,984/loc=156.066,48.181"
-    frameborder="0" allowfullscreen></iframe>
+    frameborder="1" allowfullscreen></iframe>
 
 
 
