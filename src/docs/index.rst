@@ -20,7 +20,7 @@ The emphasise will be on:
 * **How to use these models and what are their limitations?**
 
 .. image:: images/fig1.jpg
-   :scale: 30 %
+   :scale: 25 %
    :alt: Course content
    :align: center
 
