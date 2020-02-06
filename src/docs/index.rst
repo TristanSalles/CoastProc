@@ -11,7 +11,7 @@ Coastal Processes, Environments & Systems
   :alt: Documentation Status
 
 
-This part of the course focuses on coastal systems analysis using both ocean *data* from a variety of sources (hindcast and forecast data, satellite observations, radar, moored buoys) & numerical *models* of shoreline changes, wave dynamics and coral reef evolution.
+This part of the course focuses on coastal systems analysis using both *ocean data* from a variety of sources (hindcast and forecast data, satellite observations, radar, moored buoys) & *numerical models* of shoreline changes, wave dynamics and coral reef evolution.
 
 The emphasise will be on:
 
@@ -20,7 +20,7 @@ The emphasise will be on:
 * **How to use these models and what are their limitations?**
 
 .. image:: images/fig1.jpg
-   :scale: 20 %
+   :scale: 30 %
    :alt: Course content
    :align: center
 
@@ -28,14 +28,16 @@ The emphasise will be on:
   Today, numerical modelling and ocean data query techniques are routinely applied by governmental agencies, companies and research organisations to tackle complex coastal problems. It is based on advanced physical models and engineering approaches designed to describe and observe the connections between ocean dynamics and coastal evolution.
 
 
-Over the last 20 years, major improvements in our understanding of coastal processes have been related to (1) easier access to observational dataset and (2) improved coastal numerical models. **It is now critical for any graduates to have a sense of how to access these dataset efficiently, how to process them using simple coding tools and how to interpret them**. During this course, we will learn how to do that using web-enabled open source technologies that you will be able to reuse in the future.
+Over the last 20 years, major improvements in our understanding of coastal processes have been related to (1) easier access to observational dataset and (2) improved coastal numerical models. **It is now critical for any graduates to have a sense of how to access these dataset efficiently, how to process them using simple coding tools and how to interpret them**.
+
+During this course, we will learn how to do that using web-enabled open source technologies that you will be able to reuse in the future.
 
 
 Lecture notes content
 *****
 
 .. important::
-  We will do computer-based exercises during both lectures and practicals so you will need to bring an electronic device (preferably a laptop but a tablet with internet access could work). As there will be a lot to cover, it is also recommended to go through each chapter prior to the lecture to be well prepared and able to get the most of it during classes.
+  We will do **computer-based exercises during both lectures and practicals** so you will need to bring an electronic device (preferably a laptop but a tablet with internet access could work). As there will be a lot to cover, it is also recommended to go through each chapter prior to the lecture to be well prepared and able to get the most of it during classes.
 
 Contents
 --------
