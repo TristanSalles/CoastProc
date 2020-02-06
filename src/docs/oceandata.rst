@@ -29,15 +29,13 @@ Most large-scale coastal ocean observing systems are funded through national gov
 
   The Australian `IMOS <http://imos.org.au>`_ was formed in 2007, with equipment deployed from the next year onward. Scientific ’nodes’ were formed broadly around state boundaries with both nationally unified overarching science goals and local priorities. The **NSW-IMOS** is an example of a successfully implemented ocean observing system along the coast of southeastern Australia. The current observational array is designed around pertinent science questions, leveraged existing data streams, and opportunities for further oceanographic research.
 
-`IMOS <http://imos.org.au/facilities/`_ currently has a portfolio of **13 Facilities** that undertake systematic and sustained observing of Australia’s marine environment, across scales (from open ocean, onto the continental shelf, and into the coast), and across disciplines (physics, biogeochemistry, and biology and ecosystems).
+`IMOS <http://imos.org.au/facilities/>`_ currently has a portfolio of **13 Facilities** that undertake systematic and sustained observing of Australia’s marine environment, across scales (from open ocean, onto the continental shelf, and into the coast), and across disciplines (physics, biogeochemistry, and biology and ecosystems).
 
 
-.. raw:: html
-
-      <iframe width="695" height="515"
-      src="http://imos.org.au/facilities/"
-      frameborder="0" allowfullscreen></iframe>
-
+.. image:: images/od2.jpg
+  :scale: 22 %
+  :alt: IMOS Facilities
+  :align: center
 
 
 Why do we need ocean observing?
