@@ -14,10 +14,13 @@ The emphasise will be on:
 * **What can we learn from simple numerical models of coastal evolution?**
 * **How to use these models and what are their limitations?**
 
-.. image:: images/fig1.jpg
-   :scale: 25 %
-   :alt: Course content
-   :align: center
+
+.. raw:: html
+
+    <iframe width="700" height="415"
+    src="https://earth.nullschool.net/#current/ocean/primary/waves/overlay=currents/patterson=134.83,-24.24,984/loc=156.066,48.181"
+    frameborder="0" allowfullscreen></iframe>
+
 
 .. note::
   Today, numerical modelling and ocean data query techniques are routinely applied by governmental agencies, companies and research organisations to tackle complex coastal problems. It is based on advanced physical models and engineering approaches designed to describe and observe the connections between ocean dynamics and coastal evolution.
@@ -37,12 +40,6 @@ Lecture notes content
 .. image:: https://readthedocs.org/projects/coastproc/badge/?version=latest
   :target: https://coastproc.readthedocs.io/en/latest/?badge=latest
   :alt: Documentation Status
-
-.. raw:: html
-
-    <iframe width="700" height="315"
-    src="https://earth.nullschool.net/#current/ocean/surface/currents/overlay=sea_surface_temp/orthographic=-226.48,-28.33,807"
-    frameborder="0" allowfullscreen></iframe>
 
 
 Contents
