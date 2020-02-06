@@ -130,6 +130,50 @@ In May 2014, `IMOS <http://imos.org.au>`_ published the **IMOS Strategy 2015-25*
   `IMOS <http://imos.org.au>`_ has a concerted focus on making **data available** and **seeing that it is used**. `IMOS <http://imos.org.au>`_ has worked with the coastal modeling community to make sure that available data are informing numerical models. Going forward, `IMOS <http://imos.org.au>`_ will use its infrastructure to be a coordinating entity to advance the assimilation and further development of coastal modeling. `IMOS <http://imos.org.au>`_ has begun a structured engagement with the coastal and ocean modeling communities through development of joint products (e.g., in ocean reanalysis), national workshops, and targeted infrastructure investment at the model-data interface (such as virtual laboratories).
 
 
+Hands-on examples
+-----------
+
+As we just saw, access to quality data is **essential to understand marine processes**.
+
+Over the last 20 years, **ocean data portals** have emerged and are routinely used to better understand the complexity of the ocean and its interactions with climate and life. These portals facilitate seamless access to marine data/services and promote the exchange and dissemination of ocean-related information.
+
+.. important::
+  The information that is stored, processed, and exchanged, is at the heart of modern marine science. Ocean scientists routinely perform *data crunching* to understand a particular system and need to *access* and *query* extensive lists of dataset. **Understanding how these data are stored, their origin and how to quickly retrieve particular information from them are crucial skills that you will need in your job!**
+
+
+Wave height measurements taken every day by a buoy offshore Sydney are data. A graph showing the evolution of the significant wave height over time, at a given place, is information. The fact that the number of extreme storms hitting Australian's coast increases as a result of climate change is knowledge. These three notions are very closely linked.
+Roughly speaking, here is how you should use them:
+
+* A piece of data provides a basic description, typically numerical for our purposes, of a given reality.
+* Drawing on the collected data, information is obtained by organising and structuring data so as to derive meaning.
+* By understanding the meaning of information, we obtain knowledge.
+
+.. note::
+  One of the great challenges for Ocean Data users is to understand **where** and **how** to find technologies that make it possible to evaluate, validate, verify, and rank information to help them in their jobs. This involves understanding how the ocean data providers are organised, the main standards, vocabularies and formats which are used by the community as well as the best approach for accessing and querying these information routinely.
+
+
+Loading and checking IMOS NetCDF dataset
+*****
+
+In this first example, we will work with the `IMOS portal <https://portal.aodn.org.au/search>`_ using `Python <https://www.python.org>`_ via `Jupyter Notebooks <https://jupyter.org>`_. There are several advantages of using Python as a general data analysis language and the notebook environment is a versatile tool that is designed to be interactive, user-friendly, open-source and sharable.
+
+We will see how to load NetCDF data into a Python environment, and show how to use the data once loaded.
+
+Querying and analysis Coastal Ocean Radar dataset
+*****
+
+In this second example, the Australian Coastal Ocean Radar Network (`ACORN <https://portal.aodn.org.au/search>`_) facility comprises a coordinated network of HF radars delivering real-time ocean surface velocity data. We will export the dataset file (NetCDF) for a given region and then we will plot the velocity field at a given time in a latitude/longitude grid.
+
+
+Exercises for the practical
+*****
+
+You will run a series of examples that will introduce some aspects of marine data querying.
+
+* Using Basemap library to map Global Ocean Salinity from NASA via THREDDS data server.
+* Analysing off-shore sydney wave buoy data from Australian Integrated Marine Observing System (IMOS) and historical NOAA WW3 model predictions for different locations.
+* Extract Ocean Radar dataset for Turquoise Bay from IMOS and plot them on a map.
+* Access via THREDDS protocol NetCDF forecast prediction dataset for Chesapeake bay (US) from FVCOM model, visualise it and extract relevant information.
 
 Summary
 -----------
