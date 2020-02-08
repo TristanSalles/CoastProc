@@ -37,8 +37,7 @@ RUN python3 -m pip install --no-cache-dir \
 
 WORKDIR /home/jovyan
 RUN git clone --depth=1 https://github.com/TristanSalles/CoastSat.git
-RUN cd CoastSat; python3 setup.py install
-RUN cd CoastSat/Notebooks/notebooks/LongTerm/wavesed; f2py -c -m ocean ocean.f90
+RUN cd /home/jovyan/CoastSat; python3 setup.py install
 
 WORKDIR /home/jovyan
 RUN git clone --depth=1 https://github.com/TristanSalles/pybeach.git
@@ -49,17 +48,24 @@ RUN git clone --depth=1 https://github.com/matplotlib/legacycontour.git
 RUN cd legacycontour; python3 setup.py install
 
 ENV MODULE_DIR="src"
-ADD --chown=jovyan:jovyan $MODULE_DIR $MODULE_DIR
-RUN   cd $MODULE_DIR && python3 -m pip install --no-cache-dir --no-deps --upgrade .
+ADD --chown=jovyan:jovyan  $MODULE_DIR $MODULE_DIR
+RUN   cd $MODULE_DIR && python3  -m pip install --no-cache-dir --no-deps --upgrade .
 
-WORKDIR /home/jovyan
-RUN python3 -m pip install --no-cache-dir -e git+https://github.com/hplgit/odespy.git#egg=odespy
+#WORKDIR /home/jovyan
+#RUN python3 -m pip install --no-cache-dir -e git+https://github.com/hplgit/odespy.git#egg=odespy
 
 ###WORKDIR /home/jovyan
 ###RUN git clone --depth=1 https://github.com/pyReef-model/pyReefCore.git
 ###RUN cd /home/jovyan/pyReefCore; python3 setup.py install
 
 RUN ipython3 -c 'import CoastProc; CoastProc.documentation.install_documentation(path="Notebooks") '
+
+WORKDIR /home/jovyan
+RUN pwd
+RUN ls /home/jovyan/
+RUN ls /home/jovyan/Notebooks/notebooks
+RUN cd /home/jovyan/Notebooks/notebooks/LongTerm/wavesed; f2py -c -m ocean ocean.f90
+
 ADD  --chown=jovyan:jovyan Notebooks/0-StartHere.ipynb Notebooks/0-StartHere.ipynb
 
 

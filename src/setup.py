@@ -22,7 +22,7 @@ if __name__ == "__main__":
           author            = "Tristan Salles",
           author_email      = "tristan.salles@sydney.edu.au",
           url               = "https://github.com/TristanSalles/CoastProc",
-          version           = "0.0.2",
+          version           = "0.0.3",
           description       = "Coastal Processes, Environments & Systems.",
           long_description  = long_description,
           long_description_content_type='text/markdown',
