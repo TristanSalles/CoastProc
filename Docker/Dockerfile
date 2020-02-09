@@ -84,6 +84,7 @@ RUN cp -r /home/jovyan/pyReefCore/pyReefCore/* /usr/local/lib/python2.7/dist-pac
 
 WORKDIR /home/jovyan
 RUN git clone https://github.com/TristanSalles/CoastProc.git
+RUN rm -rf /home/jovyan/Notebooks
 RUN mv CoastProc/Notebooks /home/jovyan
 RUN cd /home/jovyan/Notebooks/notebooks/LongTerm/wavesed;  f2py -c -m ocean ocean.f90
 
