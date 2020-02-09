@@ -5,14 +5,10 @@ Waves are a defining characteristic of water-bodies worldwide, transporting ener
 
 Initial wave studies were restricted to data from voluntary ship observations, which were limited in accuracy and sample size, particularly during extreme conditions. The development of technology such as wave buoys has provided accurate, hourly data of wave height, period and direction. This data enables almost immediate knowledge of the **sea state**, which is the present wave conditions.
 
-
-.. raw:: html
-
-      <iframe width="695" height="515"
-      src="http://www.bom.gov.au/australia/charts/viewer/index.shtml?type=sigWaveHgt&tz=AEDT&area=Au&model=CG&chartSubmit=Refresh+View"
-      frameborder="0" allowfullscreen></iframe>
-
-
+.. image:: images/bom_wave.jpg
+  :scale: 27 %
+  :alt: Wave Climate BOM
+  :align: center
 
 .. note::
   In Australia, waves have been officially recorded since 1974 with the deployment of the first Waverider buoy in Port Kembla, New South Wales (`Hemer et al. 2007 <https://www.jstor.org/stable/26481627?seq=2#metadata_info_tab_contents>`_). This was the start of an increasing network of *buoys*, *High-Frequency radars* and other wave measurement technology leading to significant knowledge of wave dynamics around the Australian coastline. A further technological leap in wave monitoring was achieved in 1985, with the launch of the `GEOSAT <https://earth.esa.int/web/eoportal/satellite-missions/g/geosat>`_ satellites with a mounted *altimeter*. As a remote sensing technique, altimeters provide wave data observations with unparalleled spatial and temporal resolution <`Ribal & Young 2019 <https://www.nature.com/articles/s41597-019-0083-9>`_). Long-term analysis of wave conditions can lead to the characterisation of a wave climate, which is the modal wave conditions of an area (`Godoi et al. 2016 <https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2015JC011572>`_).
