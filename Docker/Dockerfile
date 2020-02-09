@@ -51,26 +51,41 @@ ENV MODULE_DIR="src"
 ADD --chown=jovyan:jovyan  $MODULE_DIR $MODULE_DIR
 RUN   cd $MODULE_DIR && python3  -m pip install --no-cache-dir --no-deps --upgrade .
 
-#WORKDIR /home/jovyan
-#RUN python3 -m pip install --no-cache-dir -e git+https://github.com/hplgit/odespy.git#egg=odespy
-
-###WORKDIR /home/jovyan
-###RUN git clone --depth=1 https://github.com/pyReef-model/pyReefCore.git
-###RUN cd /home/jovyan/pyReefCore; python3 setup.py install
-
-RUN ipython3 -c 'import CoastProc; CoastProc.documentation.install_documentation(path="Notebooks") '
-
 WORKDIR /home/jovyan
-RUN pwd
-RUN ls /home/jovyan/
-RUN ls /home/jovyan/Notebooks/notebooks
+RUN git clone --depth=1 https://github.com/TristanSalles/CoastProc.git
+RUN mv CoastProc/Notebooks /home/jovyan
 RUN cd /home/jovyan/Notebooks/notebooks/LongTerm/wavesed; f2py -c -m ocean ocean.f90
 
 ADD  --chown=jovyan:jovyan Notebooks/0-StartHere.ipynb Notebooks/0-StartHere.ipynb
 
-
 RUN python3 -m pip install --no-cache-dir --upgrade nose \
-   jupyterhub
+   jupyterhub notebook ipykernel
+RUN python3 -m ipykernel install
+
+RUN apt-get update -qq && \
+    DEBIAN_FRONTEND=noninteractive apt-get install -yq --no-install-recommends \
+        python-dev \
+        python-pip
+
+RUN python2 -m pip install --no-cache-dir --upgrade pip setuptools
+
+RUN python2 -m pip install jupyter markupsafe zmq singledispatch backports_abc certifi jsonschema path.py matplotlib pandas plotly
+RUN apt-get install -y libnetcdf-dev python-mpltoolkits.basemap
+RUN python2 -m pip install scipy
+RUN python2 -m pip install numpy
+RUN python2 -m pip install cmocean
+RUN python2 -m pip install colorlover
+RUN python2 -m pip install scikit-fuzzy
+
+RUN python2 -m pip install -e git+https://github.com/hplgit/odespy.git#egg=odespy
+
+RUN python2 -m pip install --no-cache-dir --upgrade ipykernel
+RUN python2 -m ipykernel install
+
+WORKDIR /home/jovyan
+RUN git clone https://github.com/pyReef-model/pyReefCore.git
+RUN cd /home/jovyan/pyReefCore; python2 setup.py install  #python2 -m pip install -e /home/jovyan/pyReefCore
+RUN cp -r /home/jovyan/pyReefCore/pyReefCore/* /usr/local/lib/python2.7/dist-packages/pyReefCore/
 
 RUN mkdir -p /usr/local/files && chown -R jovyan:jovyan /usr/local/files
 ADD --chown=jovyan:jovyan Docker/scripts  /usr/local/files
@@ -106,7 +121,6 @@ ENV NB_PORT=$NB_PORT_ARG
 ENV NB_PASSWD=$NB_PASSWD_ARG
 ENV NB_DIR=$NB_DIR_ARG
 ENV START_NB=$START_NB_ARG
-
 
 ## NOW INSTALL NOTEBOOKS
 

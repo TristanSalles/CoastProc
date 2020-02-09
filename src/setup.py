@@ -4,8 +4,8 @@ Creating PIPY package instruction:
 python3 -m pip install --user --upgrade setuptools wheel
 python3 setup.py sdist
 python3 -m pip install --user --upgrade twine
-twine check dist/*
-twine upload dist/*
+/home/jovyan/.local/bin/twine check dist/*
+/home/jovyan/.local/bin/twine upload dist/*
 """
 
 from setuptools import setup, find_packages
@@ -45,8 +45,13 @@ if __name__ == "__main__":
           python_requires   = '>=3.3',
           package_data      = {'CoastProc': ['Notebooks/notebooks/*ipynb',
                                           'Notebooks/notebooks/*py',
-                                          'Notebooks/dataset/*',
-                                          'Notebooks/images/*'] },
+                                          'Notebooks/notebooks/*',
+                                          'Notebooks/dataset/*.txt',
+                                          'Notebooks/dataset/*.nc',
+                                          'Notebooks/dataset/*.csv',
+                                          'Notebooks/figs/images/*.png',
+                                          'Notebooks/figs/*.png'
+                                          ] },
           include_package_data = True,
           classifiers       = ['Programming Language :: Python :: 3.3',
                                'Programming Language :: Python :: 3.4',
