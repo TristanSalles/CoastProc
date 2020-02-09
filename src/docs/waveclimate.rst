@@ -1,6 +1,26 @@
 Wave climate
 =================
 
+Waves are a defining characteristic of water-bodies worldwide, transporting energy that impacts numerous physical and ecological processes. Since World War II, there has been a substantial increase in scientific understanding of wave formation, propagation and resulting impacts on coastal and marine features.
+
+Initial wave studies were restricted to data from voluntary ship observations, which were limited in accuracy and sample size, particularly during extreme conditions. The development of technology such as wave buoys has provided accurate, hourly data of wave height, period and direction. This data enables almost immediate knowledge of the **sea state**, which is the present wave conditions.
+
+
+.. raw:: html
+
+      <iframe width="695" height="515"
+      src="http://www.bom.gov.au/australia/charts/viewer/index.shtml?type=sigWaveHgt&tz=AEDT&area=Au&model=CG&chartSubmit=Refresh+View"
+      frameborder="0" allowfullscreen></iframe>
+
+
+
+.. note::
+  In Australia, waves have been officially recorded since 1974 with the deployment of the first Waverider buoy in Port Kembla, New South Wales (`Hemer et al. 2007 <https://www.jstor.org/stable/26481627?seq=2#metadata_info_tab_contents>`_). This was the start of an increasing network of *buoys*, *High-Frequency radars* and other wave measurement technology leading to significant knowledge of wave dynamics around the Australian coastline. A further technological leap in wave monitoring was achieved in 1985, with the launch of the `GEOSAT <https://earth.esa.int/web/eoportal/satellite-missions/g/geosat>`_ satellites with a mounted *altimeter*. As a remote sensing technique, altimeters provide wave data observations with unparalleled spatial and temporal resolution <`Ribal & Young 2019 <https://www.nature.com/articles/s41597-019-0083-9>`_). Long-term analysis of wave conditions can lead to the characterisation of a wave climate, which is the modal wave conditions of an area (`Godoi et al. 2016 <https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2015JC011572>`_).
+
+Variation from the modal wave climate can occur due to *extreme events* such as large **storms**, **Tropical Cyclones** (TC) or **tsunamis**. For Australia, it is critical to understand these extreme conditions and to analyse their role in ecological disturbance, as well as to predict present and future vulnerability, particularly with anthropogenic climate change likely to increase the frequency of intense TCs along our coasts.
+
+The wave climate of a region is further impacted by **climate oscillations**, which are semi-regular cyclical changes that have well-defined effects on regional and global weather patterns. These fluctuations typically influence atmospheric temperature, sea surface temperature, wind or precipitation. Oscillations operate on different timescales and can therefore occur together, enhancing or diminishing the effects of each event (`Godoi et al. 2019 <https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/joc.5823>`_). A key example is the El Nino-Southern Oscillation (**ENSO**), which plays an integral role in climate modulation over the Pacific Ocean and surrounding continents. Both the Australian modal and extreme wave climates can be substantially influenced by these climate oscillations, primarily due to changes in wind patterns and changes to extreme event frequency and intensity.
+
 Coastal Ocean Observing Systems
 -----------
 
