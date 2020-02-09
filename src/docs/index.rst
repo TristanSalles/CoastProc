@@ -48,6 +48,7 @@ Contents
 
 .. toctree::
    oceandata
+   waveclimate
    method
    installation
    usage
