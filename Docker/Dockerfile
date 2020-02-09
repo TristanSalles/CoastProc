@@ -51,11 +51,6 @@ ENV MODULE_DIR="src"
 ADD --chown=jovyan:jovyan  $MODULE_DIR $MODULE_DIR
 RUN   cd $MODULE_DIR && python3  -m pip install --no-cache-dir --no-deps --upgrade .
 
-WORKDIR /home/jovyan
-RUN git clone --depth=1 https://github.com/TristanSalles/CoastProc.git
-RUN mv CoastProc/Notebooks /home/jovyan
-RUN cd /home/jovyan/Notebooks/notebooks/LongTerm/wavesed; f2py -c -m ocean ocean.f90
-
 ADD  --chown=jovyan:jovyan Notebooks/0-StartHere.ipynb Notebooks/0-StartHere.ipynb
 
 RUN python3 -m pip install --no-cache-dir --upgrade nose \
@@ -86,6 +81,11 @@ WORKDIR /home/jovyan
 RUN git clone https://github.com/pyReef-model/pyReefCore.git
 RUN cd /home/jovyan/pyReefCore; python2 setup.py install  #python2 -m pip install -e /home/jovyan/pyReefCore
 RUN cp -r /home/jovyan/pyReefCore/pyReefCore/* /usr/local/lib/python2.7/dist-packages/pyReefCore/
+
+WORKDIR /home/jovyan
+RUN git clone https://github.com/TristanSalles/CoastProc.git
+RUN mv CoastProc/Notebooks /home/jovyan
+RUN cd /home/jovyan/Notebooks/notebooks/LongTerm/wavesed;  f2py -c -m ocean ocean.f90
 
 RUN mkdir -p /usr/local/files && chown -R jovyan:jovyan /usr/local/files
 ADD --chown=jovyan:jovyan Docker/scripts  /usr/local/files
