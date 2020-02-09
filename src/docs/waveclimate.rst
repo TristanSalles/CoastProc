@@ -11,34 +11,98 @@ Initial wave studies were restricted to data from voluntary ship observations, w
   :align: center
 
 .. note::
-  In Australia, waves have been officially recorded since 1974 with the deployment of the first Waverider buoy in Port Kembla, New South Wales (`Hemer et al. 2007 <https://www.jstor.org/stable/26481627?seq=2#metadata_info_tab_contents>`_). This was the start of an increasing network of *buoys*, *High-Frequency radars* and other wave measurement technology leading to significant knowledge of wave dynamics around the Australian coastline. A further technological leap in wave monitoring was achieved in 1985, with the launch of the `GEOSAT <https://earth.esa.int/web/eoportal/satellite-missions/g/geosat>`_ satellites with a mounted *altimeter*. As a remote sensing technique, altimeters provide wave data observations with unparalleled spatial and temporal resolution <`Ribal & Young 2019 <https://www.nature.com/articles/s41597-019-0083-9>`_). Long-term analysis of wave conditions can lead to the characterisation of a wave climate, which is the modal wave conditions of an area (`Godoi et al. 2016 <https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2015JC011572>`_).
+  In Australia, waves have been officially recorded since 1974 with the deployment of the first Waverider buoy in Port Kembla, New South Wales (`Hemer et al. 2007 <https://www.jstor.org/stable/26481627?seq=2#metadata_info_tab_contents>`_). This was the start of an increasing network of *buoys*, *High-Frequency radars* and other wave measurement technology leading to significant knowledge of wave dynamics around the Australian coastline. A further technological leap in wave monitoring was achieved in 1985, with the launch of the `GEOSAT <https://earth.esa.int/web/eoportal/satellite-missions/g/geosat>`_ satellites with a mounted *altimeter*. As a remote sensing technique, altimeters provide wave data observations with unparalleled spatial and temporal resolution (`Ribal & Young 2019 <https://www.nature.com/articles/s41597-019-0083-9>`_). Long-term analysis of wave conditions can lead to the characterisation of a wave climate, which is the modal wave conditions of an area (`Godoi et al. 2016 <https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2015JC011572>`_).
 
 Variation from the modal wave climate can occur due to *extreme events* such as large **storms**, **Tropical Cyclones** (TC) or **tsunamis**. For Australia, it is critical to understand these extreme conditions and to analyse their role in ecological disturbance, as well as to predict present and future vulnerability, particularly with anthropogenic climate change likely to increase the frequency of intense TCs along our coasts.
 
 The wave climate of a region is further impacted by **climate oscillations**, which are semi-regular cyclical changes that have well-defined effects on regional and global weather patterns. These fluctuations typically influence atmospheric temperature, sea surface temperature, wind or precipitation. Oscillations operate on different timescales and can therefore occur together, enhancing or diminishing the effects of each event (`Godoi et al. 2019 <https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/joc.5823>`_). A key example is the El Nino-Southern Oscillation (**ENSO**), which plays an integral role in climate modulation over the Pacific Ocean and surrounding continents. Both the Australian modal and extreme wave climates can be substantially influenced by these climate oscillations, primarily due to changes in wind patterns and changes to extreme event frequency and intensity.
 
-Coastal Ocean Observing Systems
+Wave formation
 -----------
 
-The ocean plays a role in everyone’s life. It affects weather and climate patterns around the globe, hosts an abundance of wildlife that support fishing industries and provide food for the world, serves as a highway for vessels that deliver everyday materials, and supports economies as a tourism destination.
-
-The coastal ocean is the part of the earth system where land, water, air, and people meet together. Populations, businesses, and infrastructure are increasing along coastlines, which are all susceptible to changing coastal ocean conditions.
-
-.. tip::
-  Now, more than ever, there is a need for regional to global observing systems that can provide accurate real-time data and forecasts on coastal ocean conditions.
-
-
-.. image:: images/od1.jpg
-  :scale: 25 %
-  :alt: Data acquisition instruments
-  :align: center
-
-**Coastal ocean observing systems** (COOS) are necessary for advancing our understanding on the state of the coastal ocean worldwide and its impact on matters of societal importance. These systems integrate a network of people, organisations, technologies, and data to share advances, improve research capabilities, and provide decision-makers with access to information and scientific interpretations.
+Ocean waves are formed by several different mechanisms and as a result, can have a wide range of properties. In this course, we focus on **ocean surface gravity waves** (henceforth referred to as waves), also known as *wind-generated waves*.
 
 
 .. important::
-  Data, observations, and models integrated into the **COOS** come from a variety of platforms, including, for example, **moorings**, high-frequency (HF) **radars**, underwater **gliders** and profilers, **satellites**, and **ships**. The resulting data are used to better understand, respond to, and prepare for **short-term** events such as oil spills, harmful algal blooms, and fish kills, **longer term** changes in our oceans resulting in acidification, hypoxia, and sea level rise, and in everyday decisions related to maritime operations, public health, and management of healthy ecosystems.
+  At the atmosphere-ocean interface, kinetic wind energy is transferred to the ocean, which with sufficient wind, generate waves (`Holthuijsen 2007 <https://www.cambridge.org/core/books/waves-in-oceanic-and-coastal-waters/F6BF070B00266943B0ABAFEAE6F54465>`_). Several factors influence wave formation, including the *strength* and *duration* of the wind, and the *fetch*, the distance over open ocean which the wind blows.
 
 
-Why do we need ocean observing tools?
+When wind blows over only a short distance, wind-waves are formed. In Australia, these locally-generated waves typically have a short period of **1-8 s**, and travel slower than the prevailing wind. In contrast, swell-waves are generated by distant storms and have propagated out of the wave-generation area. Swell has a longer period of **8-30 s**, and is only minimally influenced by local wind conditions. In many instances, these two wave types occur simultaneously and can travel in opposite directions, creating chaotic seas.
+
+.. image:: images/windwave.jpg
+  :scale: 27 %
+  :alt: Ocean wave frequency and period. Source: Holthuijsen (2007).
+  :align: center
+
+
+Wave Parameters
 *****
+
+Waves can be characterised by parameters such as *wave period*, *height*, *power* and *direction*. Distinctions between different wave classes are based on these measurements and are used to describe both individual waves and the wave climate of a region.
+
+The vertical distance between the maximum and minimum surface elevation over one wave period is referred to as **wave height** (`Holthuijsen 2007 <https://www.cambridge.org/core/books/waves-in-oceanic-and-coastal-waters/F6BF070B00266943B0ABAFEAE6F54465>`_). To define the overall wave height of many waves, typically the significant wave height is calculated (:math:`H_{s}`). Mathematically, :math:`H_{s}` is the mean of the highest third of waves in a given sample period (`Holthuijsen 2007 <https://www.cambridge.org/core/books/waves-in-oceanic-and-coastal-waters/F6BF070B00266943B0ABAFEAE6F54465>`_); traditionally, it is the height a trained observer would see when attempting to estimate average wave height, as humans would not see or consider the smallest waves.
+
+**Wave period** is the time for one full wavelength to pass a given point, from the beginning to the end of the wave (`Holthuijsen 2007 <https://www.cambridge.org/core/books/waves-in-oceanic-and-coastal-waters/F6BF070B00266943B0ABAFEAE6F54465>`_).
+Usually, the zero-crossing period is used (:math:`T_{z}`) that measures the time for a wave to go below the mean elevation, rise above, then return to mean elevation.
+
+As waves propagate across the ocean surface, energy is also transferred, referred to as **wave power** (:math:`P`) or **wave energy flux**. The :math:`P` of each wave is proportional to the :math:`T_{z}` and the square of :math:`H_{s}`, with higher values producing more powerful waves (Airy 1841). This parameter is important as it combines both :math:`H_{s}` and :math:`T_{z}`, providing an overall understanding of the wave conditions and the energy it transports. For example, a wave with a :math:`H_{s}` of 1 m and :math:`T_{z}` of 5 s will have less power than a wave with an :math:`H_{s}` of 1m and :math:`T_{z}` of 8s.
+
+.. image:: images/hstz.jpg
+  :scale: 27 %
+  :alt: Wave height and wave period from a time record of ocean surface elevation, defined by downward zero-crossings. Source: Holthuijsen (2007).
+  :align: center
+
+**Propagation direction** (:math:`\theta`) is the direction from which waves are coming from. In certain regions a particular wave direction can indicate different swell characteristics, for example, large waves from the South-East in Queensland, Australia, indicate strong Southern Ocean swell or Extra-Tropical Cyclone swell, whilst large waves from the north indicate Tropical Cyclone waves.
+
+
+Characterising Wave Climate
+*****
+
+
+
+Wave periods
+-----------------------
+
+However, altimeters do not directly measure wave period, an essential component to adequately characterise wave climate.
+
+For waves that have been locally generated by wind, the local wind speed and wave height, both of which are accurately measured by altimeters, can be used to determine :math:`T_{z}` [Quilfen2004]_. More accurate results are achieved when the *wave age* is calculated first, which is the length of time wind has been acting on a wave [Remya2010]_. In **RADWave**, an algorithm derived by [Remya2010]_ is implemented. It estimates :math:`T_{z}` in both wind and swell-generated seas (rmse = 0.76 s).
+
+First, the wave age is calculated through:
+
+.. math::
+   \epsilon = 3.25 \frac{H_{s} g}{U_{10}}
+
+where :math:`H_{s}` is the significant wave height, :math:`g` the acceleration by gravity and :math:`U_{10}` the wind speed.
+
+Wave age :math:`\epsilon` is then inputted into a Genetic Algorithm [Remya2010]_ to estimate :math:`T_{z}`:
+
+.. math::
+   T_{z} = (((\epsilon - 5.78)/(\epsilon + (U_{10}/H_{s} \times (U_{10}/H_{s}) + H_{s}))))) +(H_{s} + 5.70))
+
+
+Wave energy, group velocity & power
+-----------------------
+
+.. image:: ../RADWave/Notebooks/images/img4.jpg
+  :scale: 15 %
+  :alt: Wave data
+  :align: center
+
+Mean wave energy density (:math:`E`) (J/m2) is calculated by:
+
+.. math::
+   E = \frac{1}{8} \rho g H_{s}^{2}
+
+with :math:`\rho` the density of seawater (set to 1027 kg/m3).
+
+Wave group velocity (:math:`C_{g}`) in deep water conditions is approximated with:
+
+.. math::
+   C_{g} = \frac{g T_{z}}{2 \pi}
+
+And wave power :math:`P` can, therefore, be estimated through:
+
+.. math::
+   P = E C_{g}
+
+which is the wave energy flux per metre of wave-crest (W/m). This is then converted into kW/m for ease of analysis.
