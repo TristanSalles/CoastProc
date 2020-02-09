@@ -122,8 +122,15 @@ Wave-sensing technology
   :align: center
 
 
-A remarkable wave-sensing technology with high spatial-temporal density is the radar altimeter, widely established as a pinnacle remote sensing technique to determine wave climates globally (Godoi et al. 2016, Ribal & Young 2019, Vinoth & Young 2011, Zacharioudaki et al. 2015). Radar altimeters are mounted on satellites and measure a footprint of the ocean directly under the satellite, between 5-7 km wide. When the water surface is calm and flat, the reflection of the radar pulse back to the altimeter is almost instantaneous. In contrast, when waves are present the pulse is first reflected at the crest of the wave, then progressively reflected as the pulse reaches the wave trough (Figure 2.6) (Holthuijsen 2007). The altimeter interprets this signal to determine wave height and wind speed through a series of equations described in Ribal & Young (2019). Therefore, this remote sensing technique does not provide individual wave statistics, but rather returns the average value over the footprint, up to 7 km wide. In comparison to a buoy, altimeters provide excellent spatial coverage, with observations along the ground track every second, approximately every 5-7 km (Vinoth & Young 2011). Since the launch of the first altimeter in 1985, (GEOSAT), altimeters have been used to determine wave climate. With the increased number of altimeters in orbit, the global coverage and temporal density are increasing, resulting in a technology highly suited to characterising wave climate, particularly in areas with no buoys, complicated bathymetry and in remote locations.
+A remarkable wave-sensing technology with high spatial-temporal density is the radar altimeter, widely established as a pinnacle remote sensing technique to determine wave climates globally (`Ribal & Young 2019 <https://www.nature.com/articles/s41597-019-0083-9>`_).
 
+Radar altimeters are mounted on satellites and measure a footprint of the ocean directly under the satellite, between 5-7 km wide. When the water surface is calm and flat, the reflection of the radar pulse back to the altimeter is almost instantaneous. In contrast, when waves are present the pulse is first reflected at the crest of the wave, then progressively reflected as the pulse reaches the wave trough.
+
+
+.. important::
+  The altimeter interprets this signal to determine wave height and wind speed. Therefore, this remote sensing technique **does not provide individual wave statistics**, but rather **returns the average value over the footprint**, up to 7 km wide.
+
+In comparison to a buoy, altimeters provide excellent spatial coverage, with observations along the ground track every second, approximately every 5-7 km. Since the launch of the first altimeter in 1985, (`GEOSAT <https://earth.esa.int/web/eoportal/satellite-missions/g/geosat>`_), altimeters have been used to determine wave climate. With the increased number of altimeters in orbit, the global coverage and temporal density are increasing, resulting in a technology highly suited to characterising wave climate, particularly in areas with no buoys, complicated bathymetry and in remote locations.
 
 
 
