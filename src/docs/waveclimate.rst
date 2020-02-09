@@ -57,7 +57,7 @@ As waves propagate across the ocean surface, energy is also transferred, referre
 **Propagation direction** (:math:`\theta`) is the direction from which waves are coming from. In certain regions a particular wave direction can indicate different swell characteristics, for example, large waves from the South-East in Queensland, Australia, indicate strong Southern Ocean swell or Extra-Tropical Cyclone swell, whilst large waves from the north indicate Tropical Cyclone waves.
 
 
-Characterising Wave Climate
+Characterising wave climate
 -----------------------
 
 The modal wave climate of a region is determined through a long-term analysis of several wave parameters, including :math:`H_{s}`, :math:`T_{z}`, :math:`P` and :math:`\theta` (`Holthuijsen 2007 <https://www.cambridge.org/core/books/waves-in-oceanic-and-coastal-waters/F6BF070B00266943B0ABAFEAE6F54465>`_).
