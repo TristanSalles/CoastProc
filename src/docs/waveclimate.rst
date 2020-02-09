@@ -42,21 +42,88 @@ Waves can be characterised by parameters such as *wave period*, *height*, *power
 
 The vertical distance between the maximum and minimum surface elevation over one wave period is referred to as **wave height** (`Holthuijsen 2007 <https://www.cambridge.org/core/books/waves-in-oceanic-and-coastal-waters/F6BF070B00266943B0ABAFEAE6F54465>`_). To define the overall wave height of many waves, typically the significant wave height is calculated (:math:`H_{s}`). Mathematically, :math:`H_{s}` is the mean of the highest third of waves in a given sample period (`Holthuijsen 2007 <https://www.cambridge.org/core/books/waves-in-oceanic-and-coastal-waters/F6BF070B00266943B0ABAFEAE6F54465>`_); traditionally, it is the height a trained observer would see when attempting to estimate average wave height, as humans would not see or consider the smallest waves.
 
+.. image:: images/hstz.jpg
+  :scale: 50 %
+  :alt: Wave height and wave period from a time record of ocean surface elevation, defined by downward zero-crossings. Source: Holthuijsen (2007).
+  :align: center
+
+
 **Wave period** is the time for one full wavelength to pass a given point, from the beginning to the end of the wave (`Holthuijsen 2007 <https://www.cambridge.org/core/books/waves-in-oceanic-and-coastal-waters/F6BF070B00266943B0ABAFEAE6F54465>`_).
 Usually, the zero-crossing period is used (:math:`T_{z}`) that measures the time for a wave to go below the mean elevation, rise above, then return to mean elevation.
 
 As waves propagate across the ocean surface, energy is also transferred, referred to as **wave power** (:math:`P`) or **wave energy flux**. The :math:`P` of each wave is proportional to the :math:`T_{z}` and the square of :math:`H_{s}`, with higher values producing more powerful waves (Airy 1841). This parameter is important as it combines both :math:`H_{s}` and :math:`T_{z}`, providing an overall understanding of the wave conditions and the energy it transports. For example, a wave with a :math:`H_{s}` of 1 m and :math:`T_{z}` of 5 s will have less power than a wave with an :math:`H_{s}` of 1m and :math:`T_{z}` of 8s.
 
-.. image:: images/hstz.jpg
-  :scale: 27 %
-  :alt: Wave height and wave period from a time record of ocean surface elevation, defined by downward zero-crossings. Source: Holthuijsen (2007).
-  :align: center
 
 **Propagation direction** (:math:`\theta`) is the direction from which waves are coming from. In certain regions a particular wave direction can indicate different swell characteristics, for example, large waves from the South-East in Queensland, Australia, indicate strong Southern Ocean swell or Extra-Tropical Cyclone swell, whilst large waves from the north indicate Tropical Cyclone waves.
 
 
 Characterising Wave Climate
+-----------------------
+
+The modal wave climate of a region is determined through a long-term analysis of several wave parameters, including :math:`H_{s}`, :math:`T_{z}`, :math:`P` and :math:`\theta` (`Holthuijsen 2007 <https://www.cambridge.org/core/books/waves-in-oceanic-and-coastal-waters/F6BF070B00266943B0ABAFEAE6F54465>`_).
+
+
+.. image:: images/waveclimate.jpg
+   :scale: 10 %
+   :alt: Wave climate analysis
+   :align: center
+
+
+There are numerous techniques that can be used to measure these parameters. However, most methods do not measure all parameters: a deliberate choice must be made, with consideration to the advantages and disadvantages of each technique. Frequently, the method chosen is customarily calibrated with other techniques or used in combination.
+Common methods include:
+
+* wave buoys,
+* wave hindcast models and
+* satellite altimeters.
+
+
+Wave buoys
 *****
+
+Wave buoy data is routinely considered ground truth, as it is a physical measurement of individual waves instead of remote sensing (`Hemer et al. 2007 <https://www.jstor.org/stable/26481627?seq=2#metadata_info_tab_contents>`_). Buoys also provide the most reliable and accurate records, particularly for extreme values. Despite this, variations in sampling, calibration and computational methods can lead to significant errors by both over and under-estimating wave parameters.
+
+.. note::
+  `Bender et al. (2010) <https://journals.ametsoc.org/doi/full/10.1175/2010JTECHO724.1>`_ revealed buoys can overestimate :math:`H_{s}` by 26%, and overestimate during hurricane peak by up to 56%, leading to significant and highly misleading errors.
+
+Buoys are also spatially limited, measuring only waves that propagate directly through the site, leading to a restricted understanding of regional wave climates. Furthermore, many locations do not have buoys in operation, thereby inhibiting the analysis of wave climate through buoys alone.
+
+
+Wave hindcast models
+*****
+
+
+Wave hindcast models use **reanalysed wind fields** to investigate **past** waves. Wind speed and duration are required parameters that are calculated alongside fetch and water depth to determine :math:`H_{s}`, :math:`T_{z}` and :math:`\theta`. This provides data sets that are used globally to establish wave climate and can evaluate conditions at different temporal and spatial scales.
+
+.. tip::
+  A widely used wave hindcast is the *National Oceanic and Atmospheric Administration* (NOAA) **WaveWatch III model** (`Tolman 2009 <https://polar.ncep.noaa.gov/mmab/papers/tn276/MMAB_276.pdf>`_).
+
+.. raw:: html
+
+    <div style="text-align: center; margin-bottom: 2em;">
+    <iframe width="100%" height="550" src="https://www.youtube.com/embed/xmQs-gAYKJo?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+
+However, significant problems can arise through error with forced wind condition. For example, extreme events such as TCs can cause abrupt, localised changes to wind speed and direction. Since models such as **WaveWatch III** have relatively coarse spatial-temporal resolution, insufficient energy from wind is inputted leading to significant underestimation of wave conditions during these extreme events. The accuracy of the hindcast model is also dependent of additional source term parameters and generation, propagation and dissipation equations.
+
+.. note::
+  In Australia, this is a significant problem in reef areas, where wave propagation is modified substantially by reefs. With coarse spatial detail, identification and accounting for reefs are reduced, thus leading to potentially incorrect wave conditions in areas sheltered by reefs.
+
+Therefore, whilst wave hindcast models can provide excellent information of wave conditions, particularly in areas where there are no buoys, inherent limitations regarding spatial detail and reliance on source terms means that it is currently unsuitable for wave climate characterisation for reef or areas with complicated bathymetry.
+
+
+Wave-sensing technology
+*****
+
+
+.. image:: images/altimeter.jpg
+  :scale: 8 %
+  :alt: Altimeter data
+  :align: center
+
+
+A remarkable wave-sensing technology with high spatial-temporal density is the radar altimeter, widely established as a pinnacle remote sensing technique to determine wave climates globally (Godoi et al. 2016, Ribal & Young 2019, Vinoth & Young 2011, Zacharioudaki et al. 2015). Radar altimeters are mounted on satellites and measure a footprint of the ocean directly under the satellite, between 5-7 km wide. When the water surface is calm and flat, the reflection of the radar pulse back to the altimeter is almost instantaneous. In contrast, when waves are present the pulse is first reflected at the crest of the wave, then progressively reflected as the pulse reaches the wave trough (Figure 2.6) (Holthuijsen 2007). The altimeter interprets this signal to determine wave height and wind speed through a series of equations described in Ribal & Young (2019). Therefore, this remote sensing technique does not provide individual wave statistics, but rather returns the average value over the footprint, up to 7 km wide. In comparison to a buoy, altimeters provide excellent spatial coverage, with observations along the ground track every second, approximately every 5-7 km (Vinoth & Young 2011). Since the launch of the first altimeter in 1985, (GEOSAT), altimeters have been used to determine wave climate. With the increased number of altimeters in orbit, the global coverage and temporal density are increasing, resulting in a technology highly suited to characterising wave climate, particularly in areas with no buoys, complicated bathymetry and in remote locations.
+
 
 
 
