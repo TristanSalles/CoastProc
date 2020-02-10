@@ -187,10 +187,7 @@ Using `badlands <https://www.nature.com/articles/s41598-018-23519-8>`_, a reduce
 
 .. note::
   The code links together the main sedimentary processes driving mixed siliciclastic-carbonate system dynamics. It offers a methodology for objective and quantitative sediment fate estimations over regional and millennial time-scales.
-
-A simulation of the Holocene evolution of the Great Barrier Reef shows: (1) how high sediment loads from catchments erosion prevented coral growth during the early transgression phase and favoured sediment gravity-flows in the deepest parts of the northern region basin floor (prior to 8 ka before present (BP)); (2) how the fine balance between climate, sea-level, and margin physiography enabled coral reefs to thrive under limited shelf sedimentation rates after ~6 ka BP; and, (3) how since 3 ka BP, with the decrease of accommodation space, reduced of vertical growth led to the lateral extension of reefs consistent with available observational data.
-
-
+  
 .. raw:: html
 
     <div style="text-align: center; margin-bottom: 2em;">
@@ -202,6 +199,8 @@ A simulation of the Holocene evolution of the Great Barrier Reef shows: (1) how 
     <div style="text-align: center; margin-bottom: 2em;">
     <iframe width="100%" height="350" src="https://www.youtube.com/embed/-aimu4MV0JE?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
+
+A simulation of the Holocene evolution of the Great Barrier Reef shows: (1) how high sediment loads from catchments erosion prevented coral growth during the early transgression phase and favoured sediment gravity-flows in the deepest parts of the northern region basin floor (prior to 8 ka before present (BP)); (2) how the fine balance between climate, sea-level, and margin physiography enabled coral reefs to thrive under limited shelf sedimentation rates after ~6 ka BP; and, (3) how since 3 ka BP, with the decrease of accommodation space, reduced of vertical growth led to the lateral extension of reefs consistent with available observational data.
 
 
 Influence of carbonate platform on geomorphological development of the margin
