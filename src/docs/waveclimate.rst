@@ -204,7 +204,7 @@ Strong winds and heavy rain can extend hundreds of kilometres from TC centres, a
 
 
 .. image:: images/cyclone.jpg
-  :scale: 18 %
+  :scale: 16 %
   :alt: Four active tropical cyclones are visible in this atmospheric circulation map provided by the Earth Wind Map project. source: http://earth.nullschool.net/.
   :align: center
 
@@ -216,7 +216,7 @@ TCs are major drivers of coral reef disturbance and destruction, with reefs clos
 
 
 .. image:: images/yasi.jpg
-  :scale: 36 %
+  :scale: 40 %
   :alt: Coral reef damage in the Great Barrier Reef following Tropical Cyclone Yasi. Source: Beeden et al. (2015)
   :align: center
 
