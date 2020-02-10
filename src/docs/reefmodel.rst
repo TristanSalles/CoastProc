@@ -6,11 +6,12 @@ The Great Barrier Reef is the largest living organism on the planet, stretching 
 The growth and evolution of the reef did not happen overnight. In fact, it is over 20 million years in the making. The reef as we know it today is built on the backs and bones of many millions of years of coral as the ocean levels have changed, islands have formed and land has settled.
 
 .. image:: images/GBR.jpg
-  :scale: 25 %
+  :scale: 35 %
   :alt: Rise and fall of the Great Barrier Reef over 30,000 years
   :align: center
 
-The current formation that we know is about 6,000 to 8,000 years old and sits on the platform of a much older reef. The formation, location and depth have changed as the continental shelf and sea level have changed and will likely continue to do as sea levels change and the earth's crust shifts.
+.. note::
+  The current formation that we know is about 6,000 to 8,000 years old and sits on the platform of a much older reef. The formation, location and depth have changed as the continental shelf and sea level have changed and will likely continue to do as sea levels change and the earth's crust shifts.
 
 
 
