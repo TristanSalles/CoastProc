@@ -81,7 +81,7 @@ At the extremes, too little flow can be lethal in corals by inducing anaerobiosi
 
 
 .. image:: images/harris.jpg
-  :scale: 47 %
+  :scale: 62 %
   :alt: Coral reef structural complexity provides important coastal protection from waves under rising sea levels.
   :align: center
 
@@ -114,10 +114,39 @@ Similarly, prevailing turbid conditions are less common at shallow sites, especi
 Coral reef modelling approaches
 -----------
 
+The organisation of coral reef systems is known to be large and complex and **we are still limited in our understanding of their temporal and spatial evolution**.
+
+Additionally, most datasets of carbonate systems are often linguistic, context-dependent, and based on measurements with large uncertainties. Alternative modelling approaches, such as **fuzzy logic** or **cellular automata** algorithms, have proven to be viable options to simulate these types of system.
 
 
 Cellular automata
 *****
+
+
+.. raw:: html
+
+    <div style="text-align: center; margin-bottom: 2em;">
+    <iframe width="100%" height="550" src="https://www.youtube.com/embed/CgOcEZinQ2I?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+Cellular Automata (**CA**) are a type of discrete numerical model that have been used to simulate carbonate platform development. They can be entirely deterministic in their calculation, generate relatively complicated results from relatively simple rule-based computational algorithms, and are at least loosely related to biological concepts of space, competition, and population dynamics.
+
+**CA** are composed of a regular grid of cells, each of which has one of a finite, usually small, number of possible states. Cell state is determined with reference to surrounding cells some specified distance away, for example, one or two cells distant. Other cells within this surrounding area are referred to as the current cell’s neighborhood.
+
+Application of simple rules, for example, based on the number of cells in the neigh- borhood with the same state, is used to determine the future state of a cell at the next iteration, or generation, of a cell.
+
+Results from **CARBOCAT** model illustrate the potential of cellular automata models for generating simulated heterogeneous platform top strata and hence better understanding the origins of carbonate heterogeneities found in natural systems (from `Burgess 2013 <http://instaar.colorado.edu/~jenkinsc/carboClinic/carboCAT/carboCAT.pdf>`_).
+
+
+.. raw:: html
+
+      <iframe width="695" height="515"
+      src="http://instaar.colorado.edu/~jenkinsc/carboClinic/carboCAT/carboCAT.pdf"
+      frameborder="0" allowfullscreen></iframe>
+
+
+
+
 
 
 
