@@ -24,7 +24,7 @@ Corals are calcium-carbonate-secreting, and their ability to grow and build reef
 
 
 .. image:: images/pyreef.jpg
-  :scale: 35 %
+  :scale: 22 %
   :alt: Schematic figure of a hypothetical reef with transitions from shallow to deep assemblages occurring down-core, illustrating growth-form responses of corals to environmental forcing including light, sea level changes (sl), hydrodynamic energy (w wave conditions and c currents), tectonic (u uplift and s subsidence), oceanic conditions (T temperature, nu nutrients, pH acidity), karstification (k) and sediment flux.
   :align: center
 
@@ -33,7 +33,23 @@ Latitude-correlated factors include sea surface temperatures (SSTs), solar radia
 
 Regional and local environmental factors include wave climate, salinity, water clarity, nutrient influx, sedimentation regime and depth/composition of the initial substrate. These factors affect coral species to different extents, controlling the distribution of coral communities across a reef. Over longer time scales, they also shape the rate of calcium-carbonate production, framework building by corals, and the accumulation of sedimentary deposits.
 
+.. note::
+  Despite the significant, short-term impacts cyclonic storms and terrigenous sediment input have on reef systems, pulse disturbances are smoothed out on geologic scales where reef systems are characterised by remarkable persistence and resilience. The slow and persistent factors (*e.g.*, sedimentation, wave climate and accommodation) are those that exert a stronger effect on the distribution of coralgal communities across a reef.
 
+
+
+Accommodation
+*****
+
+Accommodation is the vertical and lateral space in the water column above the substrate within which corals can grow. The effect of accommodation on coral growth is the most well-understood constraint on the waxing and waning of reef growth, governed by the rate of vertical accretion of reefs, sea-level rise, subsidence and uplift.
+
+Accommodation affects coral growth in two ways:
+
+* Firstly, light attenuates with depth in the ocean, and as corals are photosynthetic organisms, carbonate production decreases with increasing water depth.
+* Secondly, wave energy and water flow also decreases with depth, such that corals growing with reduced accommodation (*i.e.*, in shallow depth) experience increased hydrodynamic energy.
+
+.. important::
+  The effect of light is assumed to dominate over the effect of water movement in limiting carbonate production, however both effects play a role in determining coral composition and, in turn, rates of vertical accretion.
 
 
 .. raw:: html
