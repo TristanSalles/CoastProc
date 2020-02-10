@@ -7,21 +7,24 @@ Quantifying coastal changes
 Sediment transport
 -----------
 
-+ Sediment transport
-calcSand
+Siliciclastic sand
+*****
 
+Calcareous sediment
+*****
+
+Nearshore and beach processes
+-----------
 
 Wave run-up
------------
+*****
 
 
 
-Pywaverunup
-https://www.nature.com/articles/s41598-017-01362-7
 
 
-Beach changes
------------
+Beach profiles
+*****
 
 Sandy coastlines typically comprise two key parts: a **beach** and **dune**.
 
@@ -58,13 +61,26 @@ In such cases, the use of machine learning (ML) can help improving toe detection
 2. a **wave-embayed** model. This model was developed using 1768 pre- and post- “June 2016 storm” airborne LIDAR profiles from the wave-dominated, embayed southeast Australian coastline (this data was collected in 2016).
 3. a **mixed** model. Developed using a combination of the two above datasets.
 
-For each dataset described above, the true location of the dune toe on each indiviudal profile transect was manually identified and quality checked by multiple experts and verified using satelitte imagery, digital elevation models and/or in-situ observations where available. This resulted in the best possible data to facilitate the creation of the ML models in pybeach. 
+For each dataset described above, the true location of the dune toe on each indiviudal profile transect was manually identified and quality checked by multiple experts and verified using satelite imagery, digital elevation models and/or in-situ observations where available. This resulted in the best possible data to facilitate the creation of the ML models in pybeach.
 
 
-Coastsat
-https://reader.elsevier.com/reader/sd/pii/S1364815219300490?token=41ACBEB73BC02D030EEA29A1B77DCD96E82C4344932A192C000701A6A5D9CFCF522FA81F1D2690593FEF4D124665119B
+Coastline evolution
+-----------
 
-cove
+
+Analysing shoreline changes
+*****
+
+
+
+Alongshore sediment fluxes
+*****
+
+
+
 https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1002/2015JF003704
+
+Regional scale models
+*****
 
 Wavesed
