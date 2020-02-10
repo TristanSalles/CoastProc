@@ -206,6 +206,28 @@ A simulation of the Holocene evolution of the Great Barrier Reef shows: (1) how 
 Influence of carbonate platform on geomorphological development of the margin
 *****
 
+Sedimentation regimes on the Great Barrier Reef margin often do not confine to more conventional sequence stratigraphic models, presenting difficulties when attempting to identify key processes that control the margin’s geomorphological evolution.
+
+.. note::
+  By obstructing and modifying down-shelf and down-slope flows, carbonate platforms are thought to play a central role in altering the distribution and morphological presentation of common margin features.
+
+
+Using `badlands <https://www.nature.com/articles/s41598-018-23519-8>`_, we can test the role of the carbonate platforms in reproducing several features (*i.e.* paleochannels, shelf-confined fluvial sediment mounds, shelf-edge deltas, canyons, and surface gravity flows) that have been described from observational data (seismic sections, multibeam bathymetry, sediment cores, and backscatter imagery).
+
+
+When carbonate platforms are present in model simulations, several notable geomorphological features appear, especially during lowstand. Upon exposure of the shelf, platforms reduce stream power, promoting mounding of fluvial sediments around platforms. On the outer shelf, rivers and streams are re-routed and coalesce between platforms, depositing shelf-edge deltas and incising paleochannels through knickpoint retreat.
+
+.. image:: images/carbsmandi.jpg
+  :scale: 25 %
+  :alt: GBR geomorphology induced by carbonate platform
+  :align: center
+
+
+Additionally, steep platform topography triggers incision of slope canyons by hyperpycnal flows, and platforms act as conduits for the delivery of land and shelf-derived sediments to the continental slope and basin. When platforms are absent from the topographic surface, the model is unable to reproduce many of these features.
+
+.. important::
+  Results demonstrate the essential role of carbonate platform topography in modulating key bedload processes, and therefore exert direct control on the development of various geomorphological features within the shelf, slope, and basin environments.
+
 
 Hands-on examples
 -----------
