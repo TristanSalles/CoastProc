@@ -227,9 +227,15 @@ Wave climate variability
 -----------
 
 
-Various meteorologically driven changes in atmosphere-ocean couplings can sub- stantially alter surface wind fields and, as a result, influence wave climate on both regional and ocean basin scales (Godoi et al. 2016). Several studies have shown that the Pacific Ocean wave climate is altered by the El Nin ̃o Southern Oscillation (ENSO) and the Southern Annular Mode (SAM), however, the response to these can be variable in both space and time (Godoi et al. 2016, Hemer et al. 2011, McSweeney & Shulmeister 2018). Several regions, including islands in the Pacific, are projected to be more at risk from a changing wave climate than risks from sea level (Hemer et al. 2011). Coastal communities will be increasingly affected, po- tentially resulting in greater flooding, coastal erosion and risk to society and the economy (Hemer et al. 2011). Thus, an understanding of the current variability of the wave climate is an important step to understanding the influence of global climate processes and potential links to climate change (Godoi et al. 2018).
+Various meteorologically driven changes in atmosphere-ocean coupling can substantially alter surface wind fields and, as a result, influence wave climate on both regional and ocean basin scales (`Godoi et al. 2016 <https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2015JC011572>`_).
+
+Many studies have shown that the Pacific Ocean wave climate is altered by the **El Nino Southern Oscillation** (ENSO) and the **Southern Annular Mode** (SAM), however, the response to these can be variable in both space and time. Several regions, including islands in the Pacific, are projected to be more at risk from a changing wave climate than risks from sea level (`Hemer et al. 2011 <https://www.environment.gov.au/system/files/pages/275228c5-24db-47f2-bf41-82ef42cda73d/files/wind-wave-report.pdf>`_). Thus, an understanding of the current variability of the wave climate is an important step to understanding the influence of global climate processes and potential links to climate change (`Godoi et al. 2018 <https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/joc.5823>`_).
 
 
+.. image:: images/climvar.jpg
+  :scale: 25 %
+  :alt: Wind-wave origins for the Pacific Ocean, representing the multi-modal components to form the wave climate. Adapted from Hemer et al. (2011)
+  :align: center
 
 
 Seasonal changes
