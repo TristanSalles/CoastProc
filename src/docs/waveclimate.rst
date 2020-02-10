@@ -230,10 +230,6 @@ Various meteorologically driven changes in atmosphere-ocean coupling can substan
 
 Many studies have shown that the Pacific Ocean wave climate is altered by the **El Nino Southern Oscillation** (ENSO) and the **Southern Annular Mode** (SAM), however, the response to these can be variable in both space and time. Several regions, including islands in the Pacific, are projected to be more at risk from a changing wave climate than risks from sea level (`Hemer et al. 2011 <https://www.environment.gov.au/system/files/pages/275228c5-24db-47f2-bf41-82ef42cda73d/files/wind-wave-report.pdf>`_). Thus, an understanding of the current variability of the wave climate is an important step to understanding the influence of global climate processes and potential links to climate change (`Godoi et al. 2018 <https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/joc.5823>`_).
 
-.. image:: images/climvar.jpg
-  :scale: 30 %
-  :alt: Wind-wave origins for the Pacific Ocean, representing the multi-modal components to form the wave climate. Adapted from Hemer et al. (2011)
-  :align: center
 
 Seasonal changes
 *****
@@ -247,7 +243,7 @@ Several regions of the global ocean have statistically significant positive and 
 
 
 .. image:: images/trendglob.jpg
-  :scale: 25 %
+  :scale: 38 %
   :alt: Altimeter global trend in significant wave height from 1985-2018. (A) Mean trend and (B) 90th percentile trend. Young & Ribal 2019.
   :align: center
 
@@ -262,10 +258,53 @@ Many regions, such as Southern Australia, can be dominated by swell rather than 
 Climate oscillations
 *****
 
-The ENSO phenomenon is the largest and most influential mode of climate varia- tion that operates on a seasonal-to-interannual timescale (Stopa & Cheung 2014,Timmermann et al. 2018). It is a complex ocean-air coupling in the equatorial region of the Central and Eastern Pacific Ocean that has significant influence over global climate (Barnard et al. 2017). The positive La Nin ̃a phase leads to reduced atmospheric convection over the Pacific Ocean, causing increased precipitation, a greater number of TCs, and cooler maximum temperatures in Australia (Jin et al. 2014). There are stronger than normal trade winds, which could lead to larger wave heights (Hemer et al. 2011). In contrast, the negative El Nin ̃o phase leads to a shift in atmospheric circulation, with a weakening or reversal of the dominant south-easterly trade winds and decreased frequency of TC for Australia (Timmermann et al. 2018).
+The **ENSO** phenomenon is the largest and most influential mode of climate variation that operates on a seasonal-to-interannual timescale. It is a complex ocean-air coupling in the equatorial region of the Central and Eastern Pacific Ocean that has significant influence over global climate.
 
-There is a substantial connection between the two ENSO extreme phases to inter-annual wave height and direction variability, with significantly different im- pacts around the Pacific Basin (Figure 2.11) (Hemer et al. 2011). This typically results in atypical coastal erosion around the Pacific Ocean basin, with different locations experiencing diverse effects (Barnard et al. 2015). For example, the West Coast of the United States experiences an increase in winter wave energy during El Nin ̃o phases, leading to substantial beach erosion and coastal flooding (Barnard et al. 2017). This area experiences a more dominant southerly wave direction during the El Nin ̃o phase, which drives abnormal erosion in beaches normally protected from severe swell. In contrast, the La Nin ̃a phase is linked to higher wave energy on the Eastern Australian coastline and more extreme storms (Barnard et al. 2015, McSweeney & Shulmeister 2018, Shand et al. 2010). In New Zealand, increased Hs occurs during both of the ENSO extreme phases, resulting in increased coastal and marine operational risk alongside potential changes to biological and physical marine processes (Godoi et al. 2016). Climate change is predicted to bring more frequent and extreme ENSO events of both phases, which could lead to atypical wave conditions (Cai et al. 2015). Therefore, it is imper- ative to understand the historical impacts of ENSO on wave climate to predict the future conditions for marine and coastal vulnerability globally.
 
-The SAM, also known as the Antarctic Oscillation, is the principal mode of variability in the Southern Hemisphere extratropics and high latitudes (Marshall et al. 2018). The SAM controls the north and south movement of the westerly wind belt that circulates Antarctica and is measured by the difference in zonal mean sea level pressure between 40◦S and 65◦S. During the positive phase, the wind belt contracts towards Antarctica and is often correlated to stable, dry con- ditions in Australia. In the negative phase, the belt expands north and can lead to increased storm frequency and precipitation in Australia and New Zealand (Godoi et al. 2016). SAM phases can significantly influence wave height and di- rectional variability, as shown in Figure 2.11, influencing the entire Pacific Ocean basin.
+* The positive **La Nina** phase leads to **reduced atmospheric convection** over the Pacific Ocean, causing **increased precipitation**, a **greater number of TCs**, and **cooler maximum temperatures** in Australia. There are stronger than normal trade winds, which could lead to **larger wave heights**.
 
-Thus, climate oscillations can significantly modulate the wave climate around the globe, leading to diverse effects in different regions. Oscillations can also enhance or detract the effects of other oscillations, as noted by (Godoi et al. 2018, Hemer et al. 2011), leading to complex interactions and influence on both atmospheric and wave climate. A long-term dataset is required to adequately determine the degree of modulation by each climate oscillation, in addition to high spatial resolution to establish differences in modulation between geographical areas.
+* In contrast, the negative **El Nino** phase leads to a shift in atmospheric circulation, with a **weakening or reversal of the dominant south-easterly trade winds** and **decreased frequency of TC** for Australia.
+
+
+.. image:: images/climvar.jpg
+  :scale: 30 %
+  :alt: Wind-wave origins for the Pacific Ocean, representing the multi-modal components to form the wave climate. Adapted from Hemer et al. (2011)
+  :align: center
+
+.. note::
+  There is a substantial connection between the **two ENSO extreme phases** to inter-annual wave height and direction variability (`Hemer et al. 2011 <https://www.environment.gov.au/system/files/pages/275228c5-24db-47f2-bf41-82ef42cda73d/files/wind-wave-report.pdf>`_). This typically results in **atypical coastal erosion** around the Pacific Ocean, with different locations experiencing diverse effects).
+
+For example, the West Coast of the United States experiences an **increase in winter wave energy during El Nino phases**, leading to substantial beach erosion and coastal flooding. The region also experiences a more dominant southerly wave direction during the El Nino phase, which drives abnormal erosion in beaches normally protected from severe swell.
+
+
+.. raw:: html
+
+    <div style="text-align: center; margin-bottom: 2em;">
+    <iframe width="100%" height="550" src="https://www.youtube.com/embed/dzat16LMtQk?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+
+
+
+In contrast, the **La Nina phase is linked to higher wave energy on the Eastern Australian coastline and more extreme storms**.
+
+In New Zealand, increased :math:`H_{s}` occurs during both of the ENSO extreme phases, resulting in increased coastal and marine operational risk alongside potential changes to biological and physical marine processes.
+
+.. important::
+  Climate change is predicted to bring more frequent and extreme ENSO events of both phases, which could lead to atypical wave conditions. Therefore, it is imperative to understand the historical impacts of ENSO on wave climate to predict the future conditions for marine and coastal vulnerability globally.
+
+
+The **SAM**, also known as the **Antarctic Oscillation**, is the principal mode of variability in the Southern Hemisphere extra-tropics and high latitudes. The SAM controls the north and south movement of the westerly wind belt that circulates Antarctica and is measured by the difference in zonal mean sea level pressure between 40S and 65S. SAM phases can significantly influence wave height and directional variability, influencing the entire Pacific Ocean.
+
+* During the **positive phase**, the wind belt contracts towards Antarctica and is often **correlated to stable, dry conditions in Australia**.
+
+* In the negative phase, the belt expands north and can lead to **increased storm frequency and precipitation in Australia and New Zealand** (`Godoi et al. 2016 <https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2015JC011572>`_).
+
+.. raw:: html
+
+    <div style="text-align: center; margin-bottom: 2em;">
+    <iframe width="100%" height="550" src="https://www.youtube.com/embed/KrhWsXCB3u8?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+
+Thus, climate oscillations can significantly modulate the wave climate around the globe, leading to diverse effects in different regions. Oscillations can also enhance or detract the effects of other oscillations, leading to complex interactions and influence on both atmospheric and wave climate.
