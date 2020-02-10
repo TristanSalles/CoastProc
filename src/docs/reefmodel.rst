@@ -51,13 +51,11 @@ Accommodation affects coral growth in two ways:
 .. important::
   The effect of light is assumed to dominate over the effect of water movement in limiting carbonate production, however both effects play a role in determining coral composition and, in turn, rates of vertical accretion.
 
-
 .. raw:: html
 
     <div style="text-align: center; margin-bottom: 2em;">
     <iframe width="100%" height="350" src="https://www.youtube.com/embed/0kCfb56AdLw?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-
 
 .. raw:: html
 
@@ -83,7 +81,7 @@ At the extremes, too little flow can be lethal in corals by inducing anaerobiosi
 
 
 .. image:: images/harris.jpg
-  :scale: 23 %
+  :scale: 47 %
   :alt: Coral reef structural complexity provides important coastal protection from waves under rising sea levels.
   :align: center
 
@@ -104,7 +102,6 @@ Firstly, elevated turbidity **attenuates ambient photosynthetically active radia
 
 While the lethality of sediment exposure is determined by the intensity and duration to exposure, generally the long-lasting impact of turbidity regimes is known to depress coral growth and survival. For instance, elevated turbidity on mid-outer platform reefs caused by the suspension of sediment on the Pleistocene GBR reef substrate during initial flooding ∼9 ka is hypothesised to be responsible for a delayed initiation of coralgal growth.
 
-
 Autochthonous carbonate gravels and sediments (*i.e.* aragonite, calcite and high-magnesium calcite), produced by the growth and mechanical destruction of reef organisms through physical, biochemical and bio-erosive processes, are important determinants of the spatial and temporal distribution of coralgal communities on long timescales.
 
 Prevailing wave and current conditions of even moderate energy resuspended fine-grained carbonate sediments are key in generating stable turbidity regimes on reef systems, particularly in lagoons, on leeward rims and on reef slopes at moderate depths due to the decreasing water energy gradient both laterally and with depth.
@@ -112,3 +109,23 @@ Similarly, prevailing turbid conditions are less common at shallow sites, especi
 
 .. note::
   The spatial variation of suspended sediment loads is a critical environmental factor influencing coral community distribution across the reef and with depth. Turbid conditions are inimical to certain communities such as shallow-water corals, yet some species and communities are tolerant of elevated turbidity conditions on leeward rims or species that thrive on reef slopes at depth. Hence, the spatial variation in turbidity is reflected in coral community distribution both across the reef and with depth.
+
+
+Coral reef modelling approaches
+-----------
+
+
+
+Cellular automata
+*****
+
+
+
+Fuzzy logic
+*****
+
+
+
+
+Ecological modelling
+*****
