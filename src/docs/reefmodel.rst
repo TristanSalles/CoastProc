@@ -92,3 +92,23 @@ At the extremes, too little flow can be lethal in corals by inducing anaerobiosi
   Waves exert a strong spatial control on hydrodynamics of reef systems. Wave energy is dissipated on shallow reefs from bottom friction and wave breaking, with the former effect dominating the latter on reefs with high surface rugosity of coral communities (`Harris et al. 2018 <https://advances.sciencemag.org/content/4/2/eaao4350>`_). Furthermore the geomorphology and high-rugosity of reefs cause wave refraction, such that wave energy is highest on the ocean-facing margin (**exposed setting**) and lower in back reef (**protected setting**) lagoonal and marginal environments that are protected from the prevailing winds and wave energy. As a result, wave-induced bottom stress strongly influences coral cover and community composition.
 
 While overall, corals tend to grow more rapidly in higher-flow environments, high wave energy also has a depressive effect on reef growth in shallow (<6 m) environments. Field studies demonstrate that coral communities form where species that are capable of thriving in particular hydrodynamic conditions grow together and adopt forms suitable to those conditions. Hence, wave-induced bottom stress affects community organisation spatially, with a clear zonation pattern from the reef crest to the reef slopes.
+
+
+Sediment input
+*****
+
+.. important::
+  High fluxes of both terrigenous and autochthonous sediments are widely identified to have both direct and indirect inhibitory effects on coral reef growth.
+
+Firstly, elevated turbidity **attenuates ambient photosynthetically active radiation** (PAR), which inhibits the ability of corals to meet energy requirements through photosynthesis. Secondly, smothering and abrasion by sediment blankets can **impair feeding and cause physical damage and direct mortality**.
+
+While the lethality of sediment exposure is determined by the intensity and duration to exposure, generally the long-lasting impact of turbidity regimes is known to depress coral growth and survival. For instance, elevated turbidity on mid-outer platform reefs caused by the suspension of sediment on the Pleistocene GBR reef substrate during initial flooding ∼9 ka is hypothesised to be responsible for a delayed initiation of coralgal growth.
+
+
+Autochthonous carbonate gravels and sediments (*i.e.* aragonite, calcite and high-magnesium calcite), produced by the growth and mechanical destruction of reef organisms through physical, biochemical and bio-erosive processes, are important determinants of the spatial and temporal distribution of coralgal communities on long timescales.
+
+Prevailing wave and current conditions of even moderate energy resuspended fine-grained carbonate sediments are key in generating stable turbidity regimes on reef systems, particularly in lagoons, on leeward rims and on reef slopes at moderate depths due to the decreasing water energy gradient both laterally and with depth.
+Similarly, prevailing turbid conditions are less common at shallow sites, especially on the windward rim due to wave-driven sediment removal.
+
+.. note::
+  The spatial variation of suspended sediment loads is a critical environmental factor influencing coral community distribution across the reef and with depth. Turbid conditions are inimical to certain communities such as shallow-water corals, yet some species and communities are tolerant of elevated turbidity conditions on leeward rims or species that thrive on reef slopes at depth. Hence, the spatial variation in turbidity is reflected in coral community distribution both across the reef and with depth.
