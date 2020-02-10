@@ -11,12 +11,19 @@ The growth and evolution of the reef did not happen overnight. In fact, it is ov
   :align: center
 
 .. note::
-  The current formation that we know is about 6,000 to 8,000 years old and sits on the platform of a much older reef. The formation, location and depth have changed as the continental shelf and sea level have changed and will likely continue to do as sea levels change and the earth's crust shifts.
+  The GBR that we know is about 6,000 to 8,000 years old and sits on the platform of a much older reef. The formation, location and depth have changed as the continental shelf and sea level have changed and will likely continue to do as sea levels change and the earth's crust shifts.
+
+
+Amongst the approaches available to study coral reef platform formation, **Stratigraphic Forward Modelling** (SFM) has become a powerful tool. SFM simulates processes acting over geologic timescales and consists in iteratively refining parameters to improve the match between observed and predicted morphologies and stratigraphies. Through this iterative procedure, it helps to *evaluate* and *quantify* parameters that cannot be observed directly such as sedimentation or carbonate production rates. In that sense, SFMs address the short-comings of qualitative investigation techniques applied to carbonate systems.
+
+
+Main physical forces acting on carbonate platform
+-----------
 
 
 
 
-Stratigraphic Forward Modelling (SFM) has become a powerful tool applied to predict stratigraphic architecture of sedimentary systems. By simulating processes acting over geologic timescales, the approach consists in iteratively refining parameters to improve the match between observed and predicted morphologies and stratigraphies (Fig. 1). Through this iterative procedure, it helps to evaluate and quantify parameters that cannot be observed directly from the fossil record, such as sedimentation or carbonate production rates. In that sense, SFMs address the short-comings of qualitative investigation techniques applied to carbonate systems. Several numerical models have been developed since the 1960s to investigate the evolution of carbonate systems, yet only recently have the complexity of biological interactions started to be addressed.
+
 
 
 + Badlands reef
