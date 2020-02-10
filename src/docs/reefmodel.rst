@@ -135,12 +135,10 @@ Cellular Automata (**CA**) are a type of discrete numerical model that have been
 
 Application of simple rules, for example, based on the number of cells in the neigh- borhood with the same state, is used to determine the future state of a cell at the next iteration, or generation, of a cell.
 
-
 .. image:: images/CA1.jpg
-  :scale: 25 %
+  :scale: 20 %
   :alt: Burgess CA model
   :align: center
-
 
 Results from **CARBOCAT** model illustrate the potential of cellular automata models for generating simulated heterogeneous platform top strata and hence better understanding the origins of carbonate heterogeneities found in natural systems (from `Burgess 2013 <http://instaar.colorado.edu/~jenkinsc/carboClinic/carboCAT/carboCAT.pdf>`_).
 
@@ -154,10 +152,9 @@ Results from **CARBOCAT** model illustrate the potential of cellular automata mo
 Fuzzy logic
 *****
 
-Fuzzy logic methods are able to create logical propositions from qualitative data by using linguistic logic rules and fuzzy sets. These fuzzy sets are defined with continuous boundaries rather than crisp discontinuous ones often used in conventional methods.
+**Fuzzy logic** methods are able to create *logical propositions* from qualitative data by using **linguistic logic rules** and **fuzzy sets**. These fuzzy sets are defined with either continuous or crisp (discontinuous) boundaries.
 
-
-Based on a fuzzy logic approach, carbonate system evolution can be driven entirely by a set of rules whose variables are fully adjustable. The utility and effectiveness of the approach is mostly based on the user’s understanding of the modelled carbonate system. The technique is specifically useful to understand how particular variable, in isolation or in combination with other factors, influences carbonate depositional geometries and reef adaptation (Fig. 4).
+Based on a fuzzy logic approach, carbonate system evolution can be driven entirely by a set of rules whose variables are fully adjustable. The utility and effectiveness of the approach is mostly based on the user’s understanding of the modelled carbonate system. The technique is specifically useful to estimate how particular variable, in isolation or in combination with other factors, influences carbonate depositional geometries and reef adaptation.
 
 
 .. image:: images/fuzzy.jpg
@@ -166,10 +163,27 @@ Based on a fuzzy logic approach, carbonate system evolution can be driven entire
   :align: center
 
 
-Here, carbonate growth depends on three types of control variables: depth (or accommodation space), wave energy (derived from ocean bottom orbital velocity) and sedimentation rate. For each of these variables, one can define a range of fuzzy sets using membership functions. A membership function is a curve showing the degree of truth (i.e. ranging between 0 and 1) of membership in a particular fuzzy set (Fig 4). These curves can be simple triangles, trapezoids, bell-shaped curves, or have more complicated shapes as shown in Fig 4.
+In the example of fuzzy logic set above, carbonate growth depends on three types of control variables:
 
-Production of any specific coral assemblage is then computed from a series of fuzzy rules. A fuzzy rule is a logic if-then rule defined from the fuzzy sets. Here, the combination of the fuzzy sets in each fuzzy rule is restricted to the and operator. The amalgamation of competing fuzzy rules is usually referred to as a fuzzy system. Summation of multiple rules from the fuzzy system by truncation of the membership functions produces a fuzzy answer in the form of a membership set (Fig. 4). The last step consists in computing a single number for this fuzzy set through defuzzification. In our approach, the centroid (centre of gravity) for the area below the membership set is taken as the defuzzified output value. The process returns a crisp value of coral assemblage growth on each cell of the simulated region.
+* **depth** (or accommodation space),
+* **wave energy** (derived from ocean bottom orbital velocity) and
+* **sedimentation rate**.
+
+.. note::
+  For each of these variables, one can define a range of fuzzy sets using membership functions. A membership function is a curve showing the degree of truth (i.e. ranging between 0 and 1) of membership in a particular fuzzy set. These curves can be simple triangles, trapezoids, bell-shaped curves, or have more complicated shapes as shown above.
+
+Production of any specific coral assemblage is then computed from a series of fuzzy rules. A fuzzy rule is a logic **if-then** rule defined from the fuzzy sets.
+
+In the above algorithm, the combination of the fuzzy sets in each fuzzy rule is restricted to the **and** operator. The amalgamation of competing fuzzy rules is usually referred to as a **fuzzy system**. Summation of multiple rules from the fuzzy system by truncation of the membership functions produces a fuzzy answer in the form of a membership set. The last step consists in computing a single number for this fuzzy set through **defuzzification**.
 
 
-Ecological modelling
-*****
+Modelling GBR past evolution
+-----------
+
+
+
+
+
+
+Hands-on examples
+-----------
