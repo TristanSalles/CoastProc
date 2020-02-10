@@ -210,11 +210,9 @@ Influence of carbonate platform on geomorphological development of the margin
 Hands-on examples
 -----------
 
-Using **pyReef** `model <https://www.geosci-model-dev.net/11/2093/2018/>`_, we will simulate  a typical sequence of coral assemblages found in the GBR based on different initial conditions.
+Using **pyReef** `model <https://www.geosci-model-dev.net/11/2093/2018/>`_, we will simulate  typical sequences of coral assemblages found in the GBR based on different initial conditions.
 
-
-.. raw:: html
-
-    <div style="text-align: center; margin-bottom: 2em;">
-    <iframe width="100%" height="550" src="https://github.com/pyReef-model/pyReefCore?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+.. image:: images/pyreef1.jpg
+  :scale: 25 %
+  :alt: pyreef model example
+  :align: center
