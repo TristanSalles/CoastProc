@@ -24,7 +24,7 @@ Corals are calcium-carbonate-secreting, and their ability to grow and build reef
 
 
 .. image:: images/pyreef.jpg
-  :scale: 22 %
+  :scale: 15 %
   :alt: Schematic figure of a hypothetical reef with transitions from shallow to deep assemblages occurring down-core, illustrating growth-form responses of corals to environmental forcing including light, sea level changes (sl), hydrodynamic energy (w wave conditions and c currents), tectonic (u uplift and s subsidence), oceanic conditions (T temperature, nu nutrients, pH acidity), karstification (k) and sediment flux.
   :align: center
 
@@ -57,3 +57,27 @@ Accommodation affects coral growth in two ways:
     <div style="text-align: center; margin-bottom: 2em;">
     <iframe width="100%" height="550" src="https://www.youtube.com/embed/0kCfb56AdLw?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
+
+
+.. raw:: html
+
+    <div style="text-align: center; margin-bottom: 2em;">
+    <iframe width="100%" height="550" src="https://www.youtube.com/embed/DhXHPzpyVPs?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+Generally, assemblages within 20 m depth have the highest accretion rates (10-20 m/kyr) than those deeper (< 10 m/kyr). Holocene reef growth largely occurred due to initially rapid sea-level rise (∼10-6 ka), which created new accommodation and favourable conditions for reef ‘**turn-on**’ on the Great Barrier Reef (GBR). Some reefs were able to keep pace with sea level rise (‘**keep-up**’ reefs), while others caught up after sea level stabilised (‘**catch-up**’ reefs), and others drowned (‘**give-up**’ reefs).
+
+The 2 movies above are based on a numerical model of reef architecture evolution proposed `Husson et al. (2018)
+<https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1002/2017GC007335>`_ and illustrate the response of reef productivity to the changing pace of sea level oscillations during Pleistocene under different tectonic settings. 
+
+
+
+Hydrodynamic energy
+*****
+
+
+At the organism level, currents, water flow and oscillatory motion induced by waves are critical in modulating physio- logical processes in coral and thus influencing coral growth rates. High water flow increases rates of photosynthesis by symbiotic algae, nutrient uptake by corals, particle capture and facilitates sediment removal from coral surfaces, all of which contribute to enhanced primary production. At the extremes, too little flow can be lethal in corals by inducing anaerobiosis, whereas extreme wave events cause mechanical destruction and can lead to long-term changes in community diversity and structure.
+
+Waves exert a strong spatial control on hydrodynamics of reef systems. Wave energy is dissipated on shallow reefs from bottom friction and wave breaking, with the former effect dominating the latter on reefs with high surface rugosity of coral communities. Furthermore the geomorphology and high-rugosity of reefs cause wave refraction, such that wave energy is highest on the ocean-facing margin (Fig. 2 exposed setting) and lower in back reef (Fig. 2 protected setting) lagoonal and marginal environments that are protected from the prevailing winds and wave energy. As a result, wave-induced bottom stress strongly influences coral cover and community composition.
+
+While overall, corals tend to grow more rapidly in higher-flow environments, high wave energy also has a depressive effect on reef growth in shallow (<6 m) environments. Field studies demonstrate that coral communities form where species that are capable of thriving in particular hydrodynamic conditions grow together and adopt forms suitable to those conditions. Hence, wave-induced bottom stress affects community organisation spatially, with a clear zonation pattern from the reef crest to the reef slopes.
