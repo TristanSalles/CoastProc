@@ -41,7 +41,7 @@ There are many different algorithms currently available for automatically detect
 1. **Maximum curvature** (`Stockdon et al., 2007 <https://www.sciencedirect.com/science/article/pii/S0025322706003355?via%3Dihub>`_) - the dune toe is defined as the location of maximum slope change;
 2. **Relative relief** (`Wernette et al. 2016 <https://www.sciencedirect.com/science/article/pii/S0169555X16300630?via%3Dihub>`_) - the dune toe is defined based on relative relief (the ratio of local morphology to computational scale);
 3. **Perpendicular distance** - the dune toe is defined as the point of maximum perpendicular distance from the straight line drawn between the dune crest and shoreline; and,
-4. **Machine learning** using Random Forest classification.
+4. **Machine learning** (ML) using Random Forest classification.
 
 
 .. image:: images/pybeach.jpg
@@ -50,7 +50,15 @@ There are many different algorithms currently available for automatically detect
   :align: center
 
 
-However, as shown in the figure above using **pybeach** code from `Beuzen <https://github.com/TomasBeuzen/pybeach>_` the performance of these algorithms in extracting dune toe locations on beach profiles varies significantly.  While experts can generally identify the dune toe on a beach profile, it is difficult to develop an algorithm that can consistently and reliably define the dune toe for the large variety of beach profile shapes encountered in nature.
+However, as shown in the figure above using **pybeach** code from `Beuzen <https://github.com/TomasBeuzen/pybeach>`_ the performance of these algorithms in extracting dune toe locations on beach profiles varies significantly.  While experts can generally identify the dune toe on a beach profile, it is difficult to develop an algorithm that can consistently and reliably define the dune toe for the large variety of beach profile shapes encountered in nature.
+
+In such cases, the use of machine learning (ML) can help improving toe detection. It consists in *feeding* the ML algorithm with existing dataset. In **pybeach** three pre-trained ML models are provided:
+
+1. a **barrier-island** model. This model was developed using 1046 pre- and post- “Hur- ricane Ivan” airborne LIDAR profiles from Santa-Rosa Island Florida (this data was collected in 2004);
+2. a **wave-embayed** model. This model was developed using 1768 pre- and post- “June 2016 storm” airborne LIDAR profiles from the wave-dominated, embayed southeast Australian coastline (this data was collected in 2016).
+3. a **mixed** model. Developed using a combination of the two above datasets.
+
+For each dataset described above, the true location of the dune toe on each indiviudal profile transect was manually identified and quality checked by multiple experts and verified using satelitte imagery, digital elevation models and/or in-situ observations where available. This resulted in the best possible data to facilitate the creation of the ML models in pybeach. 
 
 
 Coastsat
