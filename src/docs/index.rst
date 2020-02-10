@@ -11,7 +11,7 @@ This part of the course focuses on coastal systems analysis using both *ocean da
 The emphasise will be on:
 
 * **How to query and analyse numerical and ocean data?**
-* **What can we learn from simple numerical models of coastal evolution?**
+* **What can we learn from ocean and wave models on coastal evolution?**
 * **How to use these models and what are their limitations?**
 
 
