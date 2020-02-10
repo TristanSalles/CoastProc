@@ -236,16 +236,17 @@ Seasonal changes
 
 Along eastern Australia, the strength of south-east trade winds fluctuate throughout the year and occur predominantly during the austral winter during *April-October* (dry season). From *November-March* (wet season) the trade winds lessen and can even reverse, linked to the Australian Monsoon and the location of the **Intertropical Convergence Zone** (ITCZ) (`Hemer et al. 2007 <https://www.jstor.org/stable/26481627?seq=2#metadata_info_tab_contents>`_). During the wet season, the ITCZ moves closer to Australia, decreasing the strength of trade winds. Periodically, increased strength north-west winds occur due to the presence of the Australian Monsoon. This could have a significant impact on wave climate, with **decreased modal wave heights** during the wet season, however with **small periods of higher waves** due to intense storm and precipitation events during monsoons.
 
+
+.. image:: images/trendglob.jpg
+  :scale: 57 %
+  :alt: Altimeter global trend in significant wave height from 1985-2018. (A) Mean trend and (B) 90th percentile trend. Young & Ribal 2019.
+  :align: center
+
+
 Long-term trends
 *****
 
-Several regions of the global ocean have statistically significant positive and negative trends in :math:`H_{s}`. An analysis of 33 years of altimeter data by `Young & Ribal (2019) <https://science.sciencemag.org/content/332/6028/451>`_ (see figure below) determined that extreme 90th percentile waves in the Southern Ocean are increasing by 1 cm/year, and in the North Atlantic by 0.8 cm/year. This is often correlated to an increase in extreme wind strength in the region.
-
-
-.. image:: images/trendglob.jpg
-  :scale: 38 %
-  :alt: Altimeter global trend in significant wave height from 1985-2018. (A) Mean trend and (B) 90th percentile trend. Young & Ribal 2019.
-  :align: center
+Several regions of the global ocean have statistically significant positive and negative trends in :math:`H_{s}`. An analysis of 33 years of altimeter data by `Young & Ribal (2019) <https://science.sciencemag.org/content/332/6028/451>`_ (see figure above) determined that extreme 90th percentile waves in the Southern Ocean are increasing by 1 cm/year, and in the North Atlantic by 0.8 cm/year. This is often correlated to an increase in extreme wind strength in the region.
 
 .. note::
   However we can see some differences, as a matter of fact, despite mean local wind speed increasing globally, the mean :math:`H_{s}` show less explicit trends in all regions. Several areas, such as the Southern Ocean, have a slight positive increase, whilst other regions have slight negative trends. This implies that upper percentile trends are increasing faster than mean trends.
