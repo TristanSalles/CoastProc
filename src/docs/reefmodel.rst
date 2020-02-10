@@ -20,11 +20,24 @@ Amongst the approaches available to study coral reef platform formation, **Strat
 Main physical forces acting on carbonate platform
 -----------
 
+Corals are calcium-carbonate-secreting, and their ability to grow and build reef structures is dependent upon favourable environmental conditions. Environmental factors affecting growth have been classified by `Veron (1995) <https://books.google.com.au/books/about/Corals_in_Space_and_Time.html?id=piQvtbFUicAC&redir_esc=y>`_ as **latitude-correlated** factors, and those that are **regional or local** in character.
+
+
+.. image:: images/pyreef.jpg
+  :scale: 35 %
+  :alt: Schematic figure of a hypothetical reef with transitions from shallow to deep assemblages occurring down-core, illustrating growth-form responses of corals to environmental forcing including light, sea level changes (sl), hydrodynamic energy (w wave conditions and c currents), tectonic (u uplift and s subsidence), oceanic conditions (T temperature, nu nutrients, pH acidity), karstification (k) and sediment flux.
+  :align: center
+
+
+Latitude-correlated factors include sea surface temperatures (SSTs), solar radiation and water chemistry. These factors are likely to be affected most by climate change, potentially shifting the *optimal* environmental suitability for coral calcification toward the poles.
+
+Regional and local environmental factors include wave climate, salinity, water clarity, nutrient influx, sedimentation regime and depth/composition of the initial substrate. These factors affect coral species to different extents, controlling the distribution of coral communities across a reef. Over longer time scales, they also shape the rate of calcium-carbonate production, framework building by corals, and the accumulation of sedimentary deposits.
 
 
 
 
+.. raw:: html
 
-
-+ Badlands reef
-+ pyReef
+    <div style="text-align: center; margin-bottom: 2em;">
+    <iframe width="100%" height="550" src="https://www.youtube.com/embed/0kCfb56AdLw?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
