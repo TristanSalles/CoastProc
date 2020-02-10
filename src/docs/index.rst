@@ -49,11 +49,6 @@ Contents
 .. toctree::
    oceandata
    waveclimate
-   method
-   installation
-   usage
-   social
-   CoastProc
    :maxdepth: 3
 
 Indices and tables
