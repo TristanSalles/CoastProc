@@ -216,7 +216,7 @@ TCs are major drivers of coral reef disturbance and destruction, with reefs clos
 
 
 .. image:: images/yasi.jpg
-  :scale: 22 %
+  :scale: 28 %
   :alt: Coral reef damage in the Great Barrier Reef following Tropical Cyclone Yasi. Source: Beeden et al. (2015)
   :align: center
 
