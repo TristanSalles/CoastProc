@@ -55,14 +55,14 @@ Accommodation affects coral growth in two ways:
 .. raw:: html
 
     <div style="text-align: center; margin-bottom: 2em;">
-    <iframe width="100%" height="550" src="https://www.youtube.com/embed/0kCfb56AdLw?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="100%" height="350" src="https://www.youtube.com/embed/0kCfb56AdLw?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
 
 .. raw:: html
 
     <div style="text-align: center; margin-bottom: 2em;">
-    <iframe width="100%" height="550" src="https://www.youtube.com/embed/DhXHPzpyVPs?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="100%" height="350" src="https://www.youtube.com/embed/DhXHPzpyVPs?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
 Generally, assemblages within 20 m depth have the highest accretion rates (10-20 m/kyr) than those deeper (< 10 m/kyr). Holocene reef growth largely occurred due to initially rapid sea-level rise (∼10-6 ka), which created new accommodation and favourable conditions for reef ‘**turn-on**’ on the Great Barrier Reef (GBR). Some reefs were able to keep pace with sea level rise (‘**keep-up**’ reefs), while others caught up after sea level stabilised (‘**catch-up**’ reefs), and others drowned (‘**give-up**’ reefs).
