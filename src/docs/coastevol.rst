@@ -1,7 +1,10 @@
 Quantifying coastal changes
 =================
 
+The coastal region is the most heavily urbanised land zone in the world and is regarded as a critical resource in view of its recreational, environmental and economic importance.
 
+.. important::
+  Yet, ocean coasts are affected by variations in mean sea level, extreme waves, storm surges and river flow through a range of physical processes. Recent intensification in mean wave energy, extreme coastal wave energy and oceanic wind speeds, coupled with rising sea levels, suggest that coastal areas will be exposed to increasing hazards in coming decades. It is therefore critical to observe and quantify changes along coastlines vulnerable to extreme as well as subtle changes in oceanographic forcing.
 
 
 Sediment transport
@@ -16,9 +19,30 @@ Calcareous sediment
 Nearshore and beach processes
 -----------
 
-Wave run-up
+Wave runup
 *****
 
+**Wave runup** refers to the final part of a wave's journey as it travels from offshore onto the beach. It is observable by anyone who goes to the beach and watches the edge of the water *runup* and *rundown* the beach. It is comprised of two components:
+
+* **setup**: the height of the time averaged superelevation of the mean water level above the Still Water Level (**SWL**)
+* **swash**: the height of the time varying fluctuation of the instantaneous water level about the setup elevation
+
+Setup, swash and other components of Total Water Level (**TWL**) rise are shown in this handy figure below from `Vitousek et al. (2017) <https://www.nature.com/articles/s41598-017-01362-7>`_.
+
+
+.. image:: images/runup.jpg
+  :scale: 24 %
+  :alt: The water-level components that contribute to coastal flooding.
+  :align: center
+
+
+Wave runup can contribute a significant portion of the increase in TWL in coastal storms causing erosion and inundation. For example,`Stockdon et al. (2007) <https://www.sciencedirect.com/science/article/pii/S0025322706003355?via%3Dihub>`_ collated data from numerous experiments, some of which showed wave runup 2% excedence heights in excess of 3 m during some storms.
+
+Given the impact such a large increase in TWL can have on coastlines, there has been much research conducted to try improve our understanding of wave runup processes. Although there are many processes which can influence wave runup (such as nonlinear wave transformation, wave reflection, three-dimensional effects, porosity, roughness, permeability and groundwater), **many attempts have been made to derive empirical relationships based on easily measurable parameters**. Typically, empirical wave runup models include:
+
+* :math:`H_{s}`: significant wave height
+* :math:`T_{p}`: peak wave length
+* :math:`\beta`: beach slope
 
 
 
