@@ -187,7 +187,7 @@ Using `badlands <https://www.nature.com/articles/s41598-018-23519-8>`_, a reduce
 
 .. note::
   The code links together the main sedimentary processes driving mixed siliciclastic-carbonate system dynamics. It offers a methodology for objective and quantitative sediment fate estimations over regional and millennial time-scales.
-  
+
 .. raw:: html
 
     <div style="text-align: center; margin-bottom: 2em;">
@@ -207,7 +207,14 @@ Influence of carbonate platform on geomorphological development of the margin
 *****
 
 
-
-
 Hands-on examples
 -----------
+
+Using **pyReef** `model <https://www.geosci-model-dev.net/11/2093/2018/>`_, we will simulate  a typical sequence of coral assemblages found in the GBR based on different initial conditions.
+
+
+.. raw:: html
+
+    <div style="text-align: center; margin-bottom: 2em;">
+    <iframe width="100%" height="550" src="https://github.com/pyReef-model/pyReefCore?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
