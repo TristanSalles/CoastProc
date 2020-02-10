@@ -136,7 +136,7 @@ Cellular Automata (**CA**) are a type of discrete numerical model that have been
 Application of simple rules, for example, based on the number of cells in the neigh- borhood with the same state, is used to determine the future state of a cell at the next iteration, or generation, of a cell.
 
 .. image:: images/CA1.jpg
-  :scale: 20 %
+  :scale: 23 %
   :alt: Burgess CA model
   :align: center
 
@@ -180,7 +180,32 @@ In the above algorithm, the combination of the fuzzy sets in each fuzzy rule is 
 Modelling GBR past evolution
 -----------
 
+Evolution since Last Glacial Maximum
+*****
 
+Using `badlands <https://www.nature.com/articles/s41598-018-23519-8>`_, a reduced-complexity model developed in the School of Geosciences, we compute over geological time: sediment transport from landmasses to coasts, reworking of marine sediments by longshore currents, and development of coral reef systems.
+
+.. note::
+  The code links together the main sedimentary processes driving mixed siliciclastic-carbonate system dynamics. It offers a methodology for objective and quantitative sediment fate estimations over regional and millennial time-scales.
+
+A simulation of the Holocene evolution of the Great Barrier Reef shows: (1) how high sediment loads from catchments erosion prevented coral growth during the early transgression phase and favoured sediment gravity-flows in the deepest parts of the northern region basin floor (prior to 8 ka before present (BP)); (2) how the fine balance between climate, sea-level, and margin physiography enabled coral reefs to thrive under limited shelf sedimentation rates after ~6 ka BP; and, (3) how since 3 ka BP, with the decrease of accommodation space, reduced of vertical growth led to the lateral extension of reefs consistent with available observational data.
+
+
+.. raw:: html
+
+    <div style="text-align: center; margin-bottom: 2em;">
+    <iframe width="100%" height="350" src="https://www.youtube.com/embed/x_w0925mmgo?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+.. raw:: html
+
+    <div style="text-align: center; margin-bottom: 2em;">
+    <iframe width="100%" height="350" src="https://www.youtube.com/embed/-aimu4MV0JE?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+
+Influence of carbonate platform on geomorphological development of the margin
+*****
 
 
 
