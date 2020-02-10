@@ -1,4 +1,4 @@
-Wave climate
+Analysing wave climate
 =================
 
 Waves are a defining characteristic of water-bodies worldwide, transporting energy that impacts numerous physical and ecological processes. Since World War II, there has been a substantial increase in scientific understanding of wave formation, propagation and resulting impacts on coastal and marine features.

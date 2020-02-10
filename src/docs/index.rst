@@ -49,6 +49,8 @@ Contents
 .. toctree::
    oceandata
    waveclimate
+   coastevol
+   reefmodel
    :maxdepth: 3
 
 Indices and tables
