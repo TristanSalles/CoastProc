@@ -38,13 +38,25 @@ Setup, swash and other components of Total Water Level (**TWL**) rise are shown 
 
 Wave runup can contribute a significant portion of the increase in TWL in coastal storms causing erosion and inundation. For example,`Stockdon et al. (2007) <https://www.sciencedirect.com/science/article/pii/S0025322706003355?via%3Dihub>`_ collated data from numerous experiments, some of which showed wave runup 2% excedence heights in excess of 3 m during some storms.
 
-Given the impact such a large increase in TWL can have on coastlines, there has been much research conducted to try improve our understanding of wave runup processes. Although there are many processes which can influence wave runup (such as nonlinear wave transformation, wave reflection, three-dimensional effects, porosity, roughness, permeability and groundwater), **many attempts have been made to derive empirical relationships based on easily measurable parameters**. Typically, empirical wave runup models include:
+Given the impact such a large increase in TWL can have on coastlines, there has been much research conducted to try improve our understanding of wave runup processes.
+
+.. note::
+  Although there are many processes which can influence wave runup (such as nonlinear wave transformation, wave reflection, three-dimensional effects, porosity, roughness, permeability and groundwater), **many attempts have been made to derive empirical relationships based on easily measurable parameters**.
+
+Typically, empirical wave runup models include:
 
 * :math:`H_{s}`: significant wave height
 * :math:`T_{p}`: peak wave length
 * :math:`\beta`: beach slope
 
+The **py-wave-runup** (`here <https://github.com/chrisleaman/py-wave-runup>`_) is a Python package that implements different published wave runup empirical models based on :math:`H_{s}`, :math:`T_{p}`, and :math:`\beta`.
 
+
+.. raw:: html
+
+    <div style="text-align: center; margin-bottom: 2em;">
+    <iframe width="100%" height="550" src="https://py-wave-runup.readthedocs.io/en/latest/models.html?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
 
 Beach profiles
@@ -85,7 +97,7 @@ In such cases, the use of machine learning (ML) can help improving toe detection
 2. a **wave-embayed** model. This model was developed using 1768 pre- and post- “June 2016 storm” airborne LIDAR profiles from the wave-dominated, embayed southeast Australian coastline (this data was collected in 2016).
 3. a **mixed** model. Developed using a combination of the two above datasets.
 
-For each dataset described above, the true location of the dune toe on each indiviudal profile transect was manually identified and quality checked by multiple experts and verified using satelite imagery, digital elevation models and/or in-situ observations where available. This resulted in the best possible data to facilitate the creation of the ML models in pybeach.
+For each dataset described above, the true location of the dune toe on each indiviudal profile transect was manually identified and quality checked by multiple experts and verified using satelite imagery, digital elevation models and/or in-situ observations where available. This resulted in the best possible data to facilitate the creation of the ML models in **pybeach**.
 
 
 Coastline evolution
