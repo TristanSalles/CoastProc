@@ -226,37 +226,41 @@ ECLs are a different type of cyclone that has significant effects on the Eastern
 Wave climate variability
 -----------
 
-
 Various meteorologically driven changes in atmosphere-ocean coupling can substantially alter surface wind fields and, as a result, influence wave climate on both regional and ocean basin scales (`Godoi et al. 2016 <https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2015JC011572>`_).
 
 Many studies have shown that the Pacific Ocean wave climate is altered by the **El Nino Southern Oscillation** (ENSO) and the **Southern Annular Mode** (SAM), however, the response to these can be variable in both space and time. Several regions, including islands in the Pacific, are projected to be more at risk from a changing wave climate than risks from sea level (`Hemer et al. 2011 <https://www.environment.gov.au/system/files/pages/275228c5-24db-47f2-bf41-82ef42cda73d/files/wind-wave-report.pdf>`_). Thus, an understanding of the current variability of the wave climate is an important step to understanding the influence of global climate processes and potential links to climate change (`Godoi et al. 2018 <https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/joc.5823>`_).
 
-
 .. image:: images/climvar.jpg
-  :scale: 33 %
+  :scale: 30 %
   :alt: Wind-wave origins for the Pacific Ocean, representing the multi-modal components to form the wave climate. Adapted from Hemer et al. (2011)
   :align: center
-
 
 Seasonal changes
 *****
 
-
 Along eastern Australia, the strength of south-east trade winds fluctuate throughout the year and occur predominantly during the austral winter during *April-October* (dry season). From *November-March* (wet season) the trade winds lessen and can even reverse, linked to the Australian Monsoon and the location of the **Intertropical Convergence Zone** (ITCZ) (`Hemer et al. 2007 <https://www.jstor.org/stable/26481627?seq=2#metadata_info_tab_contents>`_). During the wet season, the ITCZ moves closer to Australia, decreasing the strength of trade winds. Periodically, increased strength north-west winds occur due to the presence of the Australian Monsoon. This could have a significant impact on wave climate, with **decreased modal wave heights** during the wet season, however with **small periods of higher waves** due to intense storm and precipitation events during monsoons.
-
 
 Long-term trends
 *****
 
+Several regions of the global ocean have statistically significant positive and negative trends in :math:`H_{s}`. An analysis of 33 years of altimeter data by `Young & Ribal (2019) <https://science.sciencemag.org/content/332/6028/451>`_ (see figure below) determined that extreme 90th percentile waves in the Southern Ocean are increasing by 1 cm/year, and in the North Atlantic by 0.8 cm/year. This is often correlated to an increase in extreme wind strength in the region.
 
-Several regions of the global ocean have statistically significant positive and nega- tive trends in Hs (Figure 2.10). An analysis of 33 years of altimeter data by Young & Ribal (2019) determined that extreme 90th percentile waves in the Southern Ocean are increasing by 1 cm/year, and in the North Atlantic by 0.8 cm/year (Figure 2.10). This is correlated to an increase in extreme wind strength in the region (Young & Ribal 2019). Despite mean local wind speed increasing glob- ally, the mean Hs show less explicit trends in all regions. Several areas, such as the Southern Ocean, have a slight positive increase of 0.3 cm/year, whilst other regions have slight negative trends (Figure 2.10). This implies that upper percentile trends are increasing faster than mean trends. Many regions, such as Southern Australia, can be dominated by swell rather than local wind sea (Hemer et al. 2017), and therefore increases in mean local wind speed may not have direct effects on the local wave climate. Instead, increasing wind speed in the higher latitudes may increase swell size, which propagates into the middle latitudes (Young et al. 2011). Consequently, long-term decadal trends in wave height are occurring at different rates around the globe, with mean and extreme waves exhibiting different behaviours.
 
+.. image:: images/trendglob.jpg
+  :scale: 25 %
+  :alt: Altimeter global trend in significant wave height from 1985-2018. (A) Mean trend and (B) 90th percentile trend. Young & Ribal 2019.
+  :align: center
 
+.. note::
+  However we can see some differences, as a matter of fact, despite mean local wind speed increasing globally, the mean :math:`H_{s}` show less explicit trends in all regions. Several areas, such as the Southern Ocean, have a slight positive increase, whilst other regions have slight negative trends. This implies that upper percentile trends are increasing faster than mean trends.
+
+Many regions, such as Southern Australia, can be dominated by swell rather than local wind sea, and therefore increases in mean local wind speed may not have direct effects on the local wave climate. Instead, increasing wind speed in the higher latitudes may increase swell size, which propagates into the middle latitudes.
+
+.. important::
+  Long-term decadal trends in wave height are occurring at different rates around the globe, with mean and extreme waves exhibiting different behaviours.
 
 Climate oscillations
 *****
-
-
 
 The ENSO phenomenon is the largest and most influential mode of climate varia- tion that operates on a seasonal-to-interannual timescale (Stopa & Cheung 2014,Timmermann et al. 2018). It is a complex ocean-air coupling in the equatorial region of the Central and Eastern Pacific Ocean that has significant influence over global climate (Barnard et al. 2017). The positive La Nin ̃a phase leads to reduced atmospheric convection over the Pacific Ocean, causing increased precipitation, a greater number of TCs, and cooler maximum temperatures in Australia (Jin et al. 2014). There are stronger than normal trade winds, which could lead to larger wave heights (Hemer et al. 2011). In contrast, the negative El Nin ̃o phase leads to a shift in atmospheric circulation, with a weakening or reversal of the dominant south-easterly trade winds and decreased frequency of TC for Australia (Timmermann et al. 2018).
 
