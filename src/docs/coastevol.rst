@@ -126,11 +126,11 @@ Analysing shoreline changes
 *****
 
 
-.. image:: images/coastsat.gif
-  :scale: 24 %
-  :alt: Narrabeen-Collaroy in southeast Australia from Vos et al. (2019)
-  :align: center
+ .. raw:: html
 
+     <div style="text-align: center; margin-bottom: 2em;">
+     <iframe width="100%" height="350" src="https://youtu.be/YK_d08BHids?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     </div>
 
 Alongshore sediment fluxes
 *****
