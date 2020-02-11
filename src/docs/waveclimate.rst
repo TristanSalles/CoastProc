@@ -69,6 +69,13 @@ The modal wave climate of a region is determined through a long-term analysis of
    :align: center
 
 
+   .. raw:: html
+
+       <div style="text-align: center; margin-bottom: 2em;">
+       <iframe width="100%" height="350" src="https://www.youtube.com/embed/YK_d08BHids?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </div>
+
+
 There are numerous techniques that can be used to measure these parameters. However, most methods do not measure all parameters: a deliberate choice must be made, with consideration to the advantages and disadvantages of each technique. Frequently, the method chosen is customarily calibrated with other techniques or used in combination.
 Common methods include:
 
