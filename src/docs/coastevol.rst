@@ -145,6 +145,13 @@ It enables the non-expert user to extract shorelines from Landsat 5, Landsat 7, 
     <iframe width="100%" height="450" src="https://www.youtube.com/embed/YK_d08BHids?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
+The toolbox has three main functionalities:
+
+1. assisted retrieval from Google Earth Engine of all available satellite images spanning the user-defined region of interest and time period.
+2. automated extraction of shorelines from all the selected images using a sub-pixel resolution technique
+3. intersection of the 2D shorelines with user-defined shore-normal transects
+
+
 
 Alongshore sediment fluxes
 *****
