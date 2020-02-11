@@ -6,16 +6,6 @@ The coastal region is the most heavily urbanised land zone in the world and is r
 .. important::
   Yet, ocean coasts are affected by variations in mean sea level, extreme waves, storm surges and river flow through a range of physical processes. Recent intensification in mean wave energy, extreme coastal wave energy and oceanic wind speeds, coupled with rising sea levels, suggest that coastal areas will be exposed to increasing hazards in coming decades. It is therefore critical to observe and quantify changes along coastlines vulnerable to extreme as well as subtle changes in oceanographic forcing.
 
-
-Sediment transport
------------
-
-Siliciclastic sand
-*****
-
-Calcareous sediment
-*****
-
 Nearshore and beach processes
 -----------
 
@@ -165,18 +155,16 @@ The curved planform morphology of embayed beaches can be observed at various len
 
 
 .. image:: images/cove1.jpg
-  :scale: 20 %
+  :scale: 23 %
   :alt: crenulated bay shapes at different scales
   :align: center
 
 Examples of crenulated bay shapes at different scales from `Hurst et al. (2015) <http://onlinelibrary.wiley.com/doi/10.1002/2015JF003704/abstract>`_: *(a) Hathead Bay, Eastern Australia. (b) Flamborough Head and the Holderness Coastline, East Yorkshire, UK. (c) Half Moon Bay, California, USA*.
 
 
-
 Embayed beaches tend toward an equilibrium form under a prevailing wave climate. The planform morphology will adjust until gradients in alongshore sediment flux are minimized (net alongshore sediment flux is constant). Alongshore sediment flux will be negligible on an equilibrium coastline when there are no external sediment inputs [Tanner, 1958; LeBlond, 1979; Komar, 1998; Hsu et al., 2010]. Subsequent changes in planform morphology may occur such as beach rotation, driven by changes in wave climate characteristics that alter alongshore [e.g., Turki et al., 2013; Ratliff and Murray, 2014] or cross-shore [e.g., Harley et al., 2011] sediment transport.
 One-line models of shoreline evolution can reproduce embayed beach morphology in the lee of a headland or promontory [LeBlond, 1972; Rea and Komar, 1975; Hanson, 1989; Littlewood et al., 2007; Iglesias et al., 2009; Weesakul et al., 2010; Barkwith et al., 2014a, 2014b].
 
-https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1002/2015JF003704
 
 Regional scale models
 *****
