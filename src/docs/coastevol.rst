@@ -318,4 +318,11 @@ In regions where wave-induced shear stress is greater than the critical shear st
 
 where :math:`C_e` is an entrainment coefficient controlling the relationship between shear stress and erosion rate. Once entrained, sediments are transported following the direction of longshore currents and are deposited in regions where wave shear stress is lower than the critical shear stress for entrainment.
 
+
+.. image:: images/wavesed2.jpg
+  :scale: 25 %
+  :alt: nearshore
+  :align: center
+
+
 Marine sediments are further mobilised by a diffusion law similar to the one referred to as soil creep in the aerial domain to simulate long-term sediment dispersal induced by slope.
