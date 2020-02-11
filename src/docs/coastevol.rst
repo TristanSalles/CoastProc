@@ -189,9 +189,114 @@ Bulk alongshore sediment flux is driven by waves breaking on the shoreface. Typi
 
 where :math:`K_{ls}` is a transport coefficient. The transport coefficient :math:`K_{ls}` may be modified to account for the size of beach material (:math:`D_{50}`). Calibration of this coefficient can be made from estimates of bulk alongshore transport or by calibration against a historical record of coastal change (*e.g.* `Barkwith et al. (2014) <http://www.earth-surf-dynam.net/2/295/2014/esurf-2-295-2014.html>`_).
 
-
-
 Regional scale models
 *****
 
-Wavesed
+Many complex models exist to evaluate the complex interactions between ocean hydrodynamics and sediment transport like `XBeach <http://oss.deltares.nl/web/xbeach/>`_, `ROMS <https://www.myroms.org>`_, `Delft3d <https://oss.deltares.nl/web/delft3d>`_, `FVCOM <http://fvcom.smast.umassd.edu>`_ to cite a few.
+
+
+
+.. image:: images/zone.jpg
+  :scale: 25 %
+  :alt: nearshore
+  :align: center
+
+
+
+As an example, the nearshore wave propagation model `XBeach <http://oss.deltares.nl/web/xbeach/>`_ solves coupled 2D horizontal equations for wave propagation, flow, sediment transport and bottom changes, for varying (spectral) wave and flow boundary conditions. It is a public-domain model that can be used as stand-alone model for small-scale (project-scale) coastal applications, but could also be integrated within more complex coupling frameworks. For example, it could be driven by boundary conditions provided by wind, wave or surge models and its main outputs (time-varying bathymetry and possibly discharges over breached barrier island sections) could be then transferred back.
+
+Here we will look at a more simple approach based on a **reduced complexity model** that adopts the most basic known principles of wave motion, *i.e.*, the linear wave theory (Airy derived `wave parameters description <https://en.wikipedia.org/wiki/Airy_wave_theory>`_). Wave celerity :math:`c` is governed by:
+
+
+.. math::
+  c = \sqrt{\frac{g}{\kappa} tanh \, \kappa d}
+
+
+
+where :math:`g` is the gravitational acceleration, :math:`\kappa` the radian wave number (equal to :math:`2\pi/L`, with :math:`L` the wave length), and :math:`d` is the water depth.
+
+In deep water, the celerity is dependent only on wave length :math:`\sqrt{gL/2\pi}`; in shallow water, it depends on depth (:math:`\sqrt{gd}`).
+
+
+From wave celerity and wave length, we calculate wave front propagation (including refraction) based on a **Huygens-principle** method.
+
+From this, we deduce the wave travel time and define main wave-induced current directions from lines perpendicular to the wave front. Wave height is then calculated along wave front propagation. The algorithm takes into account wave energy dissipation in shallow environment as well as wave-breaking conditions.
+
+As mentioned above, shoaling and refraction are accounted for from a series of deep-water wave conditions through time in the absence of wind forcing. Hence to compute wave field generation, the model requires **bathymetric conditions** and definitions of offshore significant **wave height**, characteristic **period**, and wave **direction**.
+
+.. note::
+  To evaluate marine sediment transport over several thousands of years, the approach taken here does not examine temporal evolving wave fields, such as those produced during storm events and relies on stationary representation of prevailing fair-weather wave conditions. The wave transformation model is generally performed for time intervals varying from 5 to 50 years.
+
+The model simulates realistic wave fields by imposing a sequence of wave forcing conditions. At any given time interval, we define a percentage of activity for each deep-water wave conditions and the bathymetry is used to compute associated wave parameters.
+
+To simulate wave-induced sediment transport, it is necessary to model the **water movement near the bottom**. The wave height :math:`H` and the wave period :math:`T` govern the maximum wave-orbital speed :math:`u_{w,b}` at the bed at any given depth and is expressed using the **linear wave theory** as:
+
+
+.. math::
+  u_{w,b} = \frac{\pi H}{T sinh \kappa d}
+
+
+assuming the linear shallow water approximation (Soulsby), the expression is further simplified as:
+
+
+.. math::
+  u_{w,b} = (H\2) \sqrt{g/d}
+
+
+Under pure waves (*i.e.*, no superimposed current), the wave-induced bed shear stress :math:`\tau_{w}` is typically defined as a quadratic bottom friction:
+
+
+.. math::
+  \tau_{w} = \frac{1}{2} \rho f_w u_{w,b}^2
+
+
+with :math:`rho` the water density and :math:`f_w` is the wave friction factor. Considering that the wave friction factor is only dependent of the bed roughness :math:`k_b` relative to the wave-orbital semi-excursion at the bed :math:`A_b` (Soulsby), we define:
+
+.. math::
+  f_{w} = 1.39 (A_b/k_b)^{-0.52}
+
+
+fw = 1.39 (Ab/kb)−0.52
+where :math:`A_b = u_{w,b}T/2\pi` and :math:`k_b = 2\pi d_{50}/12`, with :math:`d_{50}` median sediment grain-size at the bed.
+
+
+For each forcing conditions, the wave transformation model computes and returns:
+
+* the significant wave height,
+* the mean wave direction and
+* the shear stress induced by the maxima of the orbital velocity near the bottom.
+
+
+These parameters are subsequently used to evaluate the **long-term sediment transport** active over the simulated region.
+
+In nearshore environments, longshore current runs parallel to the shore and is generated by the radiation stresses associated with the breaking process from obliquely incoming waves and by the surplus water which is carried across the breaker zone towards the shoreline `(Hurst et al., 2015) <http://onlinelibrary.wiley.com/doi/10.1002/2015JF003704/abstract>`_. This current significantly contributes to sediment transport in nearshore waters.
+
+Following Komar, the longshore current velocity (:math:`\vec{v_l}`) in the middle of the breaking zone is defined by:
+
+.. math::
+  \vec{v_l} = \kappa_l u_{w,b} cos(\theta) sin(\theta) \vec{k}
+
+⃗
+with :math:`\theta` the angle of incidence of the incoming waves, :math:`\kappa_l` a scaling parameter and :math:`\vec{k}` the unit vector parallel to the breaking depth contour.
+
+
+For wave rays approaching shallow regions at on oblique angle, the component of wave energy flux parallel to the shore will drives this longshore velocity. The calculation of the angle of incidence is deduced from bathymetric contour and wave directions (obtained from the wave transformation model) and requires an estimate of wave breaking depth (user defined parameter *wavebase*).
+
+From the definition of bed sediment mean grain size, the adimensional particle parameter :math:`d_\star` is first derived:
+
+
+.. math::
+  d_\star = d_{50} \left[ \left( s-1 \right) \frac{g}{\nu^2} \right]^{1/3}
+
+where :math:`s=\rho_s/\rho` is the relative density and :math:`\nu` the kinematic viscosity. Then the threshold Shields parameter :math:`\theta_c` is calculated based on Van Rijn formulation.
+
+In regions where wave-induced shear stress is greater than the critical shear stress derived from the Shields parameter (:math:`\tau_c = \theta_c gd_{50}(\rho_s-\rho_w)`), bed sediments are entrained. The erosion thickness :math:`h_e` is limited to the top sedimentary layer and for simplicity is assumed to follow a logarithmic form:
+
+
+.. math::
+  h_e = C_e \ln(\tau_w/\tau_c) \textrm{ where } \tau_w > \tau_c
+
+
+where :math:`C_e` is an entrainment coefficient controlling the relationship between shear stress and erosion rate. Once entrained, sediments are transported following the direction of longshore currents and are deposited in regions where wave shear stress is lower than the critical shear stress for entrainment.
+
+Marine sediments are further mobilised by a diffusion law similar to the one referred to as soil creep in the aerial domain to simulate long-term sediment dispersal induced by slope.
