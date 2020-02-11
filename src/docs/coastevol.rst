@@ -152,6 +152,11 @@ The toolbox has three main functionalities:
 3. intersection of the 2D shorelines with user-defined shore-normal transects
 
 
+.. image:: images/coastsat.jpg
+  :scale: 20 %
+  :alt: Example region of interest within RGB image located at Narrabeen-Collaroy in southeast Australia, Sentinel-2.
+  :align: center
+
 
 Alongshore sediment fluxes
 *****
