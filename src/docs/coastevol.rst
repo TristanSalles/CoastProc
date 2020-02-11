@@ -122,10 +122,14 @@ For each dataset described above, the true location of the dune toe on each indi
 Coastline evolution
 -----------
 
-
 Analysing shoreline changes
 *****
 
+
+.. image:: images/coastsat.gif
+  :scale: 24 %
+  :alt: Narrabeen-Collaroy in southeast Australia from Vos et al. (2019)
+  :align: center
 
 
 Alongshore sediment fluxes
