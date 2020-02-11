@@ -36,7 +36,7 @@ Setup, swash and other components of Total Water Level (**TWL**) rise are shown 
   :align: center
 
 
-Wave runup can contribute a significant portion of the increase in TWL in coastal storms causing erosion and inundation. For example,`Stockdon et al. (2007) <https://www.sciencedirect.com/science/article/pii/S0025322706003355?via%3Dihub>`_ collated data from numerous experiments, some of which showed wave runup 2% excedence heights in excess of 3 m during some storms.
+Wave runup can contribute a significant portion of the increase in TWL in coastal storms causing erosion and inundation. For example, `Stockdon et al. (2006) <https://doi.org/10.1016/j.coastaleng.2005.12.005>`_ collated data from numerous experiments, some of which showed wave runup 2% excedence heights in excess of 3 m during some storms.
 
 Given the impact such a large increase in TWL can have on coastlines, there has been much research conducted to try improve our understanding of wave runup processes.
 
@@ -57,6 +57,25 @@ The **py-wave-runup** (`here <https://github.com/chrisleaman/py-wave-runup>`_) i
     <div style="text-align: center; margin-bottom: 2em;">
     <iframe width="100%" height="550" src="https://py-wave-runup.readthedocs.io/en/latest/models.html?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
+
+
+Using **py-wave-runup** , we will evaluate the accuracy of the `Stockdon et al. (2006) <https://doi.org/10.1016/j.coastaleng.2005.12.005>`_ runup
+model. To do this, we will use the compiled wave runup observations provided by `Power
+et al (2018) <https://doi.org/10.1016/j.coastaleng.2018.10.006>`_.
+
+The Stockdon et al (2006) wave runup model comprises of two relationships, one for
+dissipative beaches (*i.e.* Iribarren number :math:`\zeta < 0.3`):
+
+.. math::
+  R_{2} = 0.043(H_{s}L_{p})^{0.5}
+
+and a seperate relationship for intermediate and reflective beaches (*i.e.* Iribarren number
+:math:`\zeta > 0.3`):
+
+
+.. math::
+  R_{2} = 1.1 \left( 0.35 \beta (H_{s}L_{p})^{0.5} + \frac{H_{s}L_{p}(
+    0.563 \beta^{2} +0.004)^{0.5}}{2} \right)
 
 
 Beach profiles
