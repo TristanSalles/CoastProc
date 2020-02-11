@@ -173,6 +173,22 @@ Embayed beaches tend toward an equilibrium form under a prevailing wave climate.
   :alt: longshore drift
   :align: center
 
+In one-line models, the shoreline is represented by a single line (or contour) that advances or retreats depending on the net alongshore sediment flux. One-line models make a number of simplifying assumptions to conceptualise the coastline allowing the ‘one-line’ representation of the coastline:
+
+1. Short-term cross-shore variations due to storms or rip currents are considered temporary perturbations to the long-term trajectory of coastal change (i.e. the shoreface recovers rapidly from storm-driven cross-shore transport).
+2. The beach profile is thus assumed to maintain a constant time-averaged form, implying that depth contours are shore-parallel and therefore allows the coast to be represented by a single contour line (right panels in top figure).
+3. Alongshore sediment transport occurs primarily in the surf zone, and cross-shore sediment transport acts to maintain the equilibrium shoreface as it advances /retreats.
+4. Alongshore sediment flux occurs due to wave action in the surf zone, parameterized by the height and angle of incidence of breaking waves. Gradients in alongshore transport dictate whether the shoreline advances or retreats.
+
+Bulk alongshore sediment flux is driven by waves breaking on the shoreface. Typically in alongshore transport laws, flux depends on the height :math:`H_b` and angle :math:`\alpha_b`
+ of breaking waves. For example, the CERC equation is given by:
+
+ .. math::
+    Q_{ls} = K_{ls} H_b^{5/2} sin(2\alpha_b)
+
+where :math:`K_{ls}` is a transport coefficient. The transport coefficient :math:`K_{ls}` may be modified to account for the size of beach material (:math:`D_{50}`). Calibration of this coefficient can be made from estimates of bulk alongshore transport or by calibration against a historical record of coastal change (*e.g.* `Barkwith et al. (2014) <http://www.earth-surf-dynam.net/2/295/2014/esurf-2-295-2014.html>`_).
+
+
 
 Regional scale models
 *****
