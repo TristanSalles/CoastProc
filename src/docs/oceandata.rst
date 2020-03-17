@@ -5,7 +5,7 @@ Ocean data query
 .. raw:: html
 
     <div style="text-align: center; margin-bottom: 2em;">
-    <iframe width="100%" height="350" src="https://www.youtube.com/embed/okxatzjSTO0?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="100%" height="350" src="https://www.youtube.com/embed/_3pQAYt9uNc?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
 
@@ -79,7 +79,7 @@ To be able to understand and manage the ocean, we need meaningful measures of th
 .. raw:: html
 
     <div style="text-align: center; margin-bottom: 2em;">
-    <iframe width="100%" height="350" src="https://www.youtube.com/embed/al1enDC6nWw?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="100%" height="350" src="https://www.youtube.com/embed/fw7jEdk7UyY?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
 
@@ -118,6 +118,12 @@ Each program is designed to assess and predict the effects of weather, climate, 
 
 `IMOS <http://imos.org.au/facilities/>`_ currently has a portfolio of **13 Facilities** that undertake systematic and sustained observing of Australia’s marine environment, across scales (from open ocean, onto the continental shelf, and into the coast), and across disciplines (physics, biogeochemistry, and biology and ecosystems).
 
+
+.. raw:: html
+
+    <div style="text-align: center; margin-bottom: 2em;">
+    <iframe width="100%" height="350" src="https://www.youtube.com/embed/q4uNJ9uHArg?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
 
 Ocean observing technologies
@@ -224,6 +230,6 @@ Working together, agencies like `IMOS <http://imos.org.au>`_ or `IOOS <https://i
 **Finding the resources to sustain coastal observations over relevant time scales is a big challenge**.
 
 .. important::
-  **As coastal data users**- we need to understand how ocean dataset are obtained, managed and stored. We also need to know how to efficiently load these dataset, query and analyse them.
+  **As coastal data users** - we need to understand how ocean dataset are obtained, managed and stored. We also need to know how to efficiently load these dataset, query and analyse them.
 
 As a growing population continues to stress our planet, quality observations will increase in importance. But it is not good enough to measure the planet, we also need to work to ensure this information comes into play in our communities, our economies, and in management decisions.
