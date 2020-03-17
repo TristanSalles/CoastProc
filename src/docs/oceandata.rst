@@ -24,6 +24,26 @@ The coastal ocean is the part of the earth system where land, water, air, and pe
   Data, observations, and models integrated into the **COOS** come from a variety of platforms, including, for example, **moorings**, high-frequency (HF) **radars**, underwater **gliders** and profilers, **satellites**, and **ships**. The resulting data are used to better understand, respond to, and prepare for **short-term** events such as oil spills, harmful algal blooms, and fish kills, **longer term** changes in our oceans resulting in acidification, hypoxia, and sea level rise, and in everyday decisions related to maritime operations, public health, and management of healthy ecosystems.
 
 
+A bit of history
+*****
+
+**Matthew Fontaine Maury** (1806/1873) was an American astronomer, Confederate Navy officer, historian, oceanographer, meteorologist, cartographer, author, geologist, and educator.
+
+He was nicknamed **Pathfinder of the Seas** and **Father of Modern Oceanography and Naval Meteorology** and later, **Scientist of the Seas** for his extensive works in his books, especially *The Physical Geography of the Sea* (1855), the first such extensive and comprehensive book on oceanography to be published. *Maury made many important new contributions to charting winds and ocean currents, including ocean lanes for passing ships at sea*.
+
+As a sailor, Maury noted that there were numerous lessons that had been learned by ship masters about the effects of adverse winds and drift currents on the path of a ship. The captains recorded the lessons faithfully in their logbooks, but they were then forgotten. At the US Naval Observatory, Maury uncovered an enormous collection of thousands of old ships' logs and charts in storage in trunks dating back to the start of the US Navy. He pored over the documents to collect information on winds, calms, and currents for all seas in all seasons. His dream was to put that information in the hands of all captains.
+
+Maury became convinced that adequate scientific knowledge of the sea could be obtained only by international co-operation. He proposed for the United States to invite the maritime nations of the world to a conference to establish a **universal system** of meteorology, and he was the leading spirit of a pioneer scientific conference when it met in *Brussels in 1853*.
+
+As a result of the Brussels Conference, a large number of nations, including many traditional enemies, agreed to co-operate in the sharing of land and sea weather data using uniform standards. It was soon after the Brussels conference that Prussia, Spain, Sardinia, the Free City of Hamburg, the Republic of Bremen, Chile, Austria, and Brazil, and others agreed to joined the enterprise.
+
+Within a few years, nations owning three fourths of the shipping of the world were sending their oceanographic observations to Maury at the Naval Observatory, where the information was evaluated and the results given worldwide distribution.
+
+.. note::
+  Maury's idea set the scene for what is now a Global Ocean Observing Infrastructure! Over the 19th and early 20th century a lot of measurements were made by diverse communities for their **own needs** (scientists, fishermen, commercial navigators…) **BUT** they were not done in an organized way, shared only among small communities, measured over limited periods and areas and not properly archived.
+  In Situ data archeology is a hard job providing questionable datasets.
+
+
 Why do we need ocean observing tools?
 *****
 
@@ -42,25 +62,6 @@ There are a number of significant societal threats and challenges facing humans 
 * The world’s growing population will increasingly rely on the ocean for food, but fishing must be done sustainably.
 
 To be able to understand and manage the ocean, we need meaningful measures of the ocean’s state.
-
-A bit of history
-*****
-
-Matthew Fontaine Maury (January 14, 1806 – February 1, 1873) was an American astronomer, Confederate Navy officer, historian, oceanographer, meteorologist, cartographer, author, geologist, and educator.
-
-He was nicknamed **Pathfinder of the Seas** and **Father of Modern Oceanography and Naval Meteorology** and later, **Scientist of the Seas** for his extensive works in his books, especially *The Physical Geography of the Sea* (1855), the first such extensive and comprehensive book on oceanography to be published. Maury made many important new contributions to charting winds and ocean currents, including ocean lanes for passing ships at sea.
-
-As a sailor, Maury noted that there were numerous lessons that had been learned by ship masters about the effects of adverse winds and drift currents on the path of a ship. The captains recorded the lessons faithfully in their logbooks, but they were then forgotten. At the US Naval Observatory, Maury uncovered an enormous collection of thousands of old ships' logs and charts in storage in trunks dating back to the start of the US Navy. He pored over the documents to collect information on winds, calms, and currents for all seas in all seasons. His dream was to put that information in the hands of all captains.
-
-Maury became convinced that adequate scientific knowledge of the sea could be obtained only by international co-operation. He proposed for the United States to invite the maritime nations of the world to a conference to establish a **universal system** of meteorology, and he was the leading spirit of a pioneer scientific conference when it met in *Brussels in 1853*.
-
-As a result of the Brussels Conference, a large number of nations, including many traditional enemies, agreed to co-operate in the sharing of land and sea weather data using uniform standards. It was soon after the Brussels conference that Prussia, Spain, Sardinia, the Free City of Hamburg, the Republic of Bremen, Chile, Austria, and Brazil, and others agreed to joined the enterprise.
-
-Within a few years, nations owning three fourths of the shipping of the world were sending their oceanographic observations to Maury at the Naval Observatory, where the information was evaluated and the results given worldwide distribution.
-
-.. note::
-  Maury's idea set the scene for what is now a Global Ocean Observing Infrastructure! Since 19th century a lot of measurements have been made by diverse communities for their **own needs** (Scientists, fishermen, commercial navigators…) **BUT** not done in an organized way, shared only among small communities, measured over limited periods and areas, not properly archived.
-  In Situ data archeology is a hard job providing questionable datasets.
 
 
 National & Global Ocean Observing Infrastructure

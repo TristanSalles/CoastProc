@@ -7,7 +7,7 @@ Coastal Processes, Environments & Systems
 =============================================
 
 .. image:: images/announcement.png
-   :scale: 40 %
+   :scale: 30 %
    :alt: Course content
    :align: center
 
