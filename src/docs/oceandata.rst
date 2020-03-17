@@ -76,6 +76,15 @@ There are a number of significant societal threats and challenges facing humans 
 To be able to understand and manage the ocean, we need meaningful measures of the ocean’s state.
 
 
+.. raw:: html
+
+    <div style="text-align: center; margin-bottom: 2em;">
+    <iframe width="100%" height="350" src="https://www.youtube.com/embed/al1enDC6nWw?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+
+
+
 National & Global Ocean Observing Infrastructure
 *****
 
