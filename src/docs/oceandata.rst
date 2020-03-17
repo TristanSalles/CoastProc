@@ -1,6 +1,13 @@
 Ocean data query
 =================
 
+.. raw:: html
+
+    <div style="text-align: center; margin-bottom: 2em;">
+    <iframe width="100%" height="550" src="https://youtu.be/okxatzjSTO0?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+
 Coastal Ocean Observing Systems
 -----------
 
@@ -32,7 +39,7 @@ A bit of history
 He was nicknamed **Pathfinder of the Seas** and **Father of Modern Oceanography and Naval Meteorology** and later, **Scientist of the Seas** for his extensive works in his books, especially *The Physical Geography of the Sea* (1855), the first such extensive and comprehensive book on oceanography to be published. *Maury made many important new contributions to charting winds and ocean currents, including ocean lanes for passing ships at sea*.
 
 .. image:: images/maury.png
-  :scale: 25 %
+  :scale: 30 %
   :alt: Maury
   :align: center
 
@@ -45,8 +52,7 @@ As a result of the Brussels Conference, a large number of nations, including man
 Within a few years, nations owning three fourths of the shipping of the world were sending their oceanographic observations to Maury at the Naval Observatory, where the information was evaluated and the results given worldwide distribution.
 
 .. note::
-  Maury's idea set the scene for what is now a Global Ocean Observing Infrastructure! Over the 19th and early 20th century a lot of measurements were made by diverse communities for their **own needs** (scientists, fishermen, commercial navigators…) **BUT** they were not done in an organized way, shared only among small communities, measured over limited periods and areas and not properly archived.
-  In Situ data archeology is a hard job providing questionable datasets.
+  Maury's idea set the scene for what is now a *Global Ocean Observing Infrastructure*! Over the 19th and early 20th century a lot of measurements were made by diverse communities for their **own needs** (scientists, fishermen, commercial navigators…). However as more and more data was collected by divers communities, data was shared only among small communities and was not properly archived and it wasn’t done in a organised way. In situ archeology is a hard job providing questionable databases!
 
 
 Why do we need ocean observing tools?
