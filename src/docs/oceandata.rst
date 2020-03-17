@@ -1,10 +1,11 @@
 Ocean data query
 =================
 
+
 .. raw:: html
 
     <div style="text-align: center; margin-bottom: 2em;">
-    <iframe width="100%" height="550" src="https://youtu.be/okxatzjSTO0?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="100%" height="350" src="https://www.youtube.com/embed/okxatzjSTO0?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
 
@@ -39,7 +40,7 @@ A bit of history
 He was nicknamed **Pathfinder of the Seas** and **Father of Modern Oceanography and Naval Meteorology** and later, **Scientist of the Seas** for his extensive works in his books, especially *The Physical Geography of the Sea* (1855), the first such extensive and comprehensive book on oceanography to be published. *Maury made many important new contributions to charting winds and ocean currents, including ocean lanes for passing ships at sea*.
 
 .. image:: images/maury.png
-  :scale: 30 %
+  :scale: 40 %
   :alt: Maury
   :align: center
 
