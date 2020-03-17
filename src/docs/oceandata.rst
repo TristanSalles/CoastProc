@@ -199,17 +199,36 @@ Roughly speaking, here is how you should use them:
   One of the great challenges for Ocean Data users is to understand **where** and **how** to find technologies that make it possible to evaluate, validate, verify, and rank information to help them in their jobs. This involves understanding how the ocean data providers are organised, the main standards, vocabularies and formats which are used by the community as well as the best approach for accessing and querying these information routinely.
 
 
+.. important::
+  You should have received an email from `edstem <https://edstem.org>`_ to access the exercises and practicals for this course. Once you have created your password you should be able to run jupyter notebooks from your web browser following the video below.
+
+
+.. raw:: html
+
+    <div style="text-align: center; margin-bottom: 2em;">
+    <iframe width="100%" height="350" src="https://www.youtube.com/embed/PPEAWYaspls?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+.. important::
+  Before starting the exercise, take some times to familiarise yourself with the environment. You will see in the StartHere ipython notebook in your main repository a link to an introduction notebook that I highly recommend to do!
+
+After following the video and the introduction notebook, you will open the workspace in **edstem** and from the bottom of the `StartHere` notebook you will click on the **Ocean Data Query** link. It will open a folder containing exercises and practicals:
+
+* `OceanData1.ipynb` and `OceanData2.ipynb` are 2 exercises that complement what you learned during this lecture,
+* `Oceanforecast.ipynb` and `Waverider.ipynb` are Python notebooks that you will use for your practicals.
+
 Loading and checking IMOS NetCDF dataset
 *****
 
-In this first example, we will work with the `IMOS portal <https://portal.aodn.org.au/search>`_ using `Python <https://www.python.org>`_ via `Jupyter Notebooks <https://jupyter.org>`_. There are several advantages of using Python as a general data analysis language and the notebook environment is a versatile tool that is designed to be interactive, user-friendly, open-source and sharable.
+In this first example (`OceanData1.ipynb`), we will work with the `IMOS portal <https://portal.aodn.org.au/search>`_ using `Python <https://www.python.org>`_ via `Jupyter Notebooks <https://jupyter.org>`_. There are several advantages of using Python as a general data analysis language and the notebook environment is a versatile tool that is designed to be interactive, user-friendly, open-source and sharable.
 
 We will see how to load NetCDF data into a Python environment, and show how to use the data once loaded.
+
 
 Querying and analysis Coastal Ocean Radar dataset
 *****
 
-In this second example, the Australian Coastal Ocean Radar Network (`ACORN <https://portal.aodn.org.au/search>`_) facility comprises a coordinated network of HF radars delivering real-time ocean surface velocity data. We will export the dataset file (NetCDF) for a given region and then we will plot the velocity field at a given time in a latitude/longitude grid.
+In this second example (`OceanData2.ipynb`), the Australian Coastal Ocean Radar Network (`ACORN <https://portal.aodn.org.au/search>`_) facility comprises a coordinated network of HF radars delivering real-time ocean surface velocity data. We will export the dataset file (NetCDF) for a given region and then we will plot the velocity field at a given time in a latitude/longitude grid.
 
 
 Exercises for the practical
@@ -221,6 +240,8 @@ You will run a series of examples that will introduce some aspects of marine dat
 * Analysing off-shore sydney wave buoy data from Australian Integrated Marine Observing System (IMOS) and historical NOAA WW3 model predictions for different locations.
 * Extract Ocean Radar dataset for Turquoise Bay from IMOS and plot them on a map.
 * Access via THREDDS protocol NetCDF forecast prediction dataset for Chesapeake bay (US) from FVCOM model, visualise it and extract relevant information.
+
+Download the practical documentation from Canvas website and answer the questions using the `Oceanforecast.ipynb` and `Waverider.ipynb` notebooks.
 
 Summary
 -----------
