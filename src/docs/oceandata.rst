@@ -31,6 +31,11 @@ A bit of history
 
 He was nicknamed **Pathfinder of the Seas** and **Father of Modern Oceanography and Naval Meteorology** and later, **Scientist of the Seas** for his extensive works in his books, especially *The Physical Geography of the Sea* (1855), the first such extensive and comprehensive book on oceanography to be published. *Maury made many important new contributions to charting winds and ocean currents, including ocean lanes for passing ships at sea*.
 
+.. image:: images/maury.png
+  :scale: 25 %
+  :alt: Maury
+  :align: center
+
 As a sailor, Maury noted that there were numerous lessons that had been learned by ship masters about the effects of adverse winds and drift currents on the path of a ship. The captains recorded the lessons faithfully in their logbooks, but they were then forgotten. At the US Naval Observatory, Maury uncovered an enormous collection of thousands of old ships' logs and charts in storage in trunks dating back to the start of the US Navy. He pored over the documents to collect information on winds, calms, and currents for all seas in all seasons. His dream was to put that information in the hands of all captains.
 
 Maury became convinced that adequate scientific knowledge of the sea could be obtained only by international co-operation. He proposed for the United States to invite the maritime nations of the world to a conference to establish a **universal system** of meteorology, and he was the leading spirit of a pioneer scientific conference when it met in *Brussels in 1853*.
