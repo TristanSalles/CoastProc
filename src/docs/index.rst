@@ -6,6 +6,12 @@
 Coastal Processes, Environments & Systems
 =============================================
 
+.. image:: ../RADWave/Notebooks/images/announcement.png
+   :scale: 10 %
+   :alt: Course content
+   :align: center
+
+
 This part of the course focuses on coastal systems analysis using both *ocean data* from a variety of sources (hindcast and forecast data, satellite observations, radar, moored buoys) & *numerical models* of shoreline changes, wave dynamics and coral reef evolution.
 
 The emphasise will be on:
