@@ -1,6 +1,13 @@
 Analysing wave climate
 =================
 
+.. raw:: html
+
+    <div style="text-align: center; margin-bottom: 2em;">
+    <iframe width="100%" height="550" src="https://www.youtube.com/embed/xmQs-gAYKJo?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+
 Waves are a defining characteristic of water-bodies worldwide, transporting energy that impacts numerous physical and ecological processes. Since World War II, there has been a substantial increase in scientific understanding of wave formation, propagation and resulting impacts on coastal and marine features.
 
 Initial wave studies were restricted to data from voluntary ship observations, which were limited in accuracy and sample size, particularly during extreme conditions. The development of technology such as wave buoys has provided accurate, hourly data of wave height, period and direction. This data enables almost immediate knowledge of the **sea state**, which is the present wave conditions.
@@ -225,6 +232,15 @@ ECLs are a different type of cyclone that has significant effects on the Eastern
 
 Wave climate variability
 -----------
+
+
+
+.. raw:: html
+
+    <div style="text-align: center; margin-bottom: 2em;">
+    <iframe width="100%" height="550" src="https://www.youtube.com/embed/TjStMq64e60?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
 
 Various meteorologically driven changes in atmosphere-ocean coupling can substantially alter surface wind fields and, as a result, influence wave climate on both regional and ocean basin scales (`Godoi et al. 2016 <https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2015JC011572>`_).
 
