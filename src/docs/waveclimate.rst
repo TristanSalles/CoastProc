@@ -4,7 +4,7 @@ Analysing wave climate
 .. raw:: html
 
     <div style="text-align: center; margin-bottom: 2em;">
-    <iframe width="100%" height="550" src="https://www.youtube.com/embed/_UeXIkWP4Q4?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="100%" height="350" src="https://www.youtube.com/embed/_UeXIkWP4Q4?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
 
@@ -326,7 +326,7 @@ Hands-on examples
 
 As we discussed, satellite radar altimeters can be used to determine significant wave height and wind speed. Analysis of past records bring new insights into inter-annual, seasonal and decadal variations of regional wave climates.
 
-For this part of the course we will use **RADWave** a Python package that provides a mechanism to access altimeter datasets through web-enabled data services (THREDDS).
+For this part of the course and to illustrate what we've seen today, we will use **RADWave** a Python package that provides a mechanism to access altimeter datasets through web-enabled data services (THREDDS).
 
 We will work with the `Australian Ocean Data Network <https://portal.aodn.org.au/>`_ database that spans from 1985-present and that has already been calibrated and validated.
 
@@ -338,10 +338,10 @@ With this tool we will query a range of spatial and temporal scales altimeter pa
 * average wave energy densities and
 * wave energy fluxes.
 
-During the lecture and practicals, we will:
+Using **edstem** as last week, you will open the `WaveClimate` folder either from the `StartHere` notebook or directly from the list of repository. Then, you will:
 
-* Extract data from different regions along Australia and evaluate wave modal conditions and seasonal changes in climate variability.
-* Estimate the wave heights along Tropical Cyclone tracks.
+* Extract data from different regions along Australia and evaluate wave modal conditions and seasonal changes in climate variability (notebook name: `WaveAnalysis`).
+* Estimate the wave heights along Tropical Cyclone tracks (notebook name: `CycloneYasi`).
 * Calculate long-term trends and associated modulation by large-scale climate oscillations.
 
 .. raw:: html
