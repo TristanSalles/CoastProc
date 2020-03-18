@@ -4,7 +4,7 @@ Analysing wave climate
 .. raw:: html
 
     <div style="text-align: center; margin-bottom: 2em;">
-    <iframe width="100%" height="550" src="https://www.youtube.com/embed/xmQs-gAYKJo?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="100%" height="550" src="https://www.youtube.com/embed/_UeXIkWP4Q4?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
 
@@ -102,13 +102,7 @@ Wave hindcast models
 Wave hindcast models use **reanalysed wind fields** to investigate **past** waves. Wind speed and duration are required parameters that are calculated alongside fetch and water depth to determine :math:`H_{s}`, :math:`T_{z}` and :math:`\theta`. This provides data sets that are used globally to establish wave climate and can evaluate conditions at different temporal and spatial scales.
 
 .. tip::
-  A widely used wave hindcast is the *National Oceanic and Atmospheric Administration* (NOAA) **WaveWatch III model** (`Tolman 2009 <https://polar.ncep.noaa.gov/mmab/papers/tn276/MMAB_276.pdf>`_).
-
-.. raw:: html
-
-    <div style="text-align: center; margin-bottom: 2em;">
-    <iframe width="100%" height="550" src="https://www.youtube.com/embed/xmQs-gAYKJo?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+  A widely used wave hindcast is the *National Oceanic and Atmospheric Administration* (NOAA) **WaveWatch III model** (`Tolman 2009 <https://polar.ncep.noaa.gov/mmab/papers/tn276/MMAB_276.pdf>`_) as shown in the introduction to this lecture.
 
 
 However, significant problems can arise through error with forced wind condition. For example, extreme events such as TCs can cause abrupt, localised changes to wind speed and direction. Since models such as **WaveWatch III** have relatively coarse spatial-temporal resolution, insufficient energy from wind is inputted leading to significant underestimation of wave conditions during these extreme events. The accuracy of the hindcast model is also dependent of additional source term parameters and generation, propagation and dissipation equations.
@@ -233,14 +227,14 @@ ECLs are a different type of cyclone that has significant effects on the Eastern
 Wave climate variability
 -----------
 
-
+.. note::
+  The broadcasted seminar below investigates: global ocean wind and wave climate and ocean extremes. It describes changes in ocean winds and waves over the last 30 years and projections for future changes out to 2100. It also looks at projections for sea-level rise and the role waves play in determining coastal flooding. The results presented use measurements from a unique dataset of more than 20 satellite missions which have been combined to produce a single long-term global database of wind speed and wave height.
 
 .. raw:: html
 
     <div style="text-align: center; margin-bottom: 2em;">
     <iframe width="100%" height="550" src="https://www.youtube.com/embed/TjStMq64e60?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-
 
 Various meteorologically driven changes in atmosphere-ocean coupling can substantially alter surface wind fields and, as a result, influence wave climate on both regional and ocean basin scales (`Godoi et al. 2016 <https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2015JC011572>`_).
 
