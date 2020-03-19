@@ -287,7 +287,6 @@ with :math:`rho` the water density and :math:`f_w` is the wave friction factor. 
   f_{w} = 1.39 (A_b/k_b)^{-0.52}
 
 
-fw = 1.39 (Ab/kb)−0.52
 where :math:`A_b = u_{w,b}T/2\pi` and :math:`k_b = 2\pi d_{50}/12`, with :math:`d_{50}` median sediment grain-size at the bed.
 
 
@@ -315,7 +314,7 @@ Following Komar, the longshore current velocity (:math:`\vec{v_l}`) in the middl
 .. math::
   \vec{v_l} = \kappa_l u_{w,b} cos(\theta) sin(\theta) \vec{k}
 
-⃗
+
 with :math:`\theta` the angle of incidence of the incoming waves, :math:`\kappa_l` a scaling parameter and :math:`\vec{k}` the unit vector parallel to the breaking depth contour.
 
 
