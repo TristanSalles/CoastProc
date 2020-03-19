@@ -242,6 +242,14 @@ In deep water, the celerity is dependent only on wave length :math:`\sqrt{gL/2\p
 
 From wave celerity and wave length, we calculate wave front propagation (including refraction) based on a **Huygens-principle** method.
 
+
+.. raw:: html
+
+    <div style="text-align: center; margin-bottom: 2em;">
+    <iframe width="100%" height="350" src="https://www.youtube.com/embed/KvOJ0o6Eqw4?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+
 From this, we deduce the wave travel time and define main wave-induced current directions from lines perpendicular to the wave front. Wave height is then calculated along wave front propagation. The algorithm takes into account wave energy dissipation in shallow environment as well as wave-breaking conditions.
 
 As mentioned above, shoaling and refraction are accounted for from a series of deep-water wave conditions through time in the absence of wind forcing. Hence to compute wave field generation, the model requires **bathymetric conditions** and definitions of offshore significant **wave height**, characteristic **period**, and wave **direction**.
