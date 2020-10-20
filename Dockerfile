@@ -16,7 +16,7 @@ RUN apt-get update -qq && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /home/jovyan
-RUN cd legacycontour; python3 setup.py install
+RUN python3 -m pip install --no-cache-dir matplotlib==3.2.2
 
 # change ownership of everything
 ENV NB_USER jovyan
