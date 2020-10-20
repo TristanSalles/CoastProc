@@ -155,6 +155,20 @@ Radar altimeters are mounted on satellites and measure a footprint of the ocean 
 In comparison to a buoy, altimeters provide excellent spatial coverage, with observations along the ground track every second, approximately every 5-7 km. Since the launch of the first altimeter in 1985, (`GEOSAT <https://earth.esa.int/web/eoportal/satellite-missions/g/geosat>`_), altimeters have been used to determine wave climate. With the increased number of altimeters in orbit, the global coverage and temporal density are increasing, resulting in a technology highly suited to characterising wave climate, particularly in areas with no buoys, complicated bathymetry and in remote locations.
 
 
+..  admonition:: Example of wave analyse from satellites measurements
+    :class: toggle
+
+    Visualising Australian Ocean Surface Wave by extracting information from synthetic aperture radar (**SAR**) satellites with a **Jupyter Notebook**:
+
+    .. image:: https://mybinder.org/badge_logo.svg
+      :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/SAR_waves/SAR_waves_getting_started.ipynb
+
+    .. image:: images/SAR.png
+      :width: 90 %
+      :alt: Data acquisition instruments
+      :align: center
+
+
 Wave period
 *************
 
@@ -268,6 +282,7 @@ Wave climate variability
         </div>
 
 
+
 Various meteorologically driven changes in atmosphere-ocean coupling can substantially alter surface wind fields and, as a result, influence wave climate on both regional and ocean basin scales (`Godoi et al. 2016 <https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2015JC011572>`_).
 
 Many studies have shown that the Pacific Ocean wave climate is altered by the **El Nino Southern Oscillation** (ENSO) and the **Southern Annular Mode** (SAM), however, the response to these can be variable in both space and time. Several regions, including islands in the Pacific, are projected to be more at risk from a changing wave climate than risks from sea level (`Hemer et al. 2011 <https://www.environment.gov.au/system/files/pages/275228c5-24db-47f2-bf41-82ef42cda73d/files/wind-wave-report.pdf>`_). Thus, an understanding of the current variability of the wave climate is an important step to understanding the influence of global climate processes and potential links to climate change (`Godoi et al. 2018 <https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/joc.5823>`_).
@@ -379,11 +394,17 @@ With this tool we will query a range of spatial and temporal scales altimeter pa
 * average wave energy densities and
 * wave energy fluxes.
 
-Using **edstem** as last week, you will open the `WaveClimate` folder either from the `StartHere` notebook or directly from the list of repository. Then, you will:
+Using **Jupyter Notebooks** as last week, you will:
 
-* Extract data from different regions along Australia and evaluate wave modal conditions and seasonal changes in climate variability (notebook name: `WaveAnalysis`).
+* Extract data from different regions along Australia and evaluate wave modal conditions and seasonal changes in climate variability. Then calculate long-term trends and associated modulation by large-scale climate oscillations. (notebook name: `WaveAnalysis`).
+
+.. image:: https://mybinder.org/badge_logo.svg
+  :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/WaveClimate/WaveAnalysis.ipynb
+
 * Estimate the wave heights along Tropical Cyclone tracks (notebook name: `CycloneYasi`).
-* Calculate long-term trends and associated modulation by large-scale climate oscillations.
+
+.. image:: https://mybinder.org/badge_logo.svg
+  :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/WaveClimate/WaveAnalysis.ipynb
 
 
 ..  admonition:: RADWave Package by Smith et al. (2020)

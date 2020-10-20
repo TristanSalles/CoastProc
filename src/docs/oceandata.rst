@@ -126,7 +126,7 @@ Each program is designed to assess and predict the effects of weather, climate, 
 
   The Australian `IMOS <http://imos.org.au>`_ was formed in 2007, with equipment deployed from the next year onward. Scientific ’nodes’ were formed broadly around state boundaries with both nationally unified overarching science goals and local priorities. The **NSW-IMOS** is an example of a successfully implemented ocean observing system along the coast of southeastern Australia. The current observational array is designed around pertinent science questions, leveraged existing data streams, and opportunities for further oceanographic research.
 
-`IMOS <http://imos.org.au/facilities/>`_ currently has a portfolio of **13 Facilities** that undertake systematic and sustained observing of Australia’s marine environment, across scales (from open ocean, onto the continental shelf, and into the coast), and across disciplines (physics, biogeochemistry, and biology and ecosystems).
+`IMOS <http://imos.org.au>`_ currently has a portfolio of **13 Facilities** that undertake systematic and sustained observing of Australia’s marine environment, across scales (from open ocean, onto the continental shelf, and into the coast), and across disciplines (physics, biogeochemistry, and biology and ecosystems).
 
 
 .. raw:: html
@@ -160,6 +160,7 @@ Access to ocean data
 All the national systems that participate in the Global Ocean Observing System (`GOOS <https://www.goosocean.org>`_) and the Group on Earth Observations (`GEO <http://www.earthobservations.org/index.php>`_) subscribe to the principal of **free and open data**. It is **policy** within Australia that all observational data collected with governmental funding support are made freely and openly available, which makes sense from scientific, disaster response, and economic perspectives.
 
 .. important::
+
   One challenge `IMOS <http://imos.org.au>`_ faces is the need to support operational systems, often with unique data formats, while simultaneously working to create mutually compatible data access systems and services, and common data formats and metadata standards, in order to facilitate access to this public resource through the internet.
 
 `IMOS <http://imos.org.au>`_ provides marine data such as *temperature*, *salinity*, *currents*, *wind speed/direction*, *waves*, and other primarily physical observations for model assimilation through the GTS (Global Telecommunication System). For broader access, `IMOS <http://imos.org.au>`_ uses three standards to convey the information in an interoperable manner:
@@ -239,12 +240,12 @@ After following the video and the introduction notebook, you will open the works
 * `Oceanforecast.ipynb` and `Waverider.ipynb` are Python notebooks that you will use for your practicals.
 
 
+Loading and checking IMOS NetCDF dataset
+*********************************************
 
 ..  admonition:: Exercise 1
     :class: toggle
 
-    Loading and checking IMOS NetCDF dataset
-    *********************************************
 
     In this first example (`OceanData1.ipynb`), we will work with the `IMOS portal <https://portal.aodn.org.au/search>`_ using `Python <https://www.python.org>`_ via `Jupyter Notebooks <https://jupyter.org>`_. There are several advantages of using Python as a general data analysis language and the notebook environment is a versatile tool that is designed to be interactive, user-friendly, open-source and sharable.
 
@@ -254,11 +255,12 @@ After following the video and the introduction notebook, you will open the works
       :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/QueryOcean/OceanData1.ipynb
 
 
+Querying and analysis Coastal Ocean Radar dataset
+**************************************************
+
 ..  admonition:: Exercise 2
     :class: toggle
 
-    Querying and analysis Coastal Ocean Radar dataset
-    **************************************************
 
     In this second example (`OceanData2.ipynb`), the Australian Coastal Ocean Radar Network (`ACORN <https://portal.aodn.org.au/search>`_) facility comprises a coordinated network of HF radars delivering real-time ocean surface velocity data. We will export the dataset file (NetCDF) for a given region and then we will plot the velocity field at a given time in a latitude/longitude grid.
 
@@ -271,7 +273,7 @@ Exercise for the practical
 
 You will run a series of examples that will introduce some aspects of marine data querying.
 
-* Analysing off-shore sydney wave buoy data from Australian Integrated Marine Observing System (IMOS) and historical NOAA WW3 model predictions for different locations.
+* Analysing off-shore Sydney wave buoy data from Australian Integrated Marine Observing System (IMOS) and historical NOAA WW3 model predictions for different locations.
 * Extract Ocean Radar dataset for Turquoise Bay from IMOS and plot them on a map.
 
 Download the practical documentation from Canvas website and answer the questions using: the `Waverider.ipynb` notebook.

@@ -1,5 +1,5 @@
 Coral reef evolution
-=================
+======================
 
 .. raw:: html
 
@@ -25,7 +25,7 @@ Amongst the approaches available to study coral reef platform formation, **Strat
 
 
 Main physical forces acting on carbonate platform
------------
+-------------------------------------------------------
 
 Corals are calcium-carbonate-secreting, and their ability to grow and build reef structures is dependent upon favourable environmental conditions. Environmental factors affecting growth have been classified by `Veron (1995) <https://books.google.com.au/books/about/Corals_in_Space_and_Time.html?id=piQvtbFUicAC&redir_esc=y>`_ as **latitude-correlated** factors, and those that are **regional or local** in character.
 
@@ -46,7 +46,7 @@ Regional and local environmental factors include wave climate, salinity, water c
 
 
 Accommodation
-*****
+*****************
 
 Accommodation is the vertical and lateral space in the water column above the substrate within which corals can grow. The effect of accommodation on coral growth is the most well-understood constraint on the waxing and waning of reef growth, governed by the rate of vertical accretion of reefs, sea-level rise, subsidence and uplift.
 
@@ -77,7 +77,7 @@ The 2 movies above are based on a numerical model of reef architecture evolution
 
 
 Hydrodynamic energy
-*****
+*********************
 
 
 At the organism level, **currents**, **water flow** and **oscillatory motion** induced by waves are critical in modulating physiological processes in coral and thus influencing coral growth rates.
@@ -100,7 +100,7 @@ While overall, corals tend to grow more rapidly in higher-flow environments, hig
 
 
 Sediment input
-*****
+*****************
 
 .. important::
   High fluxes of both terrigenous and autochthonous sediments are widely identified to have both direct and indirect inhibitory effects on coral reef growth.
@@ -119,15 +119,15 @@ Similarly, prevailing turbid conditions are less common at shallow sites, especi
 
 
 Coral reef modelling approaches
------------
+--------------------------------------------
 
 The organisation of coral reef systems is known to be large and complex and **we are still limited in our understanding of their temporal and spatial evolution**.
 
 Additionally, most datasets of carbonate systems are often linguistic, context-dependent, and based on measurements with large uncertainties. Alternative modelling approaches, such as **fuzzy logic** or **cellular automata** algorithms, have proven to be viable options to simulate these types of system.
 
 
-Cellular automata
-*****
+Cellular Automata
+********************
 
 
 .. raw:: html
@@ -157,7 +157,7 @@ Results from **CARBOCAT** model illustrate the potential of cellular automata mo
 
 
 Fuzzy logic
-*****
+***************
 
 **Fuzzy logic** methods are able to create *logical propositions* from qualitative data by using **linguistic logic rules** and **fuzzy sets**. These fuzzy sets are defined with either continuous or crisp (discontinuous) boundaries.
 
@@ -185,10 +185,10 @@ In the above algorithm, the combination of the fuzzy sets in each fuzzy rule is 
 
 
 Modelling GBR past evolution
------------
+------------------------------
 
 Evolution since Last Glacial Maximum
-*****
+****************************************
 
 Using `badlands <https://www.nature.com/articles/s41598-018-23519-8>`_, a reduced-complexity model developed in the School of Geosciences, we compute over geological time: sediment transport from landmasses to coasts, reworking of marine sediments by longshore currents, and development of coral reef systems.
 
@@ -211,11 +211,12 @@ A simulation of the Holocene evolution of the Great Barrier Reef shows: (1) how 
 
 
 Influence of carbonate platform on geomorphological development of the margin
-*****
+********************************************************************************
 
 Sedimentation regimes on the Great Barrier Reef margin often do not confine to more conventional sequence stratigraphic models, presenting difficulties when attempting to identify key processes that control the margin’s geomorphological evolution.
 
 .. note::
+
   By obstructing and modifying down-shelf and down-slope flows, carbonate platforms are thought to play a central role in altering the distribution and morphological presentation of common margin features.
 
 
@@ -233,11 +234,12 @@ When carbonate platforms are present in model simulations, several notable geomo
 Additionally, steep platform topography triggers incision of slope canyons by hyperpycnal flows, and platforms act as conduits for the delivery of land and shelf-derived sediments to the continental slope and basin. When platforms are absent from the topographic surface, the model is unable to reproduce many of these features.
 
 .. important::
+
   Results demonstrate the essential role of carbonate platform topography in modulating key bedload processes, and therefore exert direct control on the development of various geomorphological features within the shelf, slope, and basin environments.
 
 
 Hands-on examples
------------
+---------------------
 
 Using **pyReef** `model <https://www.geosci-model-dev.net/11/2093/2018/>`_, we will simulate  typical sequences of coral assemblages found in the GBR based on different initial conditions.
 
