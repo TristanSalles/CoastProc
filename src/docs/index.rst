@@ -6,12 +6,17 @@
 Coastal Processes, Environments & Systems
 =============================================
 
-.. image:: images/announcement.png
-   :scale: 30 %
-   :alt: Course content
-   :align: center
 
-This part of the course focuses on coastal systems analysis using both *ocean data* from a variety of sources (hindcast and forecast data, satellite observations, radar, moored buoys) & *numerical models* of shoreline changes, wave dynamics and coral reef evolution.
+..  admonition:: Course structure
+    :class: toggle, important, toggle-shown
+
+    For this component of the unit, we will use:
+
+    1. a *learning website* where you will find all information relative to the lectures themselves: it contains some **notes**, **videos** and **exercises** for each weeks,
+    2. a *web-based programming platform* based on **Jupyter notebooks** that contains all the materials for the **exercises** and **practicals**.
+
+
+This part of the course focuses on coastal systems analysis using both **ocean data** from a variety of sources (hindcast and forecast data, satellite observations, radar, moored buoys) & **numerical models** of shoreline changes, wave dynamics and coral reef evolution.
 
 The emphasise will be on:
 
@@ -38,29 +43,37 @@ During this course, we will learn how to do that using web-enabled open source t
 
 
 Lecture notes content
-*****
+*************************
 
 .. important::
   We will do **computer-based exercises during both lectures and practicals** so you will need to bring an electronic device (preferably a laptop but a tablet with internet access could work). As there will be a lot to cover, it is also recommended to go through each chapter prior to the lecture to be well prepared and able to get the most of it during classes.
 
-.. image:: https://readthedocs.org/projects/coastproc/badge/?version=latest
-  :target: https://coastproc.readthedocs.io/en/latest/?badge=latest
-  :alt: Documentation Status
-
-
-Contents
---------
+About Data
+-----------------
 
 .. toctree::
    oceandata
-   waveclimate
-   coastevol
-   reefmodel
    :maxdepth: 3
 
-Indices and tables
-------------------
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+Offshore Waves
+-----------------------
+
+.. toctree::
+   waveclimate
+   :maxdepth: 3
+
+The Coastal Zone
+-----------------------
+
+.. toctree::
+   coastevol
+   :maxdepth: 3
+
+
+Reefs
+-----------------------
+
+.. toctree::
+  reefmodel
+  :maxdepth: 3

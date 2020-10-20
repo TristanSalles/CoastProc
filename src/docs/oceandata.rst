@@ -2,51 +2,58 @@ Ocean data query
 =================
 
 
-.. raw:: html
+..  admonition:: Chapter content
+    :class: toggle, important, toggle-shown
 
-    <div style="text-align: center; margin-bottom: 2em;">
-    <iframe width="100%" height="350" src="https://www.youtube.com/embed/_3pQAYt9uNc?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+    Below is an introduction to this course content:
+
+    .. raw:: html
+
+        <div style="text-align: center; margin-bottom: 2em;">
+        <iframe width="100%" height="350" src="https://www.youtube.com/embed/_3pQAYt9uNc?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
 
 
 Coastal Ocean Observing Systems
------------
+--------------------------------------------
+
+.. note::
+  Now, more than ever, there is a need for regional to global observing systems that can provide accurate real-time data and forecasts on coastal ocean conditions.
 
 The ocean plays a role in everyone’s life. It affects weather and climate patterns around the globe, hosts an abundance of wildlife that support fishing industries and provide food for the world, serves as a highway for vessels that deliver everyday materials, and supports economies as a tourism destination.
 
 The coastal ocean is the part of the earth system where land, water, air, and people meet together. Populations, businesses, and infrastructure are increasing along coastlines, which are all susceptible to changing coastal ocean conditions.
 
-.. tip::
-  Now, more than ever, there is a need for regional to global observing systems that can provide accurate real-time data and forecasts on coastal ocean conditions.
 
-
-.. image:: images/od1.jpg
-  :scale: 25 %
-  :alt: Data acquisition instruments
-  :align: center
 
 **Coastal ocean observing systems** (COOS) are necessary for advancing our understanding on the state of the coastal ocean worldwide and its impact on matters of societal importance. These systems integrate a network of people, organisations, technologies, and data to share advances, improve research capabilities, and provide decision-makers with access to information and scientific interpretations.
 
+..  admonition:: Data acquisition
+    :class: toggle, important
 
-.. important::
-  Data, observations, and models integrated into the **COOS** come from a variety of platforms, including, for example, **moorings**, high-frequency (HF) **radars**, underwater **gliders** and profilers, **satellites**, and **ships**. The resulting data are used to better understand, respond to, and prepare for **short-term** events such as oil spills, harmful algal blooms, and fish kills, **longer term** changes in our oceans resulting in acidification, hypoxia, and sea level rise, and in everyday decisions related to maritime operations, public health, and management of healthy ecosystems.
+    .. image:: images/od1.jpg
+      :scale: 25 %
+      :alt: Data acquisition instruments
+      :align: center
+
+    Data, observations, and models integrated into the **COOS** come from a variety of platforms, including, for example, **moorings**, high-frequency (HF) **radars**, underwater **gliders** and profilers, **satellites**, and **ships**. The resulting data are used to better understand, respond to, and prepare for **short-term** events such as oil spills, harmful algal blooms, and fish kills, **longer term** changes in our oceans resulting in acidification, hypoxia, and sea level rise, and in everyday decisions related to maritime operations, public health, and management of healthy ecosystems.
 
 
 A bit of history
-*****
+********************
 
 **Matthew Fontaine Maury** (1806/1873) was an American astronomer, Confederate Navy officer, historian, oceanographer, meteorologist, cartographer, author, geologist, and educator.
 
 He was nicknamed **Pathfinder of the Seas** and **Father of Modern Oceanography and Naval Meteorology** and later, **Scientist of the Seas** for his extensive works in his books, especially *The Physical Geography of the Sea* (1855), the first such extensive and comprehensive book on oceanography to be published. *Maury made many important new contributions to charting winds and ocean currents, including ocean lanes for passing ships at sea*.
 
+As a sailor, Maury noted that there were numerous lessons that had been learned by ship masters about the effects of adverse winds and drift currents on the path of a ship. The captains recorded the lessons faithfully in their logbooks, but they were then forgotten. At the US Naval Observatory, Maury uncovered an enormous collection of thousands of old ships' logs and charts in storage in trunks dating back to the start of the US Navy. He pored over the documents to collect information on winds, calms, and currents for all seas in all seasons. His dream was to put that information in the hands of all captains.
+
+Maury became convinced that adequate scientific knowledge of the sea could be obtained only by international co-operation. He proposed for the United States to invite the maritime nations of the world to a conference to establish a **universal system** of meteorology, and he was the leading spirit of a pioneer scientific conference when it met in *Brussels in 1853*.
+
 .. image:: images/maury.png
   :scale: 40 %
   :alt: Maury
   :align: center
-
-As a sailor, Maury noted that there were numerous lessons that had been learned by ship masters about the effects of adverse winds and drift currents on the path of a ship. The captains recorded the lessons faithfully in their logbooks, but they were then forgotten. At the US Naval Observatory, Maury uncovered an enormous collection of thousands of old ships' logs and charts in storage in trunks dating back to the start of the US Navy. He pored over the documents to collect information on winds, calms, and currents for all seas in all seasons. His dream was to put that information in the hands of all captains.
-
-Maury became convinced that adequate scientific knowledge of the sea could be obtained only by international co-operation. He proposed for the United States to invite the maritime nations of the world to a conference to establish a **universal system** of meteorology, and he was the leading spirit of a pioneer scientific conference when it met in *Brussels in 1853*.
 
 As a result of the Brussels Conference, a large number of nations, including many traditional enemies, agreed to co-operate in the sharing of land and sea weather data using uniform standards. It was soon after the Brussels conference that Prussia, Spain, Sardinia, the Free City of Hamburg, the Republic of Bremen, Chile, Austria, and Brazil, and others agreed to joined the enterprise.
 
@@ -57,23 +64,27 @@ Within a few years, nations owning three fourths of the shipping of the world we
 
 
 Why do we need ocean observing tools?
-*****
+****************************************
 
 
 Until recently, the ocean was viewed as *being an unlimited resource to be exploited* (source: *US National Academies of Science report on Economic Benefits of Oceanographic Research, 1964*).  Subsequent science, including that from national and international observing efforts, has changed what we know about the ocean.
 
 Nowadays, we recognise that **the ocean is a finite and shared resource** that needs to be manage regionally, nationally, and worldwide.
 
-There are a number of significant societal threats and challenges facing humans due to the changing ocean:
 
-* The increased frequency and intensity of coastal storms and resulting storm surges will affect our coastal communities and disrupt commerce, nationwide.
-* Sea level changes are threatening critical infrastructure worldwide.
-* Harmful algal blooms and oxygen-deficient dead zones threaten water supplies, fisheries, and coastal recreation.
-* Ocean acidification is negatively impacting coral reefs and shellfish harvesting.
-* The increasing size and number of vessels calling on ports present challenges for our already inadequate maritime infrastructure, and pose potential environmental risks as well.
-* The world’s growing population will increasingly rely on the ocean for food, but fishing must be done sustainably.
+..  admonition:: Societal threats and challenges
+    :class: toggle, important
 
-To be able to understand and manage the ocean, we need meaningful measures of the ocean’s state.
+    There are a number of significant societal threats and challenges facing humans due to the changing ocean:
+
+    * The increased frequency and intensity of coastal storms and resulting storm surges will affect our coastal communities and disrupt commerce, nationwide.
+    * Sea level changes are threatening critical infrastructure worldwide.
+    * Harmful algal blooms and oxygen-deficient dead zones threaten water supplies, fisheries, and coastal recreation.
+    * Ocean acidification is negatively impacting coral reefs and shellfish harvesting.
+    * The increasing size and number of vessels calling on ports present challenges for our already inadequate maritime infrastructure, and pose potential environmental risks as well.
+    * The world’s growing population will increasingly rely on the ocean for food, but fishing must be done sustainably.
+
+    To be able to understand and manage the ocean, we need meaningful measures of the ocean’s state.
 
 
 .. raw:: html
@@ -83,11 +94,8 @@ To be able to understand and manage the ocean, we need meaningful measures of th
     </div>
 
 
-
-
 National & Global Ocean Observing Infrastructure
-*****
-
+**************************************************
 
 Observing systems are expensive; Australia invests billions of dollars in civil Earth observations to ensure that the nation’s decision-makers and managers have the information they need about climate and weather, disaster events, land-use change, ecosystem health, natural resources, and many other characteristics of the planet.
 
@@ -104,9 +112,9 @@ The ocean is a harsh environment in which to operate an observing system, from c
 In addition to providing observations and data to a large and growing number of research projects, student projects, and academic courses, `IMOS <http://imos.org.au>`_ is now recognised as an essential partner in large, multi-institutional research programs across multiple sectors. It has contributed to 180 postgraduate projects, over 400 journal publications, and 250 research projects.
 
 Coastal ocean observing systems development
-*****
+**************************************************
 
-Most large-scale coastal ocean observing systems are funded through national governments for their own interests, often with different foci, but the world’s oceans are connected, therefore partnering is the key to success. As an example, The U.S. Integrated Ocean Observing System (`IOOS <https://ioos.noaa.gov>`_), **Australia’s Integrated Marine Observing System** (`IMOS <http://imos.org.au>`_), or European Ocean Observing System (`EOOS <http://eurogoos.eu/eoos/>`_) are progressing in their respective regions and are working together to observe and compile ocean information in a way that is easily accessible to scientists and managers.
+Most large-scale coastal ocean observing systems are funded through national governments for their own interests, often with different foci, but the world’s oceans are connected, therefore partnering is the key to success. As an example, the U.S. Integrated Ocean Observing System (`IOOS <https://ioos.noaa.gov>`_), **Australia’s Integrated Marine Observing System** (`IMOS <http://imos.org.au>`_), or European Ocean Observing System (`EOOS <http://eurogoos.eu/eoos/>`_) are progressing in their respective regions and are working together to observe and compile ocean information in a way that is easily accessible to scientists and managers.
 
 **IMOS** advances have benefited from an evolving set of ocean observing efforts. The envisioned concept was a coordinated national and international network of observations, data management, and analyses that systematically acquired and disseminated data and information on past, present, and future states of the oceans. The coastal ocean observing efforts are implemented via regional programs distributed around coastal regions.
 
@@ -127,7 +135,7 @@ Each program is designed to assess and predict the effects of weather, climate, 
 
 
 Ocean observing technologies
------------
+------------------------------
 
 It is a complex task to measure the ocean in ways that deliver useful products for people. For example, to deliver a five-day weather forecast for any local region, meteorologists must sample the whole planet. **Satellites** are key tools that provide multispectral images, atmospheric soundings, and sea surface characteristics needed for these forecasts. While satellites enable us to see through the atmosphere, they can only measure the surface of the ocean, and this does not provide the detail needed for accurate weather prediction. Therefore, we also need a complement of in situ measurements that extend our reach to the depths of the oceans at all relevant scales of phenomena. In situ refers to systems that measure on or under the surface of the ocean in continuous and event-driven modes, automatically and by humans.
 
@@ -141,8 +149,8 @@ It is a complex task to measure the ocean in ways that deliver useful products f
 `IMOS <http://imos.org.au>`_ is a global leader in ocean observation. It has infrastructures that operate on continental scales, field observing technologies, shares best practices for a broad suite of variables, and generate masses of data. `IMOS <http://imos.org.au>`_ is partner with `IOOS <https://ioos.noaa.gov>`_ and `OTN <https://oceantrackingnetwork.org>`_ (this later is a global ocean research and technology development platform, in the area of animal tagging and tracking). To understand animal movements and survival, you also have to understand how the animals respond to changes in environmental conditions. Thus, the animal tracking effort is tightly integrated with the observation of the physical and chemical environment, and all networks depend on common platforms for oceanographic observations. Other observing technologies include Argo, moored buoys, high-frequency radar (HFR), and autonomous underwater vehicles known as gliders.
 
 
-Access to the data
-*****
+Access to ocean data
+********************
 
 
 All the national systems that participate in the Global Ocean Observing System (`GOOS <https://www.goosocean.org>`_) and the Group on Earth Observations (`GEO <http://www.earthobservations.org/index.php>`_) subscribe to the principal of **free and open data**. It is **policy** within Australia that all observational data collected with governmental funding support are made freely and openly available, which makes sense from scientific, disaster response, and economic perspectives.
@@ -157,16 +165,19 @@ All the national systems that participate in the Global Ocean Observing System (
 * Web Map Services (**WMS**) OGC Standard.
 
 
-.. raw:: html
+..  admonition:: AODN web portal
+    :class: toggle
 
-      <iframe width="695" height="515"
-      src="https://portal.aodn.org.au/search"
-      frameborder="0" allowfullscreen></iframe>
+    .. raw:: html
+
+          <iframe width="695" height="515"
+          src="https://portal.aodn.org.au/search"
+          frameborder="0" allowfullscreen></iframe>
 
 
 
 Modeling and analysis
-*****
+*************************
 
 
 Prediction of future conditions is critical to deliver the full benefits of an ocean observing system. The Australian ocean and coastal modeling community is a partnership between multiple universities and national organisations (CSIRO, IMOS, GA, BOM to cite a few) that is being asked to provide greater resolution models that cover not only traditional physical water circulation, which remains a critical need, but also expand outputs to include inundation forecasting and ecosystem modeling.
@@ -178,7 +189,7 @@ In May 2014, `IMOS <http://imos.org.au>`_ published the **IMOS Strategy 2015-25*
 
 
 Hands-on examples
------------
+--------------------
 
 As we just saw, access to quality data is **essential to understand marine processes**.
 
@@ -189,6 +200,10 @@ Over the last 20 years, **ocean data portals** have emerged and are routinely us
 
 
 Wave height measurements taken every day by a buoy offshore Sydney are data. A graph showing the evolution of the significant wave height over time, at a given place, is information. The fact that the number of extreme storms hitting Australian's coast increases as a result of climate change is knowledge. These three notions are very closely linked.
+
+Exercises for the lecture
+***********************************
+
 Roughly speaking, here is how you should use them:
 
 * A piece of data provides a basic description, typically numerical for our purposes, of a given reality.
@@ -196,43 +211,49 @@ Roughly speaking, here is how you should use them:
 * By understanding the meaning of information, we obtain knowledge.
 
 .. note::
+
   One of the great challenges for Ocean Data users is to understand **where** and **how** to find technologies that make it possible to evaluate, validate, verify, and rank information to help them in their jobs. This involves understanding how the ocean data providers are organised, the main standards, vocabularies and formats which are used by the community as well as the best approach for accessing and querying these information routinely.
 
 
 .. important::
-  You should have received an email from `edstem <https://edstem.org>`_ to access the exercises and practicals for this course. Once you have created your password you should be able to run jupyter notebooks from your web browser following the video below.
 
-
-.. raw:: html
-
-    <div style="text-align: center; margin-bottom: 2em;">
-    <iframe width="100%" height="350" src="https://www.youtube.com/embed/PPEAWYaspls?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-
-.. important::
   Before starting the exercise, take some times to familiarise yourself with the environment. You will see in the StartHere ipython notebook in your main repository a link to an introduction notebook that I highly recommend to do!
+
+  .. raw:: html
+
+      <div style="text-align: center; margin-bottom: 2em;">
+      <iframe width="100%" height="350" src="https://www.youtube.com/embed/PPEAWYaspls?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
 
 After following the video and the introduction notebook, you will open the workspace in **edstem** and from the bottom of the `StartHere` notebook you will click on the **Ocean Data Query** link. It will open a folder containing exercises and practicals:
 
 * `OceanData1.ipynb` and `OceanData2.ipynb` are 2 exercises that complement what you learned during this lecture,
 * `Oceanforecast.ipynb` and `Waverider.ipynb` are Python notebooks that you will use for your practicals.
 
-Loading and checking IMOS NetCDF dataset
-*****
-
-In this first example (`OceanData1.ipynb`), we will work with the `IMOS portal <https://portal.aodn.org.au/search>`_ using `Python <https://www.python.org>`_ via `Jupyter Notebooks <https://jupyter.org>`_. There are several advantages of using Python as a general data analysis language and the notebook environment is a versatile tool that is designed to be interactive, user-friendly, open-source and sharable.
-
-We will see how to load NetCDF data into a Python environment, and show how to use the data once loaded.
 
 
-Querying and analysis Coastal Ocean Radar dataset
-*****
+..  admonition:: Exercise 1
+    :class: toggle
 
-In this second example (`OceanData2.ipynb`), the Australian Coastal Ocean Radar Network (`ACORN <https://portal.aodn.org.au/search>`_) facility comprises a coordinated network of HF radars delivering real-time ocean surface velocity data. We will export the dataset file (NetCDF) for a given region and then we will plot the velocity field at a given time in a latitude/longitude grid.
+    Loading and checking IMOS NetCDF dataset
+    *********************************************
+
+    In this first example (`OceanData1.ipynb`), we will work with the `IMOS portal <https://portal.aodn.org.au/search>`_ using `Python <https://www.python.org>`_ via `Jupyter Notebooks <https://jupyter.org>`_. There are several advantages of using Python as a general data analysis language and the notebook environment is a versatile tool that is designed to be interactive, user-friendly, open-source and sharable.
+
+    We will see how to load NetCDF data into a Python environment, and show how to use the data once loaded.
+
+
+..  admonition:: Exercise 2
+    :class: toggle
+
+    Querying and analysis Coastal Ocean Radar dataset
+    **************************************************
+
+    In this second example (`OceanData2.ipynb`), the Australian Coastal Ocean Radar Network (`ACORN <https://portal.aodn.org.au/search>`_) facility comprises a coordinated network of HF radars delivering real-time ocean surface velocity data. We will export the dataset file (NetCDF) for a given region and then we will plot the velocity field at a given time in a latitude/longitude grid.
 
 
 Exercises for the practical
-*****
+***********************************
 
 You will run a series of examples that will introduce some aspects of marine data querying.
 

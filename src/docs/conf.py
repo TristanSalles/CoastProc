@@ -33,7 +33,7 @@ SingleFileHTMLBuilder.supported_image_types = html_img_types
 # -- Project information -----------------------------------------------------
 
 project = u'CoastProc'
-copyright = u'2020, Tristan Salles'
+copyright = u'2021, Tristan Salles'
 author = u'Tristan Salles'
 
 # The short X.Y version
@@ -53,7 +53,7 @@ release = u'0.0.1'
 # ones.
 extensions = ['sphinx.ext.viewcode', 'sphinx.ext.todo',
               'sphinxcontrib.napoleon', 'sphinx.ext.autodoc',
-              'sphinxemoji.sphinxemoji']
+              'sphinx_togglebutton','sphinxemoji.sphinxemoji']
 numfig = True
 
 # The suffix(es) of source filenames.
