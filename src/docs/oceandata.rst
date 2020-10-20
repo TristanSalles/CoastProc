@@ -272,14 +272,7 @@ You will run a series of examples that will introduce some aspects of marine dat
 * Extract Ocean Radar dataset for Turquoise Bay from IMOS and plot them on a map.
 * Access via THREDDS protocol NetCDF forecast prediction dataset for Chesapeake bay (US) from FVCOM model, visualise it and extract relevant information.
 
-Download the practical documentation from Canvas website and answer the questions using: the `Oceanforecast.ipynb` and `Waverider.ipynb` notebooks.
-
-1. the `Oceanforecast.ipynb`
-
-.. image:: https://mybinder.org/badge_logo.svg
-  :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/QueryOcean/Oceanforecast.ipynb
-
-2. the `Waverider.ipynb`
+Download the practical documentation from Canvas website and answer the questions using: the `Waverider.ipynb` notebook.
 
 .. image:: https://mybinder.org/badge_logo.svg
   :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/QueryOcean/Waverider.ipynb

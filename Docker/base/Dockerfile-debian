@@ -97,7 +97,9 @@ RUN python3 -m pip install --no-cache-dir \
 
 RUN python3 -m pip install --no-cache-dir \
     joblib \
-    oauth2client
+    oauth2client \
+    wavespectra \
+    sympy
 
 
 # Jovyan user / group
