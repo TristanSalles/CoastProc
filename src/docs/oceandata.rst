@@ -262,15 +262,13 @@ After following the video and the introduction notebook, you will open the works
       :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/QueryOcean/OceanData2.ipynb
 
 
-Exercises for the practical
+Exercise for the practical
 ***********************************
 
 You will run a series of examples that will introduce some aspects of marine data querying.
 
-* Using Basemap library to map Global Ocean Salinity from NASA via THREDDS data server.
 * Analysing off-shore sydney wave buoy data from Australian Integrated Marine Observing System (IMOS) and historical NOAA WW3 model predictions for different locations.
 * Extract Ocean Radar dataset for Turquoise Bay from IMOS and plot them on a map.
-* Access via THREDDS protocol NetCDF forecast prediction dataset for Chesapeake bay (US) from FVCOM model, visualise it and extract relevant information.
 
 Download the practical documentation from Canvas website and answer the questions using: the `Waverider.ipynb` notebook.
 
