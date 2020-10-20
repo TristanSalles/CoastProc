@@ -1,82 +1,101 @@
 Analysing wave climate
-=================
+========================
 
-.. raw:: html
 
-    <div style="text-align: center; margin-bottom: 2em;">
-    <iframe width="100%" height="350" src="https://www.youtube.com/embed/_UeXIkWP4Q4?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+..  admonition:: Chapter content
+    :class: toggle, important, toggle-shown
 
+    How waves are forming and changing in response to climate perturbations?
+
+    .. raw:: html
+
+        <div style="text-align: center; margin-bottom: 2em;">
+        <iframe width="100%" height="350" src="https://www.youtube.com/embed/_UeXIkWP4Q4?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+Overview of this chapter content
+---------------------------------
 
 Waves are a defining characteristic of water-bodies worldwide, transporting energy that impacts numerous physical and ecological processes. Since World War II, there has been a substantial increase in scientific understanding of wave formation, propagation and resulting impacts on coastal and marine features.
 
 Initial wave studies were restricted to data from voluntary ship observations, which were limited in accuracy and sample size, particularly during extreme conditions. The development of technology such as wave buoys has provided accurate, hourly data of wave height, period and direction. This data enables almost immediate knowledge of the **sea state**, which is the present wave conditions.
 
-.. image:: images/bom_wave.jpg
-  :scale: 27 %
+.. figure:: images/bom_wave.jpg
+  :width: 90 %
   :alt: Wave Climate BOM
   :align: center
 
-.. note::
-  In Australia, waves have been officially recorded since 1974 with the deployment of the first Waverider buoy in Port Kembla, New South Wales (`Hemer et al. 2007 <https://www.jstor.org/stable/26481627?seq=2#metadata_info_tab_contents>`_). This was the start of an increasing network of *buoys*, *High-Frequency radars* and other wave measurement technology leading to significant knowledge of wave dynamics around the Australian coastline. A further technological leap in wave monitoring was achieved in 1985, with the launch of the `GEOSAT <https://earth.esa.int/web/eoportal/satellite-missions/g/geosat>`_ satellites with a mounted *altimeter*. As a remote sensing technique, altimeters provide wave data observations with unparalleled spatial and temporal resolution (`Ribal & Young 2019 <https://www.nature.com/articles/s41597-019-0083-9>`_). Long-term analysis of wave conditions can lead to the characterisation of a wave climate, which is the modal wave conditions of an area (`Godoi et al. 2016 <https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2015JC011572>`_).
+  Wave Climate from the Australian Bureau of Meteorology.
+
+..  admonition:: Wave records in Australia
+    :class: toggle, toggle-shown
+
+    In Australia, waves have been officially recorded since 1974 with the deployment of the first Waverider buoy in Port Kembla, New South Wales (`Hemer et al. 2007 <https://www.jstor.org/stable/26481627?seq=2#metadata_info_tab_contents>`_). This was the start of an increasing network of *buoys*, *High-Frequency radars* and other wave measurement technology leading to significant knowledge of wave dynamics around the Australian coastline. A further technological leap in wave monitoring was achieved in 1985, with the launch of the `GEOSAT <https://earth.esa.int/web/eoportal/satellite-missions/g/geosat>`_ satellites with a mounted *altimeter*. As a remote sensing technique, altimeters provide wave data observations with unparalleled spatial and temporal resolution (`Ribal & Young 2019 <https://www.nature.com/articles/s41597-019-0083-9>`_). Long-term analysis of wave conditions can lead to the characterisation of a wave climate, which is the modal wave conditions of an area (`Godoi et al. 2016 <https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2015JC011572>`_).
 
 Variation from the modal wave climate can occur due to *extreme events* such as large **storms**, **Tropical Cyclones** (TC) or **tsunamis**. For Australia, it is critical to understand these extreme conditions and to analyse their role in ecological disturbance, as well as to predict present and future vulnerability, particularly with anthropogenic climate change likely to increase the frequency of intense TCs along our coasts.
 
 The wave climate of a region is further impacted by **climate oscillations**, which are semi-regular cyclical changes that have well-defined effects on regional and global weather patterns. These fluctuations typically influence atmospheric temperature, sea surface temperature, wind or precipitation. Oscillations operate on different timescales and can therefore occur together, enhancing or diminishing the effects of each event (`Godoi et al. 2019 <https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/joc.5823>`_). A key example is the El Nino-Southern Oscillation (**ENSO**), which plays an integral role in climate modulation over the Pacific Ocean and surrounding continents. Both the Australian modal and extreme wave climates can be substantially influenced by these climate oscillations, primarily due to changes in wind patterns and changes to extreme event frequency and intensity.
 
 Wave formation
------------
+---------------
 
-Ocean waves are formed by several different mechanisms and as a result, can have a wide range of properties. In this course, we focus on **ocean surface gravity waves** (henceforth referred to as waves), also known as *wind-generated waves*.
+Ocean waves are formed by different mechanisms and as a result, can have a wide range of properties. In this course, we focus on **ocean surface gravity waves** (henceforth referred to as waves), also known as *wind-generated waves*.
 
 
 .. important::
+
   At the atmosphere-ocean interface, kinetic wind energy is transferred to the ocean, which with sufficient wind, generate waves (`Holthuijsen 2007 <https://www.cambridge.org/core/books/waves-in-oceanic-and-coastal-waters/F6BF070B00266943B0ABAFEAE6F54465>`_). Several factors influence wave formation, including the *strength* and *duration* of the wind, and the *fetch*, the distance over open ocean which the wind blows.
 
 
 When wind blows over only a short distance, wind-waves are formed. In Australia, these locally-generated waves typically have a short period of **1-8 s**, and travel slower than the prevailing wind. In contrast, swell-waves are generated by distant storms and have propagated out of the wave-generation area. Swell has a longer period of **8-30 s**, and is only minimally influenced by local wind conditions. In many instances, these two wave types occur simultaneously and can travel in opposite directions, creating chaotic seas.
 
-.. image:: images/windwave.jpg
-  :scale: 27 %
+.. figure:: images/windwave.jpg
+  :width: 90 %
   :alt: Ocean wave frequency and period. Source: Holthuijsen (2007).
   :align: center
 
+  Ocean wave frequency and period from `Holthuijsen (2007) <https://www.cambridge.org/core/books/waves-in-oceanic-and-coastal-waters/F6BF070B00266943B0ABAFEAE6F54465>`_.
 
 Wave Parameters
-*****
+*****************
 
 Waves can be characterised by parameters such as *wave period*, *height*, *power* and *direction*. Distinctions between different wave classes are based on these measurements and are used to describe both individual waves and the wave climate of a region.
 
 The vertical distance between the maximum and minimum surface elevation over one wave period is referred to as **wave height** (`Holthuijsen 2007 <https://www.cambridge.org/core/books/waves-in-oceanic-and-coastal-waters/F6BF070B00266943B0ABAFEAE6F54465>`_). To define the overall wave height of many waves, typically the significant wave height is calculated (:math:`H_{s}`). Mathematically, :math:`H_{s}` is the mean of the highest third of waves in a given sample period (`Holthuijsen 2007 <https://www.cambridge.org/core/books/waves-in-oceanic-and-coastal-waters/F6BF070B00266943B0ABAFEAE6F54465>`_); traditionally, it is the height a trained observer would see when attempting to estimate average wave height, as humans would not see or consider the smallest waves.
 
-.. image:: images/hstz.jpg
-  :scale: 50 %
-  :alt: Wave height and wave period from a time record of ocean surface elevation, defined by downward zero-crossings. Source: Holthuijsen (2007).
+.. figure:: images/hstz.jpg
+  :width: 80 %
+  :alt: Wave height and wave period.
   :align: center
+
+  Wave height and wave period from a time record of ocean surface elevation, defined by downward zero-crossings from Holthuijsen (2007).
 
 
 **Wave period** is the time for one full wavelength to pass a given point, from the beginning to the end of the wave (`Holthuijsen 2007 <https://www.cambridge.org/core/books/waves-in-oceanic-and-coastal-waters/F6BF070B00266943B0ABAFEAE6F54465>`_).
 Usually, the zero-crossing period is used (:math:`T_{z}`) that measures the time for a wave to go below the mean elevation, rise above, then return to mean elevation.
 
-As waves propagate across the ocean surface, energy is also transferred, referred to as **wave power** (:math:`P`) or **wave energy flux**. The :math:`P` of each wave is proportional to the :math:`T_{z}` and the square of :math:`H_{s}`, with higher values producing more powerful waves (Airy 1841). This parameter is important as it combines both :math:`H_{s}` and :math:`T_{z}`, providing an overall understanding of the wave conditions and the energy it transports. For example, a wave with a :math:`H_{s}` of 1 m and :math:`T_{z}` of 5 s will have less power than a wave with an :math:`H_{s}` of 1m and :math:`T_{z}` of 8s.
+As waves propagate across the ocean surface, energy is also transferred, referred to as **wave power** (:math:`P`) or **wave energy flux**. The :math:`P` of each wave is proportional to the :math:`T_{z}` and the square of :math:`H_{s}`, with higher values producing more powerful waves (Airy 1841). This parameter is important as it combines both :math:`H_{s}` and :math:`T_{z}`, providing an overall understanding of the wave conditions and the energy it transports. For example, a wave with a :math:`H_{s}` of 1 m and :math:`T_{z}` of 5 s will have less power than a wave with an :math:`H_{s}` of 1m and :math:`T_{z}` of 8 s.
 
 
 **Propagation direction** (:math:`\theta`) is the direction from which waves are coming from. In certain regions a particular wave direction can indicate different swell characteristics, for example, large waves from the South-East in Queensland, Australia, indicate strong Southern Ocean swell or Extra-Tropical Cyclone swell, whilst large waves from the north indicate Tropical Cyclone waves.
 
 
 Characterising wave climate
------------
+----------------------------
 
-The modal wave climate of a region is determined through a long-term analysis of several wave parameters, including :math:`H_{s}`, :math:`T_{z}`, :math:`P` and :math:`\theta` (`Holthuijsen 2007 <https://www.cambridge.org/core/books/waves-in-oceanic-and-coastal-waters/F6BF070B00266943B0ABAFEAE6F54465>`_).
+The modal wave climate of a region is determined through a long-term analysis of several wave parameters, including :math:`H_{s}`, :math:`T_{z}`, :math:`P` and :math:`\theta`.
 
 
-.. image:: images/waveclimate.jpg
-   :scale: 35 %
+.. figure:: images/waveclimate.jpg
+   :width: 100 %
    :alt: Wave climate analysis
    :align: center
 
+   Wave climate analysis
+
 
 There are numerous techniques that can be used to measure these parameters. However, most methods do not measure all parameters: a deliberate choice must be made, with consideration to the advantages and disadvantages of each technique. Frequently, the method chosen is customarily calibrated with other techniques or used in combination.
+
 Common methods include:
 
 * wave buoys,
@@ -85,19 +104,19 @@ Common methods include:
 
 
 Wave buoys
-*****
+***********
 
 Wave buoy data is routinely considered ground truth, as it is a physical measurement of individual waves instead of remote sensing (`Hemer et al. 2007 <https://www.jstor.org/stable/26481627?seq=2#metadata_info_tab_contents>`_). Buoys also provide the most reliable and accurate records, particularly for extreme values. Despite this, variations in sampling, calibration and computational methods can lead to significant errors by both over and under-estimating wave parameters.
 
 .. note::
+
   `Bender et al. (2010) <https://journals.ametsoc.org/doi/full/10.1175/2010JTECHO724.1>`_ revealed buoys can overestimate :math:`H_{s}` by 26%, and overestimate during hurricane peak by up to 56%, leading to significant and highly misleading errors.
 
 Buoys are also spatially limited, measuring only waves that propagate directly through the site, leading to a restricted understanding of regional wave climates. Furthermore, many locations do not have buoys in operation, thereby inhibiting the analysis of wave climate through buoys alone.
 
 
 Wave hindcast models
-*****
-
+***********************
 
 Wave hindcast models use **reanalysed wind fields** to investigate **past** waves. Wind speed and duration are required parameters that are calculated alongside fetch and water depth to determine :math:`H_{s}`, :math:`T_{z}` and :math:`\theta`. This provides data sets that are used globally to establish wave climate and can evaluate conditions at different temporal and spatial scales.
 
@@ -114,13 +133,15 @@ Therefore, whilst wave hindcast models can provide excellent information of wave
 
 
 Wave-sensing technology
-*****
+*************************
 
 
-.. image:: images/altimeter.jpg
-  :scale: 8 %
+.. figure:: images/altimeter.jpg
+  :width: 60 %
   :alt: Altimeter data
   :align: center
+
+  Altimeter data
 
 
 A remarkable wave-sensing technology with high spatial-temporal density is the radar altimeter, widely established as a pinnacle remote sensing technique to determine wave climates globally (`Ribal & Young 2019 <https://www.nature.com/articles/s41597-019-0083-9>`_).
@@ -135,7 +156,7 @@ In comparison to a buoy, altimeters provide excellent spatial coverage, with obs
 
 
 Wave period
-*****
+*************
 
 For waves that have been locally generated by wind, the local wind speed and wave height, both of which are accurately measured by altimeters, can be used to determine :math:`T_{z}`. More accurate results are achieved when the *wave age* is calculated first, which is the length of time wind has been acting on a wave.
 
@@ -153,7 +174,7 @@ Wave age :math:`\epsilon` can then be used to estimate :math:`T_{z}`:
 
 
 Wave energy, group velocity & power
-*****
+*************************************************
 
 Mean wave energy density (:math:`E`) (J/m2) is calculated by:
 
@@ -172,11 +193,11 @@ And wave power :math:`P` can, therefore, be estimated through:
 .. math::
    P = E C_{g}
 
-which is the wave energy flux per metre of wave-crest (W/m). This is then converted into kW/m for ease of analysis.
+which is the wave energy flux per metre of wave-crest (W/m).
 
 
 Extreme wave climate
------------
+------------------------
 
 Globally, extreme waves are generated by:
 
@@ -186,55 +207,66 @@ Globally, extreme waves are generated by:
 * large storms.
 
 
-.. image:: images/waveextreme.jpg
-  :scale: 26 %
+.. figure:: images/waveextreme.jpg
+  :width: 90 %
   :alt: Global 1-in-100 year significant wave height from Initial Distribution Method analysis
   :align: center
 
+  Global 1-in-100 year significant wave height from Initial Distribution Method analysis (`Takbash & Young 2019 <https://journals.ametsoc.org/doi/pdf/10.1175/JCLI-D-19-0255.1>`_).
 
-Above figure depicts the estimated 1-in-100 year significant wave height globally, with larger waves predominate in the higher latitudes due to extended fetch and frequent storms, whilst equatorial regions experience smaller extreme waves (`Takbash & Young 2011 <https://journals.ametsoc.org/doi/pdf/10.1175/JCLI-D-19-0255.1>`_).
+
+Above figure depicts the estimated 1-in-100 year significant wave height globally, with larger waves predominate in the higher latitudes due to extended fetch and frequent storms, whilst equatorial regions experience smaller extreme waves (`Takbash & Young 2019 <https://journals.ametsoc.org/doi/pdf/10.1175/JCLI-D-19-0255.1>`_).
 
 Cyclones are a broad category of weather systems that can cause extreme waves, characterised by strong winds around a low pressure centre. TCs are formed over tropical or sub-tropical regions, whilst Extra-Tropical Cyclones form in the mid- or high-latitudes.
 
 .. note::
-  East Coast Lows (ECL) are one such Extra-Tropical Cyclone that is generated near southeastern Australia, from either tropical or mid-latitude controls (`Dowdy et al. 2019 <https://link.springer.com/article/10.1007/s00382-019-04836-8>`_).
+  **East Coast Lows** (**ECL**) are one such Extra-Tropical Cyclone that is generated near southeastern Australia, from either tropical or mid-latitude controls (`Dowdy et al. 2019 <https://link.springer.com/article/10.1007/s00382-019-04836-8>`_).
 
-TC are low pressure systems that periodically develop over warm oceans. Sea surface temperature is a key driver of TCs, with a positive temperature anomaly leading to increased intensity and kinetic energy of the TC, as well as enhanced storm surges.
+Tropical cyclones (**TC**) are low pressure systems that periodically develop over warm oceans. Sea surface temperature is a key driver of TCs, with a positive temperature anomaly leading to increased intensity and kinetic energy of the TC, as well as enhanced storm surges.
 
 Strong winds and heavy rain can extend hundreds of kilometres from TC centres, and can last from days to weeks. The consequent destructive wind, rainfall, waves and storm surges are highly dangerous, causing extensive risk to life and millions of dollars in property damage. For example, severe TC Justin caused the death of over thirty people due to storm surges and large waves (source: *Bureau of Meteorology*).
 
 
-.. image:: images/cyclone.jpg
-  :scale: 16 %
+.. figure:: images/cyclone.jpg
+  :width: 70 %
   :alt: Four active tropical cyclones are visible in this atmospheric circulation map provided by the Earth Wind Map project. source: http://earth.nullschool.net/.
   :align: center
+
+  Four active tropical cyclones are visible in this atmospheric circulation map provided by the Earth Wind Map project. source: http://earth.nullschool.net/.
 
 
 TCs are major drivers of coral reef disturbance and destruction, with reefs close to a cyclone experiencing a decrease in hard coral cover, taxonomic richness and coral density that can last for decades. Lagoon flooding, increased sediment load, decrease in local salinity and pH levels are further impacts which negatively affect coral growth and recovery.
 
 .. note::
+
   Along with severe storms, cyclone waves are key producers of coral rubble. Together with carbonate sand, coral rubble constitutes the majority of reef volume. Over time and subsequent extreme events, the coral rubble progrades and can form rubble spits and islands. Despite the catastrophic nature of these impacts, TC are spatially bound, and thus reefs will typically go a number of years before another major disturbance tracks through the same area.
 
 
-.. image:: images/yasi.jpg
-  :scale: 45 %
+.. figure:: images/yasi.jpg
+  :width: 80 %
   :alt: Coral reef damage in the Great Barrier Reef following Tropical Cyclone Yasi. Source: Beeden et al. (2015)
   :align: center
+
+  Coral reef damage in the Great Barrier Reef following Tropical Cyclone Yasi. Source: Beeden et al. (2015)
 
 ECLs are a different type of cyclone that has significant effects on the Eastern Australian coastline. Formed by a temperature gradient between cold air in the upper atmosphere and warm Tasman Sea air, ECLs generate extreme winds, precipitation and large waves (`Dowdy et al. 2019 <https://link.springer.com/article/10.1007/s00382-019-04836-8>`_). They typically develop in the winter months close to the New South Wales coast, however, impacts can spread to southern Queensland and Victoria. Whilst typically not as severe as TCs, gusts over 170 km/hr and waves of over 14 m have been recorded, resulting in dangerous maritime conditions and coastal destruction.
 
 
 Wave climate variability
------------
+---------------------------
 
-.. note::
-  The broadcasted seminar below investigates: global ocean wind and wave climate and ocean extremes. It describes changes in ocean winds and waves over the last 30 years and projections for future changes out to 2100. It also looks at projections for sea-level rise and the role waves play in determining coastal flooding. The results presented use measurements from a unique dataset of more than 20 satellite missions which have been combined to produce a single long-term global database of wind speed and wave height.
 
-.. raw:: html
+..  admonition:: Seminar on global wind & wave climate by Young et al. (2019)
+    :class: toggle
 
-    <div style="text-align: center; margin-bottom: 2em;">
-    <iframe width="100%" height="550" src="https://www.youtube.com/embed/TjStMq64e60?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+    The broadcasted seminar below investigates: global ocean wind and wave climate and ocean extremes. It describes changes in ocean winds and waves over the last 30 years and projections for future changes out to 2100. It also looks at projections for sea-level rise and the role waves play in determining coastal flooding. The results presented use measurements from a unique dataset of more than 20 satellite missions which have been combined to produce a single long-term global database of wind speed and wave height.
+
+    .. raw:: html
+
+        <div style="text-align: center; margin-bottom: 2em;">
+        <iframe width="100%" height="550" src="https://www.youtube.com/embed/TjStMq64e60?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
 
 Various meteorologically driven changes in atmosphere-ocean coupling can substantially alter surface wind fields and, as a result, influence wave climate on both regional and ocean basin scales (`Godoi et al. 2016 <https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2015JC011572>`_).
 
@@ -242,19 +274,21 @@ Many studies have shown that the Pacific Ocean wave climate is altered by the **
 
 
 Seasonal changes
-*****
+*******************
 
 Along eastern Australia, the strength of south-east trade winds fluctuate throughout the year and occur predominantly during the austral winter during *April-October* (dry season). From *November-March* (wet season) the trade winds lessen and can even reverse, linked to the Australian Monsoon and the location of the **Intertropical Convergence Zone** (ITCZ) (`Hemer et al. 2007 <https://www.jstor.org/stable/26481627?seq=2#metadata_info_tab_contents>`_). During the wet season, the ITCZ moves closer to Australia, decreasing the strength of trade winds. Periodically, increased strength north-west winds occur due to the presence of the Australian Monsoon. This could have a significant impact on wave climate, with **decreased modal wave heights** during the wet season, however with **small periods of higher waves** due to intense storm and precipitation events during monsoons.
 
 
-.. image:: images/trendglob.jpg
-  :scale: 57 %
+.. figure:: images/trendglob.jpg
+  :width: 90 %
   :alt: Altimeter global trend in significant wave height from 1985-2018. (A) Mean trend and (B) 90th percentile trend. Young & Ribal 2019.
   :align: center
 
+  Altimeter global trend in significant wave height from 1985-2018. (A) Mean trend and (B) 90th percentile trend (from `Young & Ribal, 2019 <https://science.sciencemag.org/content/332/6028/451>`_).
+
 
 Long-term trends
-*****
+*******************
 
 Several regions of the global ocean have statistically significant positive and negative trends in :math:`H_{s}`. An analysis of 33 years of altimeter data by `Young & Ribal (2019) <https://science.sciencemag.org/content/332/6028/451>`_ (see figure above) determined that extreme 90th percentile waves in the Southern Ocean are increasing by 1 cm/year, and in the North Atlantic by 0.8 cm/year. This is often correlated to an increase in extreme wind strength in the region.
 
@@ -267,7 +301,7 @@ Many regions, such as Southern Australia, can be dominated by swell rather than 
   Long-term decadal trends in wave height are occurring at different rates around the globe, with mean and extreme waves exhibiting different behaviours.
 
 Climate oscillations
-*****
+**********************
 
 The **ENSO** phenomenon is the largest and most influential mode of climate variation that operates on a seasonal-to-interannual timescale. It is a complex ocean-air coupling in the equatorial region of the Central and Eastern Pacific Ocean that has significant influence over global climate.
 
@@ -277,23 +311,26 @@ The **ENSO** phenomenon is the largest and most influential mode of climate vari
 * In contrast, the negative **El Nino** phase leads to a shift in atmospheric circulation, with a **weakening or reversal of the dominant south-easterly trade winds** and **decreased frequency of TC** for Australia.
 
 
-.. image:: images/climvar.jpg
-  :scale: 30 %
+.. figure:: images/climvar.jpg
+  :width: 90 %
   :alt: Wind-wave origins for the Pacific Ocean, representing the multi-modal components to form the wave climate. Adapted from Hemer et al. (2011)
   :align: center
+
+  Wind-wave origins for the Pacific Ocean, representing the multi-modal components to form the wave climate. Adapted from `Hemer et al. (2011) <https://www.environment.gov.au/system/files/pages/275228c5-24db-47f2-bf41-82ef42cda73d/files/wind-wave-report.pdf>`_.
 
 .. note::
   There is a substantial connection between the **two ENSO extreme phases** to inter-annual wave height and direction variability (`Hemer et al. 2011 <https://www.environment.gov.au/system/files/pages/275228c5-24db-47f2-bf41-82ef42cda73d/files/wind-wave-report.pdf>`_). This typically results in **atypical coastal erosion** around the Pacific Ocean, with different locations experiencing diverse effects).
 
 For example, the West Coast of the United States experiences an **increase in winter wave energy during El Nino phases**, leading to substantial beach erosion and coastal flooding. The region also experiences a more dominant southerly wave direction during the El Nino phase, which drives abnormal erosion in beaches normally protected from severe swell.
 
+..  admonition:: Understanding ENSO
+    :class: toggle, important
 
-.. raw:: html
+    .. raw:: html
 
-    <div style="text-align: center; margin-bottom: 2em;">
-    <iframe width="100%" height="550" src="https://www.youtube.com/embed/dzat16LMtQk?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-
+        <div style="text-align: center; margin-bottom: 2em;">
+        <iframe width="100%" height="550" src="https://www.youtube.com/embed/dzat16LMtQk?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
 
 
 
@@ -301,7 +338,8 @@ In contrast, the **La Nina phase is linked to higher wave energy on the Eastern 
 
 In New Zealand, increased :math:`H_{s}` occurs during both of the ENSO extreme phases, resulting in increased coastal and marine operational risk alongside potential changes to biological and physical marine processes.
 
-.. important::
+.. note::
+
   Climate change is predicted to bring more frequent and extreme ENSO events of both phases, which could lead to atypical wave conditions. Therefore, it is imperative to understand the historical impacts of ENSO on wave climate to predict the future conditions for marine and coastal vulnerability globally.
 
 
@@ -311,22 +349,25 @@ The **SAM**, also known as the **Antarctic Oscillation**, is the principal mode 
 
 * In the negative phase, the belt expands north and can lead to **increased storm frequency and precipitation in Australia and New Zealand** (`Godoi et al. 2016 <https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2015JC011572>`_).
 
-.. raw:: html
+..  admonition:: Understanding the Southern Annular Mode (SAM)
+    :class: toggle, important
 
-    <div style="text-align: center; margin-bottom: 2em;">
-    <iframe width="100%" height="550" src="https://www.youtube.com/embed/KrhWsXCB3u8?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+    .. raw:: html
+
+      <div style="text-align: center; margin-bottom: 2em;">
+      <iframe width="100%" height="550" src="https://www.youtube.com/embed/KrhWsXCB3u8?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
 
 
 Thus, climate oscillations can significantly modulate the wave climate around the globe, leading to diverse effects in different regions. Oscillations can also enhance or detract the effects of other oscillations, leading to complex interactions and influence on both atmospheric and wave climate.
 
 
 Hands-on examples
------------
+---------------------
 
 As we discussed, satellite radar altimeters can be used to determine significant wave height and wind speed. Analysis of past records bring new insights into inter-annual, seasonal and decadal variations of regional wave climates.
 
-For this part of the course and to illustrate what we've seen today, we will use **RADWave** a Python package that provides a mechanism to access altimeter datasets through web-enabled data services (THREDDS).
+For this part of the course and to illustrate what we've seen today, we will use **RADWave** a Python package that provides a mechanism to access altimeter datasets through web-enabled data services (**THREDDS**).
 
 We will work with the `Australian Ocean Data Network <https://portal.aodn.org.au/>`_ database that spans from 1985-present and that has already been calibrated and validated.
 
@@ -344,8 +385,12 @@ Using **edstem** as last week, you will open the `WaveClimate` folder either fro
 * Estimate the wave heights along Tropical Cyclone tracks (notebook name: `CycloneYasi`).
 * Calculate long-term trends and associated modulation by large-scale climate oscillations.
 
-.. raw:: html
 
-    <div style="text-align: center; margin-bottom: 2em;">
-    <iframe width="100%" height="550" src="https://radwave.readthedocs.io/en/latest/usage.html?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+..  admonition:: RADWave Package by Smith et al. (2020)
+    :class: toggle
+
+    .. raw:: html
+
+      <div style="text-align: center; margin-bottom: 2em;">
+      <iframe width="100%" height="550" src="https://radwave.readthedocs.io/en/latest/usage.html?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>

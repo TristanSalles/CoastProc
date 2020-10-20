@@ -31,10 +31,12 @@ The coastal ocean is the part of the earth system where land, water, air, and pe
 ..  admonition:: Data acquisition
     :class: toggle, important
 
-    .. image:: images/od1.jpg
-      :scale: 25 %
+    .. figure:: images/od1.jpg
+      :width: 90 %
       :alt: Data acquisition instruments
       :align: center
+
+      Data acquisition instruments
 
     Data, observations, and models integrated into the **COOS** come from a variety of platforms, including, for example, **moorings**, high-frequency (HF) **radars**, underwater **gliders** and profilers, **satellites**, and **ships**. The resulting data are used to better understand, respond to, and prepare for **short-term** events such as oil spills, harmful algal blooms, and fish kills, **longer term** changes in our oceans resulting in acidification, hypoxia, and sea level rise, and in everyday decisions related to maritime operations, public health, and management of healthy ecosystems.
 
@@ -51,7 +53,7 @@ As a sailor, Maury noted that there were numerous lessons that had been learned 
 Maury became convinced that adequate scientific knowledge of the sea could be obtained only by international co-operation. He proposed for the United States to invite the maritime nations of the world to a conference to establish a **universal system** of meteorology, and he was the leading spirit of a pioneer scientific conference when it met in *Brussels in 1853*.
 
 .. image:: images/maury.png
-  :scale: 40 %
+  :width: 80 %
   :alt: Maury
   :align: center
 
@@ -140,10 +142,12 @@ Ocean observing technologies
 It is a complex task to measure the ocean in ways that deliver useful products for people. For example, to deliver a five-day weather forecast for any local region, meteorologists must sample the whole planet. **Satellites** are key tools that provide multispectral images, atmospheric soundings, and sea surface characteristics needed for these forecasts. While satellites enable us to see through the atmosphere, they can only measure the surface of the ocean, and this does not provide the detail needed for accurate weather prediction. Therefore, we also need a complement of in situ measurements that extend our reach to the depths of the oceans at all relevant scales of phenomena. In situ refers to systems that measure on or under the surface of the ocean in continuous and event-driven modes, automatically and by humans.
 
 
-.. image:: images/od2.jpg
-  :scale: 25 %
+.. figure:: images/od2.jpg
+  :width: 80 %
   :alt: IMOS Facilities
   :align: center
+
+  IMOS Facilities
 
 
 `IMOS <http://imos.org.au>`_ is a global leader in ocean observation. It has infrastructures that operate on continental scales, field observing technologies, shares best practices for a broad suite of variables, and generate masses of data. `IMOS <http://imos.org.au>`_ is partner with `IOOS <https://ioos.noaa.gov>`_ and `OTN <https://oceantrackingnetwork.org>`_ (this later is a global ocean research and technology development platform, in the area of animal tagging and tracking). To understand animal movements and survival, you also have to understand how the animals respond to changes in environmental conditions. Thus, the animal tracking effort is tightly integrated with the observation of the physical and chemical environment, and all networks depend on common platforms for oceanographic observations. Other observing technologies include Argo, moored buoys, high-frequency radar (HFR), and autonomous underwater vehicles known as gliders.
