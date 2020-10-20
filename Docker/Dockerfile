@@ -15,10 +15,14 @@ RUN apt-get update -qq && \
     gettext && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
+WORKDIR /home/jovyan
+RUN cd legacycontour; python3 setup.py install
+
 # change ownership of everything
 ENV NB_USER jovyan
 RUN chown -R jovyan:jovyan /home/jovyan
 USER jovyan
+
 
 # Non standard as the files come from the packages
 ##################################################
