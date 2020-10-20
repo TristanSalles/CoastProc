@@ -1,6 +1,6 @@
 # docker login --username=yourhubusername --password=yourpassword
-# docker build -t tristansalles/coastproc-bundle:latest -f Dockerfile-debian .
-# sudo docker push tristansalles/coastproc-bundle:latest
+# docker build -t tristansalles/coastproc-bundle:2021 -f Dockerfile-debian .
+# sudo docker push tristansalles/coastproc-bundle:2021
 
 FROM debian:latest
 
@@ -79,6 +79,27 @@ RUN HDF5_INCDIR=/usr/include/hdf5/serial \
     HDF5_LIBDIR=/usr/lib/x86_64-linux-gnu/hdf5/serial \
     python3 -m pip install --no-cache-dir git+https://github.com/Unidata/netcdf4-python
 
+
+### RADWave - Notebooks
+RUN python3 -m pip install --no-cache-dir \
+    RADWave==0.0.2 \
+    statsmodels \
+    py-wave-runup \
+    geopandas>=0.4.1 \
+    scikit-image>=0.15.0 \
+    scikit-learn>=0.20.3 \
+    shapely==1.6.4 \
+    scipy>=1.2.1 \
+    spyder>=3.3.4 \
+    notebook>=5.7.8 \
+    astropy \
+    six>=1.13.0
+
+RUN python3 -m pip install --no-cache-dir \
+    joblib \
+    oauth2client
+
+
 # Jovyan user / group
 
 ENV NB_USER jovyan
@@ -93,12 +114,55 @@ RUN adduser --disabled-password \
 RUN addgroup jovyan  || true
 RUN usermod -a -G jovyan jovyan || true
 
+USER root
+
+WORKDIR /home/jovyan
+RUN git clone --depth=1 https://github.com/TristanSalles/pybeach.git
+RUN cd pybeach; python3 setup.py install
+
+WORKDIR /home/jovyan
+RUN git clone --depth=1 https://github.com/matplotlib/legacycontour.git
+RUN cd legacycontour; python3 setup.py install
+
+RUN python3 -m pip install --no-cache-dir --upgrade nose \
+   jupyterhub notebook ipykernel
+RUN python3 -m ipykernel install
+
+RUN apt-get update -qq && \
+    DEBIAN_FRONTEND=noninteractive apt-get install -yq --no-install-recommends \
+        python-dev \
+        python-pip
+
+RUN python2 -m pip install --no-cache-dir --upgrade pip setuptools
+
+RUN python2 -m pip install jupyter markupsafe zmq singledispatch backports_abc certifi jsonschema path.py matplotlib pandas plotly
+RUN apt-get install -y libnetcdf-dev python-mpltoolkits.basemap
+RUN python2 -m pip install scipy
+RUN python2 -m pip install numpy
+RUN python2 -m pip install cmocean
+RUN python2 -m pip install colorlover
+RUN python2 -m pip install scikit-fuzzy
+
+RUN python2 -m pip install -e git+https://github.com/hplgit/odespy.git#egg=odespy
+
+RUN python2 -m pip install --no-cache-dir --upgrade ipykernel
+RUN python2 -m ipykernel install
+
+WORKDIR /home/jovyan
+RUN git clone https://github.com/pyReef-model/pyReefCore.git
+RUN cd /home/jovyan/pyReefCore; python2 setup.py install  #python2 -m pip install -e /home/jovyan/pyReefCore
+RUN cp -r /home/jovyan/pyReefCore/pyReefCore/* /usr/local/lib/python2.7/dist-packages/pyReefCore/
 
 # LavaVu stuff
 # script for xvfb-run.  all docker commands will effectively run under this via the entrypoint
 RUN printf "#\041/bin/sh \n rm -f /tmp/.X99-lock && xvfb-run -s '-screen 0 1600x1200x16' \$@" >> /usr/local/bin/xvfbrun.sh && \
 chmod +x /usr/local/bin/xvfbrun.sh
 
+WORKDIR /home/jovyan
+RUN git clone https://github.com/TristanSalles/CoastProc.git
+RUN rm -rf /home/jovyan/Notebooks
+RUN mv CoastProc/Notebooks /home/jovyan
+RUN cd /home/jovyan/Notebooks/notebooks/LongTerm/wavesed;  f2py3 -c -m ocean ocean.f90
 
 # Add Tini
 EXPOSE 8888

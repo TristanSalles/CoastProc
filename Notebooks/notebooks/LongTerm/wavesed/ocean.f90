@@ -9,7 +9,7 @@
 
 ! Loop over node coordinates and find if they belong to local partition.
 !
-! f2py -c -m ocean ocean.f90
+! f2py3 -c -m ocean ocean.f90
 
 module ocean
 

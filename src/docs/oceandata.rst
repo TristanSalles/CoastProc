@@ -225,6 +225,10 @@ Roughly speaking, here is how you should use them:
       <iframe width="100%" height="350" src="https://www.youtube.com/embed/PPEAWYaspls?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
 
+
+  .. image:: https://mybinder.org/badge_logo.svg
+    :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/IntroNotebook.ipynb
+
 After following the video and the introduction notebook, you will open the workspace in **edstem** and from the bottom of the `StartHere` notebook you will click on the **Ocean Data Query** link. It will open a folder containing exercises and practicals:
 
 * `OceanData1.ipynb` and `OceanData2.ipynb` are 2 exercises that complement what you learned during this lecture,
@@ -242,6 +246,9 @@ After following the video and the introduction notebook, you will open the works
 
     We will see how to load NetCDF data into a Python environment, and show how to use the data once loaded.
 
+    .. image:: https://mybinder.org/badge_logo.svg
+      :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/QueryOcean/OceanData1.ipynb
+
 
 ..  admonition:: Exercise 2
     :class: toggle
@@ -250,6 +257,9 @@ After following the video and the introduction notebook, you will open the works
     **************************************************
 
     In this second example (`OceanData2.ipynb`), the Australian Coastal Ocean Radar Network (`ACORN <https://portal.aodn.org.au/search>`_) facility comprises a coordinated network of HF radars delivering real-time ocean surface velocity data. We will export the dataset file (NetCDF) for a given region and then we will plot the velocity field at a given time in a latitude/longitude grid.
+
+    .. image:: https://mybinder.org/badge_logo.svg
+      :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/QueryOcean/OceanData2.ipynb
 
 
 Exercises for the practical
@@ -262,7 +272,18 @@ You will run a series of examples that will introduce some aspects of marine dat
 * Extract Ocean Radar dataset for Turquoise Bay from IMOS and plot them on a map.
 * Access via THREDDS protocol NetCDF forecast prediction dataset for Chesapeake bay (US) from FVCOM model, visualise it and extract relevant information.
 
-Download the practical documentation from Canvas website and answer the questions using the `Oceanforecast.ipynb` and `Waverider.ipynb` notebooks.
+Download the practical documentation from Canvas website and answer the questions using: the `Oceanforecast.ipynb` and `Waverider.ipynb` notebooks.
+
+1. the `Oceanforecast.ipynb`
+
+.. image:: https://mybinder.org/badge_logo.svg
+  :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/QueryOcean/Oceanforecast.ipynb
+
+2. the `Waverider.ipynb`
+
+.. image:: https://mybinder.org/badge_logo.svg
+  :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/QueryOcean/Waverider.ipynb
+
 
 Summary
 -----------
