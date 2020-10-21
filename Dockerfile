@@ -28,7 +28,14 @@ RUN git clone --single-branch --branch xbeach https://github.com/TristanSalles/C
 # change ownership of everything
 ENV NB_USER jovyan
 RUN chown -R jovyan:jovyan /home/jovyan
-USER jovyan
+
+USER root
+RUN chown -R jovyan:jovyan /home/jovyan/CoastProc
+RUN chown -R jovyan:jovyan /home/jovyan/CoastProc/scripts
+RUN chown -R jovyan:jovyan /home/jovyan/CoastProc/Notebooks
+RUN chown -R jovyan:jovyan /home/jovyan/CoastProc/Notebooks/notebooks
+RUN chown -R jovyan:jovyan /home/jovyan/CoastProc/Notebooks/notebooks/DelflandStorm
+RUN chown -R jovyan:jovyan /home/jovyan/CoastProc/Notebooks/notebooks/NourishmentCase
 
 # Non standard as the files come from the packages
 ##################################################
