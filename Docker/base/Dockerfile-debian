@@ -166,6 +166,8 @@ RUN rm -rf /home/jovyan/Notebooks
 RUN mv CoastProc/Notebooks /home/jovyan
 RUN cd /home/jovyan/Notebooks/notebooks/LongTerm/wavesed;  f2py3 -c -m ocean ocean.f90
 
+RUN python3 -m pip install --no-cache-dir cftime==1.0.4.2 netcdf4==1.4.3
+
 # Add Tini
 EXPOSE 8888
 ENV TINI_VERSION v0.18.0

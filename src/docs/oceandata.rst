@@ -268,6 +268,13 @@ Querying and analysis Coastal Ocean Radar dataset
       :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/QueryOcean/OceanData2.ipynb
 
 
+
+..  admonition:: Quick view of buoy dataset for the Gold Coast
+    :class: toggle
+
+    .. image:: https://mybinder.org/badge_logo.svg
+      :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/QueryOcean/BuoyGoldCoast.ipynb
+
 Exercise for the practical
 ***********************************
 

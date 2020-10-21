@@ -1,7 +1,7 @@
 #################################################
 #  Short docker file to distribute some notebooks
 #################################################
-ARG FROMIMG_ARG=tristansalles/coastproc-bundle:2021
+ARG FROMIMG_ARG=tristansalles/coastproc-bundle:2021-2
 FROM ${FROMIMG_ARG}
 
 ##################################################

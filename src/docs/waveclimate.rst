@@ -396,15 +396,18 @@ With this tool we will query a range of spatial and temporal scales altimeter pa
 
 Using **Jupyter Notebooks** as last week, you will:
 
-* Extract data from different regions along Australia and evaluate wave modal conditions and seasonal changes in climate variability. Then calculate long-term trends and associated modulation by large-scale climate oscillations. (notebook name: `WaveAnalysis`).
+* Extract data from different regions along Australia and evaluate wave modal conditions and seasonal changes in climate variability. Then calculate long-term trends and associated modulation by large-scale climate oscillations.
 
 .. image:: https://mybinder.org/badge_logo.svg
-  :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/WaveClimate/WaveAnalysis.ipynb
-
-* Estimate the wave heights along Tropical Cyclone tracks (notebook name: `CycloneYasi`).
+  :target: https://mybinder.org/v2/gh/pyReef-model/RADWave/binder?urlpath=tree/Notebooks/notebooks/RADWave1-TileAnalysis.ipynb
 
 .. image:: https://mybinder.org/badge_logo.svg
-  :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/WaveClimate/WaveAnalysis.ipynb
+  :target: https://mybinder.org/v2/gh/pyReef-model/RADWave/binder?urlpath=tree/Notebooks/notebooks/RADWave2-ClimateVariability.ipynb
+
+* Estimate the wave heights along Tropical Cyclone tracks.
+
+.. image:: https://mybinder.org/badge_logo.svg
+  :target: https://mybinder.org/v2/gh/pyReef-model/RADWave/binder?urlpath=tree/Notebooks/notebooks/RADWave3-CycloneYasi.ipynb
 
 
 ..  admonition:: RADWave Package by Smith et al. (2020)
