@@ -21,12 +21,15 @@ USER root
 
 WORKDIR /home/jovyan
 
-RUN git clone --single-branch --branch xbeach https://github.com/TristanSalles/CoastProc.git
-
 
 USER jovyan
+RUN git clone --single-branch --branch xbeach https://github.com/TristanSalles/CoastProc.git
 
-RUN pwd
+# change ownership of everything
+ENV NB_USER jovyan
+RUN chown -R jovyan:jovyan /home/jovyan
+USER jovyan
+
 # Non standard as the files come from the packages
 ##################################################
 ARG IMAGENAME_ARG
@@ -53,8 +56,4 @@ RUN find -name \*.ipynb  -print0 | xargs -0 jupyter trust
 # expose notebook port server port
 EXPOSE $NB_PORT
 
-# note we use xvfb which to mimic the X display for lavavu
-ENTRYPOINT ["/usr/local/bin/xvfbrun.sh"]
-
-# launch notebook
-CMD /home/jovyan/CoastProc/Docker/scripts/run-jupyter.sh
+CMD /home/jovyan/CoastProc/scripts/run-jupyter.sh
