@@ -37,6 +37,7 @@ RUN chown -R jovyan:jovyan /home/jovyan/CoastProc/Notebooks/notebooks
 RUN chown -R jovyan:jovyan /home/jovyan/CoastProc/Notebooks/notebooks/DelflandStorm
 RUN chown -R jovyan:jovyan /home/jovyan/CoastProc/Notebooks/notebooks/NourishmentCase
 
+USER jovyan
 # Non standard as the files come from the packages
 ##################################################
 ARG IMAGENAME_ARG
@@ -63,4 +64,10 @@ RUN find -name \*.ipynb  -print0 | xargs -0 jupyter trust
 # expose notebook port server port
 EXPOSE $NB_PORT
 
-CMD /home/jovyan/CoastProc/scripts/run-jupyter.sh
+#USER root
+#RUN chown -R jovyan:jovyan /home/jovyan/CoastProc/scripts
+
+#USER jovyan
+#RUN /home/jovyan/CoastProc/scripts/run-jupyter.sh
+
+CMD jupyter-notebook --ip='0.0.0.0' --no-browser --NotebookApp.token=$NB_PASSWD --NotebookApp.default_url='/tree/'
