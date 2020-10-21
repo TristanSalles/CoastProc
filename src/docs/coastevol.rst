@@ -174,11 +174,51 @@ There are many different algorithms currently available for automatically detect
 Coastline evolution
 ----------------------
 
-.. raw:: html
 
-    <div style="text-align: center; margin-bottom: 2em;">
-    <iframe width="100%" height="350" src="https://www.youtube.com/embed/9s9kkQu2JZg?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+Longshore drift
+***********************************
+
+
+Longshore drift is induced by longshore current and transport sediments (clay, silt, pebbles, sand and shingle) along coastlines parallel to the shoreline and depends on oblique incoming wave direction.
+
+Oblique incoming waves push water along the coast, and generate a water current which moves parallel to the coast. Longshore drift is the sediment movement associated with this longshore current. This sediment movement occurs within the surf zone.
+
+
+..  admonition:: One-line model
+    :class: toggle, toggle-shown
+
+    This video explains how longshore drift is simulated using 1-line model.
+
+    .. raw:: html
+
+      <div style="text-align: center; margin-bottom: 2em;">
+      <iframe width="100%" height="350" src="https://www.youtube.com/embed/9s9kkQu2JZg?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+
+As we have seen in the previous video, one-line models of shoreline evolution can reproduce embayed beach morphology in the lee of a headland or promontory. They are based on simple rules to describe the adjustment in wave height and direction due to diffraction in the shadow of a promontory and demonstrated that the resulting bay forms were similar in form to a logarithmic spiral.
+
+
+.. image:: images/cove2.jpg
+  :scale: 25 %
+  :alt: longshore drift
+  :align: center
+
+In one-line models, the shoreline is represented by a single line (or contour) that advances or retreats depending on the net alongshore sediment flux. One-line models make a number of simplifying assumptions to conceptualise the coastline allowing the ‘one-line’ representation of the coastline:
+
+1. Short-term cross-shore variations due to storms or rip currents are considered temporary perturbations to the long-term trajectory of coastal change (i.e. the shoreface recovers rapidly from storm-driven cross-shore transport).
+2. The beach profile is thus assumed to maintain a constant time-averaged form, implying that depth contours are shore-parallel and therefore allows the coast to be represented by a single contour line (right panels in top figure).
+3. Alongshore sediment transport occurs primarily in the surf zone, and cross-shore sediment transport acts to maintain the equilibrium shoreface as it advances /retreats.
+4. Alongshore sediment flux occurs due to wave action in the surf zone, parameterized by the height and angle of incidence of breaking waves. Gradients in alongshore transport dictate whether the shoreline advances or retreats.
+
+Bulk alongshore sediment flux is driven by waves breaking on the shoreface. Typically in alongshore transport laws, flux depends on the height :math:`H_b` and angle :math:`\alpha_b` of breaking waves. For example, the CERC equation is given by:
+
+
+ .. math::
+    Q_{ls} = K_{ls} H_b^{5/2} sin(2\alpha_b)
+
+
+where :math:`K_{ls}` is a transport coefficient. The transport coefficient :math:`K_{ls}` may be modified to account for the size of beach material (:math:`D_{50}`). Calibration of this coefficient can be made from estimates of bulk alongshore transport or by calibration against a historical record of coastal change (*e.g.* `Barkwith et al. (2014) <http://www.earth-surf-dynam.net/2/295/2014/esurf-2-295-2014.html>`_).
 
 
 Analysing shoreline changes
@@ -186,12 +226,12 @@ Analysing shoreline changes
 
 Space-borne observations have been employed in a wide range of change detection applications, including the analysis of meandering river morphodynamics, delineation of wetland footprints and identification of oil spills.
 
-.. note::
-  Recently, optical imaging satellites have begun to be used to measure the location of the shoreline, which is regarded by coastal managers, planners, engineers and scientists as a key indicator of how coastlines vary and evolve over time.
+Recently, optical imaging satellites have begun to be used to measure the location of the shoreline, which is regarded by coastal managers, planners, engineers and scientists as a key indicator of how coastlines vary and evolve over time.
 
 Nowadays, it is possible to use image composites from satellites to map the position of the shoreline with a horizontal accuracy of the order of half a pixel (i.e., **15 m** for Landsat images and **5 m** for Sentinel-2 images).  Some studies have even managed to detect  shoreline at a sub-pixel resolution technique in low-energy microtidal beach and reported horizontal accuracies of less than 10 m using Landsat 7, Landsat 8 and Sentinel-2 images.
 
 .. important::
+
   Satellite remote sensing can provide low-cost long-term shoreline data capable of analysing multi-decadal temporal changes relevant to coastal scientists and engineers at sites where no in-situ field measurements are available.
 
 `CoastSat <https://github.com/kvos/CoastSat>`_ is an example of such open-source package developed at the Water Research Laboratory in Manly that can be used to obtain time-series of shoreline position at any coastline worldwide from 30+ years (and growing) of publicly available satellite imagery.
@@ -209,7 +249,6 @@ The toolbox has three main functionalities:
 1. assisted retrieval from Google Earth Engine of all available satellite images spanning the user-defined region of interest and time period.
 2. automated extraction of shorelines from all the selected images using a sub-pixel resolution technique
 3. intersection of the 2D shorelines with user-defined shore-normal transects
-
 
 .. image:: images/coastsat.jpg
   :scale: 20 %
@@ -233,30 +272,16 @@ Examples of crenulated bay shapes at different scales from `Hurst et al. (2015) 
 
 Embayed beaches tend toward an equilibrium form under a prevailing wave climate. The planform morphology will adjust until gradients in alongshore sediment flux are minimised (net alongshore sediment flux is constant). Alongshore sediment flux will be negligible on an equilibrium coastline when there are no external sediment inputs. Subsequent changes in planform morphology may occur such as beach rotation, driven by changes in wave climate characteristics that alter alongshore sediment transport.
 
-.. note::
-  One-line models of shoreline evolution can reproduce embayed beach morphology in the lee of a headland or promontory. They are based on simple rules to describe the adjustment in wave height and direction due to diffraction in the shadow of a promontory and demonstrated that the resulting bay forms were similar in form to a logarithmic spiral.
+
+..  admonition:: Embayed beaches evolution
+    :class: toggle, important, toggle-shown
+
+    .. image:: https://mybinder.org/badge_logo.svg
+      :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/CoastalEvolution/BaySensitivity.ipynb
+
+    Click on the above button to simulate the evolution of embayed beach under different wave climates.
 
 
-.. image:: images/cove2.jpg
-  :scale: 25 %
-  :alt: longshore drift
-  :align: center
-
-In one-line models, the shoreline is represented by a single line (or contour) that advances or retreats depending on the net alongshore sediment flux. One-line models make a number of simplifying assumptions to conceptualise the coastline allowing the ‘one-line’ representation of the coastline:
-
-1. Short-term cross-shore variations due to storms or rip currents are considered temporary perturbations to the long-term trajectory of coastal change (i.e. the shoreface recovers rapidly from storm-driven cross-shore transport).
-2. The beach profile is thus assumed to maintain a constant time-averaged form, implying that depth contours are shore-parallel and therefore allows the coast to be represented by a single contour line (right panels in top figure).
-3. Alongshore sediment transport occurs primarily in the surf zone, and cross-shore sediment transport acts to maintain the equilibrium shoreface as it advances /retreats.
-4. Alongshore sediment flux occurs due to wave action in the surf zone, parameterized by the height and angle of incidence of breaking waves. Gradients in alongshore transport dictate whether the shoreline advances or retreats.
-
-Bulk alongshore sediment flux is driven by waves breaking on the shoreface. Typically in alongshore transport laws, flux depends on the height :math:`H_b` and angle :math:`\alpha_b` of breaking waves. For example, the CERC equation is given by:
-
-
- .. math::
-    Q_{ls} = K_{ls} H_b^{5/2} sin(2\alpha_b)
-
-
-where :math:`K_{ls}` is a transport coefficient. The transport coefficient :math:`K_{ls}` may be modified to account for the size of beach material (:math:`D_{50}`). Calibration of this coefficient can be made from estimates of bulk alongshore transport or by calibration against a historical record of coastal change (*e.g.* `Barkwith et al. (2014) <http://www.earth-surf-dynam.net/2/295/2014/esurf-2-295-2014.html>`_).
 
 Regional scale models
 *************************
@@ -403,41 +428,61 @@ where :math:`C_e` is an entrainment coefficient controlling the relationship bet
 
 Marine sediments are further mobilised by a diffusion law similar to the one referred to as soil creep in the aerial domain to simulate long-term sediment dispersal induced by slope.
 
-.. image:: https://mybinder.org/badge_logo.svg
-  :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/LongTerm/SedTransport.ipynb
+
+..  admonition:: Long-term, reduced complexity model
+    :class: toggle, important, toggle-shown
+
+    .. image:: https://mybinder.org/badge_logo.svg
+      :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/LongTerm/SedTransport.ipynb
+
+    Click on the above button to run the described long-term model around Fraser Island.
 
 
 
-Exercise for the practical
+Exercises for the practical
 ----------------------------
 
-Through the exercises and practicals, you will use beach survey program to evaluate long term changes in shoreline trajectory and run long-shore drift models to evaluate the impact of wave height and direction on embayed beaches morphologies.
+Through these exercises, you will use **beach survey program** to evaluate long term changes in shoreline trajectory and run **longshore drift models** to evaluate the impact of wave height and direction on embayed beaches morphologies.
 
 
-.. image:: https://mybinder.org/badge_logo.svg
-  :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/CoastalEvolution/selectProfiles.ipynb
+Narrabeen beach survey program
+***********************************
 
-Sensitivities of crenulate bay shorelines to wave climates.
+You will need to download the practical information sheet available from Canvas.
 
+..  admonition:: Beach morphology changes due to wave climate
+    :class: toggle, toggle-shown
 
-
-.. image:: https://mybinder.org/badge_logo.svg
-  :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/CoastalEvolution/selectProfiles.ipynb
-
-Analyse Narrabeen Beach Profile Adjustment.
+    Cross-shore & alongshore variation in beach morphology due to wave climate: storms to decades
 
 
+    .. image:: https://mybinder.org/badge_logo.svg
+      :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/CoastalEvolution/InshoreWaves.ipynb
 
-.. image:: https://mybinder.org/badge_logo.svg
-  :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/CoastalEvolution/InshoreWaves.ipynb
+    Click above to extract nearshore waves from the Narrabeen dataset.
 
-Extracting nearshore waves from the Narrabeen dataset.
+    .. image:: https://mybinder.org/badge_logo.svg
+      :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/CoastalEvolution/selectProfiles.ipynb
+
+    Click above to get the profiles selection notebook and analyse Narrabeen Beach Profile Adjustment.
 
 
+Longshore drift model
+***********************************
 
-Additional
-----------------
+You will need to download the practical information sheet available from Canvas.
 
+..  admonition:: Sensitivities of crenulate bay shorelines to wave climates.
+    :class: toggle, toggle-shown
+
+    .. image:: https://mybinder.org/badge_logo.svg
+      :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/CoastalEvolution/BaySensitivity.ipynb
+
+    Use the link above to access the one-line model COVE from `Hurst et al. (2015) <http://onlinelibrary.wiley.com/doi/10.1002/2015JF003704/abstract>`_.
+
+
+Miscellaneous
+----------------------
 
 Grain settling velocity
 ***********************************
