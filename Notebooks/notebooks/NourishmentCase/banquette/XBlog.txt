@@ -1,0 +1,1176 @@
+  **********************************************************
+                     Welcome to XBeach
+ 
+               version 1.23. XBeachX BETA release
+               dateSun Mar 25 02:16:22 UTC 2018
+     URL:
+  **********************************************************
+ 
+  Simulation started: YYYYMMDD    hh:mm:ss     time zone (UTC)
+                      20190521  04:15:59     +0000
+ 
+    running in:/home/NourishmentCase/banquette
+  General Input Module
+  Reading input parameters:
+   XBeach reading fromparams.txt
+  --------------------------------
+  Backward compatibility:
+                    instat =jons
+  --------------------------------
+  Physical processes:
+                 wavemodel =surfbeat
+                    cyclic =0 (no record found, default value used)
+                     swave =1 (no record found, default value used)
+                single_dir =0 (no record found, default value used)
+                     lwave =1 (no record found, default value used)
+                      flow =1 (no record found, default value used)
+                  sedtrans =1 (no record found, default value used)
+                morphology =1 (no record found, default value used)
+               avalanching =1 (no record found, default value used)
+                    gwflow =0 (no record found, default value used)
+                     ships =0 (no record found, default value used)
+                vegetation =0 (no record found, default value used)
+                  setbathy =0 (no record found, default value used)
+                 viscosity =1 (no record found, default value used)
+                 advection =1 (no record found, default value used)
+                      wind =1 (no record found, default value used)
+  --------------------------------
+  Grid parameters:
+                  gridform =xbeach (no record found, default value used)
+                      xori =.0000 (no record found, default value used)
+                      yori =.0000 (no record found, default value used)
+                      alfa =.0000 (no record found, default value used)
+                        nx =116
+                        ny =0
+                    posdwn =-1.0000
+                   depfile =bed.dep
+                     vardx =1
+                        dx =-1.0000 (no record found, default value used)
+                        dy =-1.0000 (no record found, default value used)
+                     xfile =x.grd
+                     yfile =y.grd
+                        nz =1 (no record found, default value used)
+                  thetamin =-90.0000
+                  thetamax =90.0000
+                 thetanaut =0 (no record found, default value used)
+                    dtheta =180.0000
+  --------------------------------
+  Model time parameters:
+                       CFL =.9000
+                     dtset =.0000 (no record found, default value used)
+                     tstop =129600.0000
+                  maxdtfac =50.0000 (no record found, default value used)
+  --------------------------------
+  Physical constants:
+                       rho =1025.0000 (no record found, default value used)
+                         g =9.8100 (no record found, default value used)
+                depthscale =1.0000 (no record found, default value used)
+  --------------------------------
+  Initial conditions:
+                zsinitfile = None specified
+  --------------------------------
+  Wave boundary condition parameters:
+                   wbctype =parametric
+                    bcfile =filelist.txt
+                     taper =100.0000
+                      nmax =.8000 (no record found, default value used)
+               lateralwave =neumann (no record found, default value used)
+  --------------------------------
+  Wave-spectrum boundary condition parameters:
+                    random =1 (no record found, default value used)
+                   fcutoff =.0000 (no record found, default value used)
+                   trepfac =.0100 (no record found, default value used)
+                   sprdthr =.0800 (no record found, default value used)
+                Tm01switch =0 (no record found, default value used)
+              nspectrumloc =1 (no record found, default value used)
+  --------------------------------
+  Flow boundary condition parameters:
+                     front =abs_1d
+                      left =neumann (no record found, default value used)
+                     right =neumann (no record found, default value used)
+                      back =abs_1d
+                       ARC =1 (no record found, default value used)
+                     order =2.0000 (no record found, default value used)
+                  freewave =0 (no record found, default value used)
+                      epsi =-1.0000 (no record found, default value used)
+                  tidetype =velocity (no record found, default value used)
+  --------------------------------
+  Tide boundary conditions:
+                   tideloc =1
+                   zs0file =surge.txt
+  --------------------------------
+  Discharge boundary conditions:
+            disch_loc_file = None specified
+     disch_timeseries_file = None specified
+                ndischarge =0 (no record found, default value used)
+               ntdischarge =0 (no record found, default value used)
+                      beta =.1000 (no record found, default value used)
+  --------------------------------
+  Wave breaking parameters:
+                     break =roelvink2 (no record found, default value used)
+                     gamma =.5500 (no record found, default value used)
+                    gammax =2.0000 (no record found, default value used)
+                     alpha =1.0000 (no record found, default value used)
+                         n =10.0000 (no record found, default value used)
+                     delta =.0000 (no record found, default value used)
+                        fw =.0000 (no record found, default value used)
+                    fwfile = None specified
+                  fwcutoff =1000.0000 (no record found, default value used)
+              breakerdelay =1.0000 (no record found, default value used)
+  --------------------------------
+  Roller parameters:
+                    roller =1 (no record found, default value used)
+                       rfb =0 (no record found, default value used)
+  --------------------------------
+  Wave-current interaction parameters:
+                       wci =0 (no record found, default value used)
+                      hwci =.1000 (no record found, default value used)
+                   hwcimax =100.0000 (no record found, default value used)
+                      cats =4.0000 (no record found, default value used)
+  --------------------------------
+  Flow parameters:
+               bedfriction =chezy (no record found, default value used)
+               bedfricfile = None specified
+               bedfriccoef =55.0000 (no record found, default value used)
+                       nuh =.1000 (no record found, default value used)
+                    nuhfac =1.0000 (no record found, default value used)
+                      smag =1 (no record found, default value used)
+  --------------------------------
+  Coriolis force parameters:
+                    wearth =.0417 (no record found, default value used)
+                       lat =.0000 (no record found, default value used)
+  --------------------------------
+  Wind parameters:
+                      rhoa =1.2500 (no record found, default value used)
+                        Cd =.0020 (no record found, default value used)
+                  windfile = None specified
+                     windv =.0000 (no record found, default value used)
+                    windth =270.0000 (no record found, default value used)
+  --------------------------------
+  Sediment transport parameters:
+                      form =vanthiel_vanrijn (no record found, default value used)
+                  waveform =vanthiel (no record found, default value used)
+                       sws =1 (no record found, default value used)
+                       lws =1 (no record found, default value used)
+                     BRfac =1.0000 (no record found, default value used)
+                     facua =.1000 (no record found, default value used)
+                     facSk =.1000 (no record found, default value used)
+                     facAs =.1000 (no record found, default value used)
+                     Tbfac =1.0000 (no record found, default value used)
+                      turb =bore_averaged (no record found, default value used)
+                   turbadv =none (no record found, default value used)
+                       sus =1 (no record found, default value used)
+                       bed =1 (no record found, default value used)
+                      bulk =0 (no record found, default value used)
+                     facsl =.1500 (no record found, default value used)
+                        z0 =.0060 (no record found, default value used)
+                      smax =-1.0000 (no record found, default value used)
+               bdslpeffmag =roelvink_total (no record found, default value used)
+               bdslpeffini =none (no record found, default value used)
+               bdslpeffdir =none (no record found, default value used)
+               reposeangle =30.0000 (no record found, default value used)
+                     tsfac =.1000 (no record found, default value used)
+                     Tsmin =.5000 (no record found, default value used)
+                     facDc =1.0000 (no record found, default value used)
+                       lwt =0 (no record found, default value used)
+                     betad =1.0000 (no record found, default value used)
+                fallvelred =0 (no record found, default value used)
+                 dilatancy =0 (no record found, default value used)
+  --------------------------------
+  Bed composition parameters:
+                       ngd =1 (no record found, default value used)
+                        nd =3 (no record found, default value used)
+                       por =.4000 (no record found, default value used)
+                       D50 =.0003
+                       D90 =.0003
+                      rhos =2650.0000 (no record found, default value used)
+                       dzg =.1000 (no record found, default value used)
+                      dzg1 =.1000 (no record found, default value used)
+                      dzg2 =.1000 (no record found, default value used)
+                      dzg3 =.1000 (no record found, default value used)
+   sedcal =1.0000 (no record found, default value used)
+   ucrcal =1.0000 (no record found, default value used)
+  --------------------------------
+  Morphology parameters:
+                    morfac =5.0000
+                 morfacopt =1 (no record found, default value used)
+                  morstart =100.0000
+                   morstop =129600.0000 (no record found, default value used)
+                    wetslp =.3000 (no record found, default value used)
+                    dryslp =1.0000 (no record found, default value used)
+                   hswitch =.1000 (no record found, default value used)
+                     dzmax =.0500 (no record found, default value used)
+                    struct =0 (no record found, default value used)
+  --------------------------------
+  Output variables:
+                   timings =1 (no record found, default value used)
+                    tunits = None specified
+                    tstart =100.0000
+                      tint =1.0000 (no record found, default value used)
+                  tsglobal = None specified
+                     tintg =60.0000
+                  tspoints = None specified
+                     tintp =60.0000
+                    tsmean = None specified
+                     tintm =129500.0000 (no record found, default value used)
+                nglobalvar =5
+   nglobalvar: Will generate global output for variable:H
+   nglobalvar: Will generate global output for variable:zs
+   nglobalvar: Will generate global output for variable:zb
+   nglobalvar: Will generate global output for variable:u
+   nglobalvar: Will generate global output for variable:ccg
+                   npoints =0 (no record found, default value used)
+                  nrugauge =0 (no record found, default value used)
+                 npointvar =0 (no record found, default value used)
+                 nrugdepth =1 (no record found, default value used)
+   rugdepth =.0000 (no record found, default value used)
+                  nmeanvar =0 (no record found, default value used)
+              outputformat =netcdf
+           outputprecision =double (no record found, default value used)
+                ncfilename = None specified
+  netcdf output to:xboutput.nc
+              remdryoutput =1 (no record found, default value used)
+  --------------------------------
+  Output projection:
+                projection = None specified
+                    rotate =1 (no record found, default value used)
+  --------------------------------
+  Wave numerics parameters:
+                    scheme =warmbeam (no record found, default value used)
+                    snells =1 (no record found, default value used)
+  --------------------------------
+  Flow numerics parameters:
+                       eps =.0050 (no record found, default value used)
+                    eps_sd =.5000 (no record found, default value used)
+                      umin =.0000 (no record found, default value used)
+                      hmin =.2000 (no record found, default value used)
+                  secorder =-123 (no record found, default value used)
+  --------------------------------
+  Sediment transport numerics parameters:
+                  thetanum =1.0000 (no record found, default value used)
+                      cmax =.1000 (no record found, default value used)
+  --------------------------------
+  Bed update numerics parameters:
+                   frac_dz =.7000 (no record found, default value used)
+                    nd_var =2 (no record found, default value used)
+                     split =1.0100 (no record found, default value used)
+                     merge =.0100 (no record found, default value used)
+  --------------------------------
+  Finished reading input parameters
+  --------------------------------
+  ------------------------------------
+  Building Grid and Bathymetry
+  ------------------------------------
+  Initializing .....
+   readtide: reading tide time series fromsurge.txt ...
+  --------------------------------
+  Initializing spectral wave boundary conditions
+  --------------------------------
+  NetCDF outputformat
+   Creating netcdf variable:H
+   Creating netcdf variable:zs
+   Creating netcdf variable:zb
+   Creating netcdf variable:u
+   Creating netcdf variable:ccg
+  Writing file definition.
+  Setting up boundary conditions
+  --------------------------------
+  Calculating spectral wave boundary conditions
+  --------------------------------
+  Reading spectrum at location1
+   waveparams: Reading from:jonswap_1.txt ...
+   XBeach reading fromjonswap_1.txt
+                    nmodal =1 (no record found, default value used)
+                       Hm0 =6.3681 Warning: value > recommended value of5.0000
+                        fp =.0899
+   gammajsp =3.3000 (no record found, default value used)
+   s =10.0000 (no record found, default value used)
+   tma =0 (no record found, default value used)
+                   mainang =270.0000
+                      fnyq =.3000 (no record found, default value used)
+                       dfj =.0015 (no record found, default value used)
+  Interpreting spectrum at location1
+  Values calculated from interpolated spectrum:
+  Hm0       =6.37 m
+  Trep      =10.17 s
+  Mean dir  =270.43 degN
+  Overall Trep from all spectra calculated:10.17 s
+  Calculating Fourier components
+  5.3% done
+  10.2% done
+  15.1% done
+  20.0% done
+  25.3% done
+  30.2% done
+  35.1% done
+  40.0% done
+  45.3% done
+  50.2% done
+  55.1% done
+  60.0% done
+  65.3% done
+  70.2% done
+  75.1% done
+  80.0% done
+  85.3% done
+  90.2% done
+  95.1% done
+  100.0% done
+  Wave energy outside computational domain at offshore boundary:.0%
+  Calculating short wave time series for theta bin1 of1
+  Y-point1 of1 done.
+  Wave bin1 contains100.00% of total energy
+   Writing wave energy toE_series00001.bcf ...
+  file done
+  Calculating primary wave interaction
+  5.4% done
+  10.3% done
+  15.2% done
+  20.1% done
+  25.0% done
+  30.4% done
+  35.3% done
+  40.2% done
+  45.1% done
+  50.0% done
+  55.4% done
+  60.3% done
+  65.2% done
+  70.1% done
+  75.0% done
+  80.4% done
+  85.3% done
+  90.2% done
+  95.1% done
+  100.0% done
+  Calculating flux at boundary
+  Flux1 of1
+   Writing long wave mass flux toq_series00001.bcf ...
+  file done
+  --------------------------------
+  Spectral wave boundary conditions complete
+  --------------------------------
+  Boundary conditions complete, starting computation
+  Simulation  3.1 percent complete. Average dt  0.768 seconds
+  Time remaining  2 minutes and 37 seconds
+  Simulation  5.7 percent complete. Average dt  0.613 seconds
+  Time remaining  2 minutes and 54 seconds
+  Simulation  8.6 percent complete. Average dt  0.517 seconds
+  Time remaining  2 minutes and 37 seconds
+  Simulation 10.8 percent complete. Average dt  0.457 seconds
+  Time remaining  3 minutes and  4 seconds
+  --------------------------------
+  Calculating spectral wave boundary conditions
+  --------------------------------
+  Reading spectrum at location1
+   waveparams: Reading from:jonswap_2.txt ...
+   XBeach reading fromjonswap_2.txt
+                    nmodal =1 (no record found, default value used)
+                       Hm0 =6.8565 Warning: value > recommended value of5.0000
+                        fp =.0866
+   gammajsp =3.3000 (no record found, default value used)
+   s =10.0000 (no record found, default value used)
+   tma =0 (no record found, default value used)
+                   mainang =270.0000
+                      fnyq =.3000 (no record found, default value used)
+                       dfj =.0015 (no record found, default value used)
+  Interpreting spectrum at location1
+  Values calculated from interpolated spectrum:
+  Hm0       =6.86 m
+  Trep      =10.56 s
+  Mean dir  =270.43 degN
+  Overall Trep from all spectra calculated:10.56 s
+  Calculating Fourier components
+  5.0% done
+  10.1% done
+  15.1% done
+  20.2% done
+  25.2% done
+  30.3% done
+  35.3% done
+  40.4% done
+  45.4% done
+  50.0% done
+  55.0% done
+  60.1% done
+  65.1% done
+  70.2% done
+  75.2% done
+  80.3% done
+  85.3% done
+  90.4% done
+  95.4% done
+  100.0% done
+  Wave energy outside computational domain at offshore boundary:.0%
+  Calculating short wave time series for theta bin1 of1
+  Y-point1 of1 done.
+  Wave bin1 contains100.00% of total energy
+   Writing wave energy toE_series00002.bcf ...
+  file done
+  Calculating primary wave interaction
+  5.1% done
+  10.1% done
+  15.2% done
+  20.3% done
+  25.3% done
+  30.4% done
+  35.0% done
+  40.1% done
+  45.2% done
+  50.2% done
+  55.3% done
+  60.4% done
+  65.4% done
+  70.0% done
+  75.1% done
+  80.2% done
+  85.3% done
+  90.3% done
+  95.4% done
+  100.0% done
+  Calculating flux at boundary
+  Flux1 of1
+   Writing long wave mass flux toq_series00002.bcf ...
+  file done
+  --------------------------------
+  Spectral wave boundary conditions complete
+  --------------------------------
+  Simulation 13.0 percent complete. Average dt  0.401 seconds
+  Time remaining  3 minutes and  2 seconds
+  Simulation 15.4 percent complete. Average dt  0.396 seconds
+  Time remaining  2 minutes and 54 seconds
+  Simulation 16.9 percent complete. Average dt  0.372 seconds
+  Time remaining  3 minutes and 45 seconds
+  Simulation 18.4 percent complete. Average dt  0.373 seconds
+  Time remaining  3 minutes and 44 seconds
+  Simulation 20.0 percent complete. Average dt  0.384 seconds
+  Time remaining  3 minutes and 29 seconds
+  Simulation 22.1 percent complete. Average dt  0.400 seconds
+  Time remaining  3 minutes and  2 seconds
+  --------------------------------
+  Calculating spectral wave boundary conditions
+  --------------------------------
+  Reading spectrum at location1
+   waveparams: Reading from:jonswap_3.txt ...
+   XBeach reading fromjonswap_3.txt
+                    nmodal =1 (no record found, default value used)
+                       Hm0 =7.2201 Warning: value > recommended value of5.0000
+                        fp =.0844
+   gammajsp =3.3000 (no record found, default value used)
+   s =10.0000 (no record found, default value used)
+   tma =0 (no record found, default value used)
+                   mainang =270.0000
+                      fnyq =.3000 (no record found, default value used)
+                       dfj =.0015 (no record found, default value used)
+  Interpreting spectrum at location1
+  Values calculated from interpolated spectrum:
+  Hm0       =7.22 m
+  Trep      =10.84 s
+  Mean dir  =270.43 degN
+  Overall Trep from all spectra calculated:10.84 s
+  Calculating Fourier components
+  5.2% done
+  10.0% done
+  15.2% done
+  20.0% done
+  25.2% done
+  30.0% done
+  35.2% done
+  40.0% done
+  45.2% done
+  50.0% done
+  55.2% done
+  60.0% done
+  65.2% done
+  70.0% done
+  75.2% done
+  80.0% done
+  85.2% done
+  90.0% done
+  95.2% done
+  100.0% done
+  Wave energy outside computational domain at offshore boundary:.0%
+  Calculating short wave time series for theta bin1 of1
+  Y-point1 of1 done.
+  Wave bin1 contains100.00% of total energy
+   Writing wave energy toE_series00003.bcf ...
+  file done
+  Calculating primary wave interaction
+  5.3% done
+  10.0% done
+  15.3% done
+  20.1% done
+  25.4% done
+  30.1% done
+  35.4% done
+  40.2% done
+  45.5% done
+  50.2% done
+  55.0% done
+  60.3% done
+  65.1% done
+  70.3% done
+  75.1% done
+  80.4% done
+  85.2% done
+  90.4% done
+  95.2% done
+  100.0% done
+  Warning: shallow water so long wave variance is reduced using par%nmax
+  Calculating flux at boundary
+  Flux1 of1
+   Writing long wave mass flux toq_series00003.bcf ...
+  file done
+  --------------------------------
+  Spectral wave boundary conditions complete
+  --------------------------------
+  Simulation 23.9 percent complete. Average dt  0.412 seconds
+  Time remaining  3 minutes and 16 seconds
+  Simulation 26.3 percent complete. Average dt  0.392 seconds
+  Time remaining  2 minutes and 41 seconds
+  Simulation 28.2 percent complete. Average dt  0.442 seconds
+  Time remaining  2 minutes and 55 seconds
+  Simulation 30.1 percent complete. Average dt  0.435 seconds
+  Time remaining  2 minutes and 57 seconds
+  Simulation 32.2 percent complete. Average dt  0.430 seconds
+  Time remaining  2 minutes and 39 seconds
+  --------------------------------
+  Calculating spectral wave boundary conditions
+  --------------------------------
+  Reading spectrum at location1
+   waveparams: Reading from:jonswap_4.txt ...
+   XBeach reading fromjonswap_4.txt
+                    nmodal =1 (no record found, default value used)
+                       Hm0 =7.4443 Warning: value > recommended value of5.0000
+                        fp =.0831
+   gammajsp =3.3000 (no record found, default value used)
+   s =10.0000 (no record found, default value used)
+   tma =0 (no record found, default value used)
+                   mainang =270.0000
+                      fnyq =.3000 (no record found, default value used)
+                       dfj =.0015 (no record found, default value used)
+  Interpreting spectrum at location1
+  Values calculated from interpolated spectrum:
+  Hm0       =7.44 m
+  Trep      =11.01 s
+  Mean dir  =270.43 degN
+  Overall Trep from all spectra calculated:11.01 s
+  Calculating Fourier components
+  5.3% done
+  10.1% done
+  15.5% done
+  20.3% done
+  25.1% done
+  30.4% done
+  35.3% done
+  40.1% done
+  45.4% done
+  50.2% done
+  55.1% done
+  60.4% done
+  65.2% done
+  70.0% done
+  75.4% done
+  80.2% done
+  85.0% done
+  90.3% done
+  95.2% done
+  100.0% done
+  Wave energy outside computational domain at offshore boundary:.0%
+  Calculating short wave time series for theta bin1 of1
+  Y-point1 of1 done.
+  Wave bin1 contains100.00% of total energy
+   Writing wave energy toE_series00004.bcf ...
+  file done
+  Calculating primary wave interaction
+  5.3% done
+  10.2% done
+  15.0% done
+  20.4% done
+  25.2% done
+  30.1% done
+  35.4% done
+  40.3% done
+  45.1% done
+  50.0% done
+  55.3% done
+  60.2% done
+  65.0% done
+  70.4% done
+  75.2% done
+  80.1% done
+  85.4% done
+  90.3% done
+  95.1% done
+  100.0% done
+  Warning: shallow water so long wave variance is reduced using par%nmax
+  Calculating flux at boundary
+  Flux1 of1
+   Writing long wave mass flux toq_series00004.bcf ...
+  file done
+  --------------------------------
+  Spectral wave boundary conditions complete
+  --------------------------------
+  Simulation 34.5 percent complete. Average dt  0.425 seconds
+  Time remaining  2 minutes and 27 seconds
+  Simulation 36.9 percent complete. Average dt  0.380 seconds
+  Time remaining  2 minutes and 18 seconds
+  Simulation 38.8 percent complete. Average dt  0.371 seconds
+  Time remaining  2 minutes and 33 seconds
+  Simulation 41.1 percent complete. Average dt  0.386 seconds
+  Time remaining  2 minutes and 13 seconds
+  Simulation 43.4 percent complete. Average dt  0.332 seconds
+  Time remaining  2 minutes and  7 seconds
+  --------------------------------
+  Calculating spectral wave boundary conditions
+  --------------------------------
+  Reading spectrum at location1
+   waveparams: Reading from:jonswap_5.txt ...
+   XBeach reading fromjonswap_5.txt
+                    nmodal =1 (no record found, default value used)
+                       Hm0 =7.5200 Warning: value > recommended value of5.0000
+                        fp =.0827
+   gammajsp =3.3000 (no record found, default value used)
+   s =10.0000 (no record found, default value used)
+   tma =0 (no record found, default value used)
+                   mainang =270.0000
+                      fnyq =.3000 (no record found, default value used)
+                       dfj =.0015 (no record found, default value used)
+  Interpreting spectrum at location1
+  Values calculated from interpolated spectrum:
+  Hm0       =7.52 m
+  Trep      =11.06 s
+  Mean dir  =270.43 degN
+  Overall Trep from all spectra calculated:11.06 s
+  Calculating Fourier components
+  5.4% done
+  10.3% done
+  15.3% done
+  20.2% done
+  25.1% done
+  30.0% done
+  35.5% done
+  40.4% done
+  45.3% done
+  50.2% done
+  55.2% done
+  60.1% done
+  65.0% done
+  70.4% done
+  75.4% done
+  80.3% done
+  85.2% done
+  90.1% done
+  95.1% done
+  100.0% done
+  Wave energy outside computational domain at offshore boundary:.0%
+  Calculating short wave time series for theta bin1 of1
+  Y-point1 of1 done.
+  Wave bin1 contains100.00% of total energy
+   Writing wave energy toE_series00005.bcf ...
+  file done
+  Calculating primary wave interaction
+  5.4% done
+  10.4% done
+  15.3% done
+  20.3% done
+  25.2% done
+  30.2% done
+  35.1% done
+  40.1% done
+  45.0% done
+  50.0% done
+  55.4% done
+  60.4% done
+  65.3% done
+  70.3% done
+  75.2% done
+  80.2% done
+  85.1% done
+  90.1% done
+  95.0% done
+  100.0% done
+  Warning: shallow water so long wave variance is reduced using par%nmax
+  Calculating flux at boundary
+  Flux1 of1
+   Writing long wave mass flux toq_series00005.bcf ...
+  file done
+  --------------------------------
+  Spectral wave boundary conditions complete
+  --------------------------------
+  Simulation 44.9 percent complete. Average dt  0.319 seconds
+  Time remaining  2 minutes and 34 seconds
+  Simulation 46.4 percent complete. Average dt  0.325 seconds
+  Time remaining  2 minutes and 35 seconds
+  Simulation 48.6 percent complete. Average dt  0.326 seconds
+  Time remaining  1 minutes and 59 seconds
+  Simulation 50.5 percent complete. Average dt  0.313 seconds
+  Time remaining  2 minutes and  3 seconds
+  Simulation 52.2 percent complete. Average dt  0.321 seconds
+  Time remaining  2 minutes and  7 seconds
+  Simulation 54.3 percent complete. Average dt  0.309 seconds
+  Time remaining  1 minutes and 50 seconds
+  --------------------------------
+  Calculating spectral wave boundary conditions
+  --------------------------------
+  Reading spectrum at location1
+   waveparams: Reading from:jonswap_6.txt ...
+   XBeach reading fromjonswap_6.txt
+                    nmodal =1 (no record found, default value used)
+                       Hm0 =7.4443 Warning: value > recommended value of5.0000
+                        fp =.0831
+   gammajsp =3.3000 (no record found, default value used)
+   s =10.0000 (no record found, default value used)
+   tma =0 (no record found, default value used)
+                   mainang =270.0000
+                      fnyq =.3000 (no record found, default value used)
+                       dfj =.0015 (no record found, default value used)
+  Interpreting spectrum at location1
+  Values calculated from interpolated spectrum:
+  Hm0       =7.44 m
+  Trep      =11.01 s
+  Mean dir  =270.43 degN
+  Overall Trep from all spectra calculated:11.01 s
+  Calculating Fourier components
+  5.3% done
+  10.1% done
+  15.5% done
+  20.3% done
+  25.1% done
+  30.4% done
+  35.3% done
+  40.1% done
+  45.4% done
+  50.2% done
+  55.1% done
+  60.4% done
+  65.2% done
+  70.0% done
+  75.4% done
+  80.2% done
+  85.0% done
+  90.3% done
+  95.2% done
+  100.0% done
+  Wave energy outside computational domain at offshore boundary:.0%
+  Calculating short wave time series for theta bin1 of1
+  Y-point1 of1 done.
+  Wave bin1 contains100.00% of total energy
+   Writing wave energy toE_series00006.bcf ...
+  file done
+  Calculating primary wave interaction
+  5.3% done
+  10.2% done
+  15.0% done
+  20.4% done
+  25.2% done
+  30.1% done
+  35.4% done
+  40.3% done
+  45.1% done
+  50.0% done
+  55.3% done
+  60.2% done
+  65.0% done
+  70.4% done
+  75.2% done
+  80.1% done
+  85.4% done
+  90.3% done
+  95.1% done
+  100.0% done
+  Warning: shallow water so long wave variance is reduced using par%nmax
+  Calculating flux at boundary
+  Flux1 of1
+   Writing long wave mass flux toq_series00006.bcf ...
+  file done
+  --------------------------------
+  Spectral wave boundary conditions complete
+  --------------------------------
+  Simulation 56.2 percent complete. Average dt  0.327 seconds
+  Time remaining  1 minutes and 50 seconds
+  Simulation 58.1 percent complete. Average dt  0.345 seconds
+  Time remaining  1 minutes and 45 seconds
+  Simulation 59.1 percent complete. Average dt  0.357 seconds
+  Time remaining  2 minutes and 28 seconds
+  Simulation 59.9 percent complete. Average dt  0.362 seconds
+  Time remaining  2 minutes and 57 seconds
+  Simulation 60.6 percent complete. Average dt  0.408 seconds
+  Time remaining  3 minutes and 10 seconds
+  Simulation 61.3 percent complete. Average dt  0.356 seconds
+  Time remaining  3 minutes and 16 seconds
+  Simulation 61.7 percent complete. Average dt  0.377 seconds
+  Time remaining  4 minutes and 29 seconds
+  Simulation 62.5 percent complete. Average dt  0.407 seconds
+  Time remaining  3 minutes and  2 seconds
+  Simulation 63.2 percent complete. Average dt  0.403 seconds
+  Time remaining  3 minutes and  4 seconds
+  Simulation 64.0 percent complete. Average dt  0.387 seconds
+  Time remaining  2 minutes and 43 seconds
+  Simulation 64.6 percent complete. Average dt  0.396 seconds
+  Time remaining  3 minutes and  9 seconds
+  Simulation 65.3 percent complete. Average dt  0.411 seconds
+  Time remaining  3 minutes and  1 seconds
+  Simulation 66.0 percent complete. Average dt  0.441 seconds
+  Time remaining  2 minutes and 55 seconds
+  Simulation 66.6 percent complete. Average dt  0.380 seconds
+  Time remaining  2 minutes and 52 seconds
+  --------------------------------
+  Calculating spectral wave boundary conditions
+  --------------------------------
+  Reading spectrum at location1
+   waveparams: Reading from:jonswap_7.txt ...
+   XBeach reading fromjonswap_7.txt
+                    nmodal =1 (no record found, default value used)
+                       Hm0 =7.2201 Warning: value > recommended value of5.0000
+                        fp =.0844
+   gammajsp =3.3000 (no record found, default value used)
+   s =10.0000 (no record found, default value used)
+   tma =0 (no record found, default value used)
+                   mainang =270.0000
+                      fnyq =.3000 (no record found, default value used)
+                       dfj =.0015 (no record found, default value used)
+  Interpreting spectrum at location1
+  Values calculated from interpolated spectrum:
+  Hm0       =7.22 m
+  Trep      =10.84 s
+  Mean dir  =270.43 degN
+  Overall Trep from all spectra calculated:10.84 s
+  Calculating Fourier components
+  5.2% done
+  10.0% done
+  15.2% done
+  20.0% done
+  25.2% done
+  30.0% done
+  35.2% done
+  40.0% done
+  45.2% done
+  50.0% done
+  55.2% done
+  60.0% done
+  65.2% done
+  70.0% done
+  75.2% done
+  80.0% done
+  85.2% done
+  90.0% done
+  95.2% done
+  100.0% done
+  Wave energy outside computational domain at offshore boundary:.0%
+  Calculating short wave time series for theta bin1 of1
+  Y-point1 of1 done.
+  Wave bin1 contains100.00% of total energy
+   Writing wave energy toE_series00007.bcf ...
+  file done
+  Calculating primary wave interaction
+  5.3% done
+  10.0% done
+  15.3% done
+  20.1% done
+  25.4% done
+  30.1% done
+  35.4% done
+  40.2% done
+  45.5% done
+  50.2% done
+  55.0% done
+  60.3% done
+  65.1% done
+  70.3% done
+  75.1% done
+  80.4% done
+  85.2% done
+  90.4% done
+  95.2% done
+  100.0% done
+  Warning: shallow water so long wave variance is reduced using par%nmax
+  Calculating flux at boundary
+  Flux1 of1
+   Writing long wave mass flux toq_series00007.bcf ...
+  file done
+  --------------------------------
+  Spectral wave boundary conditions complete
+  --------------------------------
+  Simulation 67.4 percent complete. Average dt  0.470 seconds
+  Time remaining  2 minutes and 36 seconds
+  Simulation 68.0 percent complete. Average dt  0.440 seconds
+  Time remaining  3 minutes and 10 seconds
+  Simulation 68.7 percent complete. Average dt  0.425 seconds
+  Time remaining  2 minutes and 34 seconds
+  Simulation 69.3 percent complete. Average dt  0.389 seconds
+  Time remaining  2 minutes and 52 seconds
+  Simulation 69.8 percent complete. Average dt  0.441 seconds
+  Time remaining  3 minutes and 30 seconds
+  Simulation 70.2 percent complete. Average dt  0.439 seconds
+  Time remaining  3 minutes and 48 seconds
+  Simulation 70.6 percent complete. Average dt  0.465 seconds
+  Time remaining  4 minutes and 16 seconds
+  Simulation 71.0 percent complete. Average dt  0.472 seconds
+  Time remaining  3 minutes and 42 seconds
+  Simulation 71.5 percent complete. Average dt  0.380 seconds
+  Time remaining  3 minutes and 26 seconds
+  Simulation 71.9 percent complete. Average dt  0.439 seconds
+  Time remaining  3 minutes and 34 seconds
+  Simulation 72.4 percent complete. Average dt  0.419 seconds
+  Time remaining  2 minutes and 58 seconds
+  Simulation 72.8 percent complete. Average dt  0.371 seconds
+  Time remaining  3 minutes and 44 seconds
+  Simulation 73.4 percent complete. Average dt  0.415 seconds
+  Time remaining  2 minutes and 53 seconds
+  Simulation 73.8 percent complete. Average dt  0.363 seconds
+  Time remaining  3 minutes and 10 seconds
+  Simulation 74.3 percent complete. Average dt  0.359 seconds
+  Time remaining  3 minutes and  9 seconds
+  Simulation 74.8 percent complete. Average dt  0.408 seconds
+  Time remaining  2 minutes and 44 seconds
+  Simulation 75.2 percent complete. Average dt  0.428 seconds
+  Time remaining  3 minutes and 19 seconds
+  Simulation 75.7 percent complete. Average dt  0.401 seconds
+  Time remaining  2 minutes and 54 seconds
+  Simulation 76.2 percent complete. Average dt  0.370 seconds
+  Time remaining  2 minutes and 55 seconds
+  Simulation 76.6 percent complete. Average dt  0.395 seconds
+  Time remaining  2 minutes and 47 seconds
+  Simulation 77.1 percent complete. Average dt  0.403 seconds
+  Time remaining  2 minutes and 40 seconds
+  Simulation 77.7 percent complete. Average dt  0.361 seconds
+  Time remaining  2 minutes and 31 seconds
+  --------------------------------
+  Calculating spectral wave boundary conditions
+  --------------------------------
+  Reading spectrum at location1
+   waveparams: Reading from:jonswap_8.txt ...
+   XBeach reading fromjonswap_8.txt
+                    nmodal =1 (no record found, default value used)
+                       Hm0 =6.8565 Warning: value > recommended value of5.0000
+                        fp =.0866
+   gammajsp =3.3000 (no record found, default value used)
+   s =10.0000 (no record found, default value used)
+   tma =0 (no record found, default value used)
+                   mainang =270.0000
+                      fnyq =.3000 (no record found, default value used)
+                       dfj =.0015 (no record found, default value used)
+  Interpreting spectrum at location1
+  Values calculated from interpolated spectrum:
+  Hm0       =6.86 m
+  Trep      =10.56 s
+  Mean dir  =270.43 degN
+  Overall Trep from all spectra calculated:10.56 s
+  Calculating Fourier components
+  5.0% done
+  10.1% done
+  15.1% done
+  20.2% done
+  25.2% done
+  30.3% done
+  35.3% done
+  40.4% done
+  45.4% done
+  50.0% done
+  55.0% done
+  60.1% done
+  65.1% done
+  70.2% done
+  75.2% done
+  80.3% done
+  85.3% done
+  90.4% done
+  95.4% done
+  100.0% done
+  Wave energy outside computational domain at offshore boundary:.0%
+  Calculating short wave time series for theta bin1 of1
+  Y-point1 of1 done.
+  Wave bin1 contains100.00% of total energy
+   Writing wave energy toE_series00008.bcf ...
+  file done
+  Calculating primary wave interaction
+  5.1% done
+  10.1% done
+  15.2% done
+  20.3% done
+  25.3% done
+  30.4% done
+  35.0% done
+  40.1% done
+  45.2% done
+  50.2% done
+  55.3% done
+  60.4% done
+  65.4% done
+  70.0% done
+  75.1% done
+  80.2% done
+  85.3% done
+  90.3% done
+  95.4% done
+  100.0% done
+  Warning: shallow water so long wave variance is reduced using par%nmax
+  Calculating flux at boundary
+  Flux1 of1
+   Writing long wave mass flux toq_series00008.bcf ...
+  file done
+  --------------------------------
+  Spectral wave boundary conditions complete
+  --------------------------------
+  Simulation 78.3 percent complete. Average dt  0.402 seconds
+  Time remaining  2 minutes and 17 seconds
+  Simulation 78.7 percent complete. Average dt  0.403 seconds
+  Time remaining  2 minutes and 41 seconds
+  Simulation 79.2 percent complete. Average dt  0.396 seconds
+  Time remaining  2 minutes and 19 seconds
+  Simulation 79.6 percent complete. Average dt  0.378 seconds
+  Time remaining  3 minutes and 17 seconds
+  Simulation 79.9 percent complete. Average dt  0.421 seconds
+  Time remaining  3 minutes and  2 seconds
+  Simulation 80.2 percent complete. Average dt  0.359 seconds
+  Time remaining  3 minutes and 39 seconds
+  Simulation 80.7 percent complete. Average dt  0.388 seconds
+  Time remaining  2 minutes and 24 seconds
+  Simulation 81.3 percent complete. Average dt  0.391 seconds
+  Time remaining  1 minutes and 55 seconds
+  Simulation 81.9 percent complete. Average dt  0.377 seconds
+  Time remaining  1 minutes and 53 seconds
+  Simulation 82.4 percent complete. Average dt  0.371 seconds
+  Time remaining  2 minutes and 12 seconds
+  Simulation 82.7 percent complete. Average dt  0.358 seconds
+  Time remaining  2 minutes and 43 seconds
+  Simulation 83.2 percent complete. Average dt  0.398 seconds
+  Time remaining  2 minutes and 19 seconds
+  Simulation 83.5 percent complete. Average dt  0.352 seconds
+  Time remaining  2 minutes and 33 seconds
+  Simulation 83.8 percent complete. Average dt  0.429 seconds
+  Time remaining  2 minutes and 50 seconds
+  Simulation 84.3 percent complete. Average dt  0.387 seconds
+  Time remaining  2 minutes and  3 seconds
+  Simulation 84.8 percent complete. Average dt  0.418 seconds
+  Time remaining  1 minutes and 51 seconds
+  Simulation 85.3 percent complete. Average dt  0.413 seconds
+  Time remaining  1 minutes and 49 seconds
+  Simulation 85.8 percent complete. Average dt  0.430 seconds
+  Time remaining  1 minutes and 39 seconds
+  Simulation 86.1 percent complete. Average dt  0.418 seconds
+  Time remaining  2 minutes and 40 seconds
+  Simulation 86.5 percent complete. Average dt  0.378 seconds
+  Time remaining  1 minutes and 48 seconds
+  Simulation 86.9 percent complete. Average dt  0.342 seconds
+  Time remaining  2 minutes and  3 seconds
+  Simulation 87.6 percent complete. Average dt  0.427 seconds
+  Time remaining  1 minutes and 13 seconds
+  Simulation 88.2 percent complete. Average dt  0.449 seconds
+  Time remaining  1 minutes and 17 seconds
+  Simulation 88.6 percent complete. Average dt  0.446 seconds
+  Time remaining  1 minutes and 46 seconds
+  --------------------------------
+  Calculating spectral wave boundary conditions
+  --------------------------------
+  Reading spectrum at location1
+   waveparams: Reading from:jonswap_9.txt ...
+   XBeach reading fromjonswap_9.txt
+                    nmodal =1 (no record found, default value used)
+                       Hm0 =6.3681 Warning: value > recommended value of5.0000
+                        fp =.0899
+   gammajsp =3.3000 (no record found, default value used)
+   s =10.0000 (no record found, default value used)
+   tma =0 (no record found, default value used)
+                   mainang =270.0000
+                      fnyq =.3000 (no record found, default value used)
+                       dfj =.0015 (no record found, default value used)
+  Interpreting spectrum at location1
+  Values calculated from interpolated spectrum:
+  Hm0       =6.37 m
+  Trep      =10.17 s
+  Mean dir  =270.43 degN
+  Overall Trep from all spectra calculated:10.17 s
+  Calculating Fourier components
+  5.3% done
+  10.2% done
+  15.1% done
+  20.0% done
+  25.3% done
+  30.2% done
+  35.1% done
+  40.0% done
+  45.3% done
+  50.2% done
+  55.1% done
+  60.0% done
+  65.3% done
+  70.2% done
+  75.1% done
+  80.0% done
+  85.3% done
+  90.2% done
+  95.1% done
+  100.0% done
+  Wave energy outside computational domain at offshore boundary:.0%
+  Calculating short wave time series for theta bin1 of1
+  Y-point1 of1 done.
+  Wave bin1 contains100.00% of total energy
+   Writing wave energy toE_series00009.bcf ...
+  file done
+  Calculating primary wave interaction
+  5.4% done
+  10.3% done
+  15.2% done
+  20.1% done
+  25.0% done
+  30.4% done
+  35.3% done
+  40.2% done
+  45.1% done
+  50.0% done
+  55.4% done
+  60.3% done
+  65.2% done
+  70.1% done
+  75.0% done
+  80.4% done
+  85.3% done
+  90.2% done
+  95.1% done
+  100.0% done
+  Calculating flux at boundary
+  Flux1 of1
+   Writing long wave mass flux toq_series00009.bcf ...
+  file done
+  --------------------------------
+  Spectral wave boundary conditions complete
+  --------------------------------
+  Simulation 89.0 percent complete. Average dt  0.450 seconds
+  Time remaining  1 minutes and 43 seconds
+  Simulation 89.6 percent complete. Average dt  0.390 seconds
+  Time remaining  1 minutes and  8 seconds
+  Simulation 90.2 percent complete. Average dt  0.446 seconds
+  Time remaining  1 minutes and  1 seconds
+  Simulation 91.0 percent complete. Average dt  0.480 seconds
+  Time remaining 50 seconds
+  Simulation 91.7 percent complete. Average dt  0.473 seconds
+  Time remaining 55 seconds
+  Simulation 92.5 percent complete. Average dt  0.473 seconds
+  Time remaining 42 seconds
+  Simulation 93.2 percent complete. Average dt  0.491 seconds
+  Time remaining 41 seconds
+  Simulation 93.6 percent complete. Average dt  0.452 seconds
+  Time remaining 53 seconds
+  Simulation 94.3 percent complete. Average dt  0.538 seconds
+  Time remaining 36 seconds
+  Simulation 95.1 percent complete. Average dt  0.593 seconds
+  Time remaining 27 seconds
+  Simulation 95.8 percent complete. Average dt  0.591 seconds
+  Time remaining 26 seconds
+  Simulation 96.4 percent complete. Average dt  0.604 seconds
+  Time remaining 25 seconds
+  Simulation 97.2 percent complete. Average dt  0.628 seconds
+  Time remaining 15 seconds
+  Simulation 97.9 percent complete. Average dt  0.643 seconds
+  Time remaining 13 seconds
+  Simulation 98.7 percent complete. Average dt  0.594 seconds
+  Time remaining  8 seconds
+  Simulation 99.5 percent complete. Average dt  0.736 seconds
+  Time remaining  3 seconds
+   Duration   :   58.279913000000001       seconds
+   Timesteps  :       63441
+   Average dt :  0.40856859128954459       seconds
+   Unit speed :   7.8516876236174475E-006  seconds/1
+  End of program xbeach

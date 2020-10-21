@@ -1,0 +1,15 @@
+ Warning: Specification of instat using parameter 'wbctype'
+                       Hm0 =6.3681 Warning: value > recommended value of5.0000
+  Warning: shallow water so long wave variance is reduced using par%nmax
+                       Hm0 =6.8565 Warning: value > recommended value of5.0000
+                       Hm0 =7.2201 Warning: value > recommended value of5.0000
+  Warning: shallow water so long wave variance is reduced using par%nmax
+                       Hm0 =7.4443 Warning: value > recommended value of5.0000
+  Warning: shallow water so long wave variance is reduced using par%nmax
+                       Hm0 =7.5200 Warning: value > recommended value of5.0000
+  Warning: shallow water so long wave variance is reduced using par%nmax
+                       Hm0 =7.4443 Warning: value > recommended value of5.0000
+                       Hm0 =7.2201 Warning: value > recommended value of5.0000
+  Warning: shallow water so long wave variance is reduced using par%nmax
+                       Hm0 =6.8565 Warning: value > recommended value of5.0000
+                       Hm0 =6.3681 Warning: value > recommended value of5.0000

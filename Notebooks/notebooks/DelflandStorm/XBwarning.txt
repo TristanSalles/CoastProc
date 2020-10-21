@@ -1,0 +1,5 @@
+ Warning: Specification of instat using parameter 'wbctype'
+   Unknown, unused or multiple statements of parameterCARSPAN inparams.txt
+   Unknown, unused or multiple statements of parameterC inparams.txt
+   Unknown, unused or multiple statements of parameterBCFILE inparams.txt
+  Warning: shallow water so long wave variance is reduced using par%nmax

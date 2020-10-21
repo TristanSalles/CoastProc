@@ -1,0 +1,10 @@
+FILELIST
+     14400    1.0000                                     jonswap_1.txt
+     14400    1.0000                                     jonswap_2.txt
+     14400    1.0000                                     jonswap_3.txt
+     14400    1.0000                                     jonswap_4.txt
+     14400    1.0000                                     jonswap_5.txt
+     14400    1.0000                                     jonswap_6.txt
+     14400    1.0000                                     jonswap_7.txt
+     14400    1.0000                                     jonswap_8.txt
+     14401    1.0000                                     jonswap_9.txt

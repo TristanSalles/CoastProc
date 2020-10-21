@@ -1,0 +1,111 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% XBeach parameter settings input file                                     %%%
+%%%                                                                          %%%
+%%% date:     09-Sep-2011 10:30:33                                           %%%
+%%% function: xb_write_params                                                %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% Bed composition parameters %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+rhos       = 2650
+por        = 0.400000
+D50        = 0.000250
+D90        = 0.000375
+
+%%% Flow boundary condition parameters %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+carspan    = 0
+random     = 0
+
+%%% Flow numerics parameters %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+eps        = 0.010000
+umin       = 0
+hmin       = 0.200000
+
+%%% Flow parameters %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+C          = 65
+nuh        = 0.100000
+nuhfac     = 1
+
+%%% Grid parameters %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+gridform   = xbeach
+xfile      = x.grd
+yfile      = y.grd
+vardx      = 1
+nx         = 258
+ny         = 0
+depfile    = bed.dep
+posdwn     = -1
+thetamin   = -90
+thetamax   = 90
+dtheta     = 180
+
+%%% Model time %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+tstop      = 111170
+CFL        = 0.900000
+
+%%% Morphology parameters %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+morfac     = 10
+morstart   = 0
+wetslp     = 0.100000
+dryslp     = 1
+hswitch    = 0.100000
+dzmax      = 0.044100
+
+%%% Physical constants %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+g          = 9.810000
+rho        = 1000
+
+%%% Roller parameters %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+roller     = 1
+beta       = 0.100000
+rfb        = 1
+
+%%% Sediment transport parameters %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+waveform   = vanthiel
+form       = 2
+facua      = 0.100000
+turb       = 2
+Tsmin      = 1
+
+%%% Tide boundary conditions %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+tideloc    = 1
+zs0file    = tide.txt
+
+%%% Wave boundary condition parameters %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+instat     = 41
+bcfile     = waves.lst
+
+%%% Wave breaking parameters %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+break      = 3
+gamma      = 0.500000
+alpha      = 1
+n          = 10
+delta      = 0
+
+%%% Wave-spectrum boundary condition parameters %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+bcfile     = filelist.txt
+
+%%% Output variables %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+tint         = 100
+tstart       = 0
+outputformat = netcdf
+
+nglobalvar = 4
+H
+zs
+u
+zb
