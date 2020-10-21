@@ -247,3 +247,9 @@ Using **pyReef** `model <https://www.geosci-model-dev.net/11/2093/2018/>`_, we w
   :scale: 25 %
   :alt: pyreef model example
   :align: center
+
+
+
+
+.. image:: https://mybinder.org/badge_logo.svg
+  :target: https://mybinder.org/v2/gh/badlands-model/badlands-docker/binder?urlpath=tree/notebooks/gbr/runModel.ipynb
