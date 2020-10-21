@@ -300,7 +300,19 @@ Many complex models exist to evaluate the complex interactions between ocean hyd
 
 As an example, the nearshore wave propagation model `XBeach <http://oss.deltares.nl/web/xbeach/>`_ solves coupled 2D horizontal equations for wave propagation, flow, sediment transport and bottom changes, for varying (spectral) wave and flow boundary conditions. It is a public-domain model that can be used as stand-alone model for small-scale (project-scale) coastal applications, but could also be integrated within more complex coupling frameworks. For example, it could be driven by boundary conditions provided by wind, wave or surge models and its main outputs (time-varying bathymetry and possibly discharges over breached barrier island sections) could be then transferred back.
 
-Here we will look at a more simple approach based on a **reduced complexity model** that adopts the most basic known principles of wave motion, *i.e.*, the linear wave theory (Airy derived `wave parameters description <https://en.wikipedia.org/wiki/Airy_wave_theory>`_). Wave celerity :math:`c` is governed by:
+
+
+..  admonition:: Wave transformation and sediment transport during storm
+    :class: toggle, important
+
+
+    .. image:: https://mybinder.org/badge_logo.svg
+      :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/xbeach?urlpath=tree/CoastProc/Notebooks/notebooks/DelflandStorm/Delfland.ipynb
+
+    Here you will run a `XBeach <http://oss.deltares.nl/web/xbeach/>`_ model using a profile along the Dutch coast and by imposing the waves boundary condition based on the 1953 storm surge that caused substantial flooding in the Netherlands.
+
+
+Now, we will look at a more simple approach based on a **reduced complexity model** that adopts the most basic known principles of wave motion, *i.e.*, the linear wave theory (Airy derived `wave parameters description <https://en.wikipedia.org/wiki/Airy_wave_theory>`_). Wave celerity :math:`c` is governed by:
 
 
 .. math::
@@ -497,3 +509,35 @@ Grain settling velocity
   :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/BeachProcesses/GrainSettling.ipynb
 
 Grain settling is one of the most important problems in sedimentology (and therefore marine processes modelling), as neither sediment transport nor deposition can be understood and modelled without knowing what is the **settling velocity** of a particle of a certain grain size.
+
+
+Testing beach nourishment scenarios
+*************************************
+
+
+.. figure:: images/nourish.png
+  :width: 80 %
+  :alt: nearshore
+  :align: center
+
+  South Narrabeen March 2009: sand nourishment of Ausyrlia Surfing beaches. Coastalwatch article from `Andrew Short <https://www.coastalwatch.com/environment/5411/sand-nourishment-of-australia-s-iconic-surfing-beaches>`_.
+
+
+
+In this exercise, you will explore different nourishment strategies using `XBeach <http://oss.deltares.nl/web/xbeach/>`_ to estimate how they can reduce the (dune and beach) erosion during a storm event.
+
+
+..  admonition:: Getting Jupyter Notebooks
+    :class: toggle, important, toggle-shown
+
+    The required dataset for this exercise are located in the NourishmentCase folder and consist in 4 scenarios:
+
+    1. *Reference Model*: undisturbed profile
+    2. *Shoreface Model*: shoreface nourishment
+    3. *Beach Model*: beach nourishment
+    4. *Banquette Model*: special type of beach nourishment where a highly elevated flat area connected to the foot dune on which beach restaurants can be build
+
+    .. image:: https://mybinder.org/badge_logo.svg
+      :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/xbeach?urlpath=tree/CoastProc/Notebooks/notebooks/NourishmentCase
+
+    Each of these scenarios is run using the associated IPython Notebook. (*RefModel.ipynb*, *ShorefaceModel.ipynb*, *BeachModel.ipynb* and *BanquetteModel.ipynb* respectively).
