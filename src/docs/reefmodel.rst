@@ -317,15 +317,6 @@ Miscellaneous
 The Game of Life
 ***********************************
 
-Conway was interested in a problem presented in the 1940s by mathematician John von Neumann, who attempted to find a hypothetical machine that could build copies of itself. The Game of Life emerged as Conway's successful attempt to drastically simplify von Neumann's ideas.
+Conway was interested in a problem presented in the 1940s by mathematician John von Neumann, who attempted to find a hypothetical machine that could build copies of itself. The Game of Life emerged as Conway's successful attempt to drastically simplify von Neumann's ideas. From a theoretical point of view, it is interesting because it has the power of a universal Turing machine: that is, anything that can be computed algorithmically can be computed within Conway's Game of Life.
 
-From a theoretical point of view, it is interesting because it has the power of a universal Turing machine: that is, anything that can be computed algorithmically can be computed within Conway's Game of Life.
-
-..  admonition:: Conway's Game of Life
-    :class: toggle
-
-    .. raw:: html
-
-      <div style="text-align: center; margin-bottom: 2em;">
-      <iframe width="100%" height="550" src="http://pmav.eu/stuff/javascript-game-of-life-v3.1.1/?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
+**Play with Conway's Game of Life** `here <http://pmav.eu/stuff/javascript-game-of-life-v3.1.1/?rel=0>`_.
