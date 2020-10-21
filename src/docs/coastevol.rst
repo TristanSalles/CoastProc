@@ -281,7 +281,7 @@ Embayed beaches tend toward an equilibrium form under a prevailing wave climate.
     .. image:: https://mybinder.org/badge_logo.svg
       :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/CoastalEvolution/BaySensitivity.ipynb
 
-    Click on the above button to simulate the evolution of embayed beach under different wave climates.
+    Click on the above button to simulate the evolution of embayed beach under different wave climates using the COVE model `(Hurst et al., 2015) <http://onlinelibrary.wiley.com/doi/10.1002/2015JF003704/abstract>`_.
 
 
 
@@ -520,7 +520,7 @@ Testing beach nourishment scenarios
   :alt: nearshore
   :align: center
 
-  South Narrabeen March 2009: sand nourishment of Ausyrlia Surfing beaches. Coastalwatch article from `Andrew Short <https://www.coastalwatch.com/environment/5411/sand-nourishment-of-australia-s-iconic-surfing-beaches>`_.
+  South Narrabeen March 2009: sand nourishment of Australia Surfing beaches. Coastalwatch article from `Andrew Short <https://www.coastalwatch.com/environment/5411/sand-nourishment-of-australia-s-iconic-surfing-beaches>`_.
 
 
 
