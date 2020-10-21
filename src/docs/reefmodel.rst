@@ -306,7 +306,7 @@ Carbonate platform evolution since the last LGM
 With `badlands <https://www.nature.com/articles/s41598-018-23519-8>`_, you will simulate the evolution of a carbonate platform over the last 10,000 years accounting for the impact of waves, sediment transport and sea-level changes.
 
 .. image:: https://mybinder.org/badge_logo.svg
-  :target: https://mybinder.org/v2/gh/badlands-model/badlands-docker/binder?urlpath=tree/notebooks/gbr/runModel.ipynb
+  :target: https://mybinder.org/v2/gh/badlands-model/badlands-docker/binder?urlpath=tree/gbr/runModel.ipynb
 
 Click on the link above to start running the simulation in a **Jupyter Notebook**.
 
