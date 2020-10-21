@@ -4,6 +4,8 @@
 ARG FROMIMG_ARG=tristansalles/coastproc:2021-1
 FROM ${FROMIMG_ARG}
 
+RUN python3 -m pip install --no-cache-dir cftime==1.0.4.2 netcdf4==1.4.3
+
 ##################################################
 # Non standard as the files come from the packages
 
