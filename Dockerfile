@@ -26,6 +26,7 @@ RUN git clone --single-branch --branch xbeach https://github.com/TristanSalles/C
 
 USER jovyan
 
+RUN pwd
 # Non standard as the files come from the packages
 ##################################################
 ARG IMAGENAME_ARG
@@ -56,19 +57,4 @@ EXPOSE $NB_PORT
 ENTRYPOINT ["/usr/local/bin/xvfbrun.sh"]
 
 # launch notebook
-#CMD /home/jovyan/CoastProc/Docker/scripts/run-jupyter.sh
-
-
-# expose notebook port
-EXPOSE 8888
-
-# setup space for working in
-#VOLUME /workspace/volume
-
-# launch notebook
-WORKDIR /home/jovyan
-EXPOSE 8888
-ENTRYPOINT ["/usr/local/bin/tini", "--"]
-
-CMD jupyter notebook --ip=0.0.0.0 --no-browser \
-    --NotebookApp.default_url=''
+CMD /home/jovyan/CoastProc/Docker/scripts/run-jupyter.sh
