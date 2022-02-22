@@ -8,6 +8,7 @@ dependencies:
   - pip
   - pandas
   - netcdf4
+  - gfortran
   - python-graphviz
   - seaborn
   - scikit-learn=0.23
