@@ -12,6 +12,7 @@ dependencies:
   - compilers
   - gfortran
   - gcc
+  - gcc_linux-64
   - python-graphviz
   - seaborn
   - scikit-learn=0.23
