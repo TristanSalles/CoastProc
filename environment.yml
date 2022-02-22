@@ -7,7 +7,8 @@ dependencies:
   - numpy
   - pip
   - pandas
-  - netcdf4
+  - scipy
+  - netCDF4
   - gfortran
   - python-graphviz
   - seaborn
@@ -19,6 +20,8 @@ dependencies:
   - shapely
   - cartopy
   - wavespectra
+  - dask
+  - zarr
   - pip:
       - radwave
       - pybeach
