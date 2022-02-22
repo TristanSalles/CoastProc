@@ -1,0 +1,20 @@
+name: coastproc-notebooks
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - jupyterlab=2.1
+  - numpy
+  - pip
+  - pandas
+  - netcdf4
+  - python-graphviz
+  - seaborn
+  - scikit-learn=0.23
+  - matplotlib
+  - h5py
+  - xarray
+  - bottleneck
+  # - pip:
+  #     - mimesis
+  #     - pystan==2.19.1.
