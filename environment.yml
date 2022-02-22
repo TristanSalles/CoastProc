@@ -16,7 +16,7 @@ dependencies:
   - xarray
   - cmocean
   - shapely
-  - geos=3.7.1
+  - cartopy
   # - bottleneck
   - pip:
       - radwave
