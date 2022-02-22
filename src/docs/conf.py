@@ -19,14 +19,20 @@ sys.path.insert(0, os.path.abspath("."))
 sys.path.insert(0, os.path.abspath("../"))
 sys.path.insert(0, os.path.abspath("../src"))
 
-# import sphinx_rtd_theme
+import sphinx_rtd_theme
 import sphinx_press_theme
 
-from sphinx.builders.html import (
-    StandaloneHTMLBuilder,
-    DirectoryHTMLBuilder,
-    SingleFileHTMLBuilder,
-)
+try:
+    # Available from Sphinx 2.0
+    from sphinx.builders.dirhtml import DirectoryHTMLBuilder
+    from sphinx.builders.html import StandaloneHTMLBuilder
+    from sphinx.builders.singlehtml import SingleFileHTMLBuilder
+except ImportError:
+    from sphinx.builders.html import (
+        DirectoryHTMLBuilder,
+        SingleFileHTMLBuilder,
+        StandaloneHTMLBuilder,
+    )
 
 # Redefine supported_image_types for the HTML builder
 html_img_types = ["image/gif", "image/svg+xml", "image/png", "image/jpeg"]
