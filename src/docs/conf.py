@@ -114,7 +114,7 @@ html_theme = "press"
 
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 # html_theme_path = [sphinx_press_theme.get_html_theme_path()]
-html_logo = "logo/logo.jpg"
+html_logo = "logo/logo2.jpg"
 html_theme_options = {
     "logo_only": True,
     "display_version": False,
