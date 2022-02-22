@@ -14,7 +14,7 @@ dependencies:
   - matplotlib
   - h5py
   - xarray
-  - bottleneck
+  # - bottleneck
   # - pip:
   #     - mimesis
   #     - pystan==2.19.1.
