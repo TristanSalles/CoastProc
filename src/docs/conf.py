@@ -44,7 +44,7 @@ SingleFileHTMLBuilder.supported_image_types = html_img_types
 # -- Project information -----------------------------------------------------
 
 project = u"CoastProc"
-copyright = u"2021, Tristan Salles"
+copyright = u"2022, Tristan Salles"
 author = u"Tristan Salles"
 
 # The short X.Y version
