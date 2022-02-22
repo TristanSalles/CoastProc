@@ -3,6 +3,7 @@ pandas
 ruamel.yaml
 scikit-image
 sphinx_rtd_theme
+sphinx_press_theme
 sphinxcontrib-napoleon
 sphinxcontrib-inlinesyntaxhighlight
 sphinxemoji
