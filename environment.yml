@@ -14,7 +14,10 @@ dependencies:
   - matplotlib
   - h5py
   - xarray
+  - cmocean
+  - shapely
+  - geos=3.7.1
   # - bottleneck
-  # - pip:
-  #     - mimesis
+  - pip:
+      - radwave
   #     - pystan==2.19.1.
