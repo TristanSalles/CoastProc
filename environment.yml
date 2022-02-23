@@ -14,7 +14,7 @@ dependencies:
   - gcc
   - python-graphviz
   - seaborn
-  - skimage
+  - scikit-image
   - scikit-learn=0.23
   - matplotlib
   - h5py
