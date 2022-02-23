@@ -22,10 +22,10 @@ dependencies:
   - cmocean
   - shapely
   - cartopy
-  - wavespectra
   - dask
   - zarr
   - pip:
       - radwave
       - pybeach
       - py-wave-runup
+      - wavespectra==3.9
