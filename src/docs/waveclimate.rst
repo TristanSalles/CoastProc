@@ -161,7 +161,7 @@ In comparison to a buoy, altimeters provide excellent spatial coverage, with obs
     Visualising Australian Ocean Surface Wave by extracting information from synthetic aperture radar (**SAR**) satellites with a **Jupyter Notebook**:
 
     .. image:: https://mybinder.org/badge_logo.svg
-      :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/SAR_waves/SAR_waves_getting_started.ipynb
+      :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder
 
     .. image:: images/SAR.png
       :width: 90 %
@@ -399,15 +399,15 @@ Using **Jupyter Notebooks** as last week, you will:
 * Extract data from different regions along Australia and evaluate wave modal conditions and seasonal changes in climate variability. Then calculate long-term trends and associated modulation by large-scale climate oscillations.
 
 .. image:: https://mybinder.org/badge_logo.svg
-  :target: https://mybinder.org/v2/gh/pyReef-model/RADWave/binder?urlpath=tree/Notebooks/notebooks/RADWave1-TileAnalysis.ipynb
+  :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder
 
 .. image:: https://mybinder.org/badge_logo.svg
-  :target: https://mybinder.org/v2/gh/pyReef-model/RADWave/binder?urlpath=tree/Notebooks/notebooks/RADWave2-ClimateVariability.ipynb
+  :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder
 
 * Estimate the wave heights along Tropical Cyclone tracks.
 
 .. image:: https://mybinder.org/badge_logo.svg
-  :target: https://mybinder.org/v2/gh/pyReef-model/RADWave/binder?urlpath=tree/Notebooks/notebooks/RADWave3-CycloneYasi.ipynb
+  :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder
 
 
 ..  admonition:: RADWave Package by Smith et al. (2020)

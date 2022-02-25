@@ -295,7 +295,7 @@ Using **pyReef** `model <https://www.geosci-model-dev.net/11/2093/2018/>`_, we w
 
 
 .. image:: https://mybinder.org/badge_logo.svg
-  :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/LongTerm/Reef.ipynb
+  :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?
 
 Use the link above to run different scenarios of coral growth with **pyReef**.
 

@@ -48,15 +48,14 @@ source Docker/build-dockerfile.sh
 
 ## Usage
 
-### Binder & docker container
+### Binder & Anaconda
 
-Launch the demonstration at [mybinder.org](https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?filepath=Notebooks%2F0-StartHere.ipynb)
+Launch the demonstration at [mybinder.org](https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder)
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?filepath=Notebooks%2F0-StartHere.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder)
 
-Another option will be to use the Docker container available through Kitematic **tsalles/coastproc**.
+Another option will be to use the Anaconda available and the environment file [`environment.yml`](https://github.com/TristanSalles/CoastProc/blob/binder/environment.yml) to build the course content locally.
 
-[![Docker Cloud Automated build](https://img.shields.io/docker/automated/tsalles/coastproc)](https://hub.docker.com/r/tsalles/coastproc)
 
 ### License
 

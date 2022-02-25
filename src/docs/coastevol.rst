@@ -107,12 +107,12 @@ and a seperate relationship for intermediate and reflective beaches (*i.e.* Irib
 
 
     .. image:: https://mybinder.org/badge_logo.svg
-      :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/BeachProcesses/WaveRunUp.ipynb
+      :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder
 
     Click on the above button to assess 2 runup models.
 
     .. image:: https://mybinder.org/badge_logo.svg
-      :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/BeachProcesses/RunUpDataset.ipynb
+      :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder
 
     Evaluate wave runup observations against the Iribarren number with the above link.
 
@@ -166,7 +166,7 @@ There are many different algorithms currently available for automatically detect
 
 
     .. image:: https://mybinder.org/badge_logo.svg
-      :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/BeachProcesses/pyBeach.ipynb
+      :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder
 
     With the above link, you will have a look at how **pybeach** could be used to locate the dune toe on cross-shore beach profile transects.
 
@@ -279,7 +279,7 @@ Embayed beaches tend toward an equilibrium form under a prevailing wave climate.
     :class: toggle, important, toggle-shown
 
     .. image:: https://mybinder.org/badge_logo.svg
-      :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/CoastalEvolution/BaySensitivity.ipynb
+      :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder
 
     Click on the above button to simulate the evolution of embayed beach under different wave climates using the COVE model `(Hurst et al., 2015) <http://onlinelibrary.wiley.com/doi/10.1002/2015JF003704/abstract>`_.
 
@@ -451,7 +451,7 @@ Marine sediments are further mobilised by a diffusion law similar to the one ref
     :class: toggle, important, toggle-shown
 
     .. image:: https://mybinder.org/badge_logo.svg
-      :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/LongTerm/SedTransport.ipynb
+      :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder
 
     Click on the above button to run the described long-term model around Fraser Island.
 
@@ -475,12 +475,12 @@ You will need to download the practical information sheet available from Canvas.
 
 
     .. image:: https://mybinder.org/badge_logo.svg
-      :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/CoastalEvolution/InshoreWaves.ipynb
+      :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder
 
     Click above to extract nearshore waves from the Narrabeen dataset.
 
     .. image:: https://mybinder.org/badge_logo.svg
-      :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/CoastalEvolution/selectProfiles.ipynb
+      :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder
 
     Click above to get the profiles selection notebook and analyse Narrabeen Beach Profile Adjustment.
 
@@ -494,7 +494,7 @@ You will need to download the practical information sheet available from Canvas.
     :class: toggle, toggle-shown
 
     .. image:: https://mybinder.org/badge_logo.svg
-      :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/CoastalEvolution/BaySensitivity.ipynb
+      :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder
 
     Use the link above to access the one-line model COVE from `Hurst et al. (2015) <http://onlinelibrary.wiley.com/doi/10.1002/2015JF003704/abstract>`_.
 
@@ -506,7 +506,7 @@ Grain settling velocity
 ***********************************
 
 .. image:: https://mybinder.org/badge_logo.svg
-  :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/BeachProcesses/GrainSettling.ipynb
+  :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder
 
 Grain settling is one of the most important problems in sedimentology (and therefore marine processes modelling), as neither sediment transport nor deposition can be understood and modelled without knowing what is the **settling velocity** of a particle of a certain grain size.
 

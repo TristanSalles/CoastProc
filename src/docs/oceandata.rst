@@ -232,7 +232,7 @@ Roughly speaking, here is how you should use them:
 
 
   .. image:: https://mybinder.org/badge_logo.svg
-    :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/IntroNotebook.ipynb
+    :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder
 
 After following the video and the introduction notebook, you will open the workspace in **edstem** and from the bottom of the `StartHere` notebook you will click on the **Ocean Data Query** link. It will open a folder containing exercises and practicals:
 
@@ -252,7 +252,7 @@ Loading and checking IMOS NetCDF dataset
     We will see how to load NetCDF data into a Python environment, and show how to use the data once loaded.
 
     .. image:: https://mybinder.org/badge_logo.svg
-      :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/QueryOcean/OceanData1.ipynb
+      :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder
 
 
 Querying and analysis Coastal Ocean Radar dataset
@@ -265,7 +265,7 @@ Querying and analysis Coastal Ocean Radar dataset
     In this second example (`OceanData2.ipynb`), the Australian Coastal Ocean Radar Network (`ACORN <https://portal.aodn.org.au/search>`_) facility comprises a coordinated network of HF radars delivering real-time ocean surface velocity data. We will export the dataset file (NetCDF) for a given region and then we will plot the velocity field at a given time in a latitude/longitude grid.
 
     .. image:: https://mybinder.org/badge_logo.svg
-      :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/QueryOcean/OceanData2.ipynb
+      :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder
 
 
 
@@ -273,7 +273,7 @@ Querying and analysis Coastal Ocean Radar dataset
     :class: toggle
 
     .. image:: https://mybinder.org/badge_logo.svg
-      :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/QueryOcean/BuoyGoldCoast.ipynb
+      :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder
 
 Exercise for the practical
 ***********************************
@@ -286,7 +286,7 @@ You will run a series of examples that will introduce some aspects of marine dat
 Download the practical documentation from Canvas website and answer the questions using: the `Waverider.ipynb` notebook.
 
 .. image:: https://mybinder.org/badge_logo.svg
-  :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder?urlpath=tree/Notebooks/notebooks/QueryOcean/Waverider.ipynb
+  :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder
 
 
 Summary
