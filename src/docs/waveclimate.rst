@@ -401,9 +401,6 @@ Using **Jupyter Notebooks** as last week, you will:
 .. image:: https://mybinder.org/badge_logo.svg
   :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder
 
-.. image:: https://mybinder.org/badge_logo.svg
-  :target: https://mybinder.org/v2/gh/TristanSalles/CoastProc/binder
-
 * Estimate the wave heights along Tropical Cyclone tracks.
 
 .. image:: https://mybinder.org/badge_logo.svg
