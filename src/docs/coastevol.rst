@@ -511,8 +511,8 @@ Grain settling velocity
 Grain settling is one of the most important problems in sedimentology (and therefore marine processes modelling), as neither sediment transport nor deposition can be understood and modelled without knowing what is the **settling velocity** of a particle of a certain grain size.
 
 
-Testing beach nourishment scenarios
-*************************************
+Testing beach nourishment scenarios (not used from 2022)
+*************************************************************************
 
 
 .. figure:: images/nourish.png
