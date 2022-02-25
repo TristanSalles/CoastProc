@@ -281,8 +281,8 @@ Hands-on examples
 ---------------------
 
 
-1D model of coral assemblages evolution
-*****************************************
+1D model of coral assemblages evolution (not used from 2022)
+*****************************************************************
 
 Using **pyReef** `model <https://www.geosci-model-dev.net/11/2093/2018/>`_, we will simulate  typical sequences of coral assemblages found in the GBR based on different initial conditions.
 
