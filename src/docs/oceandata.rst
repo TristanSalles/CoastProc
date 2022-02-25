@@ -280,7 +280,8 @@ Exercise for the practical
 
 You will run a series of examples that will introduce some aspects of marine data querying.
 
-* Analysing off-shore Sydney wave buoy data from Australian Integrated Marine Observing System (IMOS) and historical NOAA WW3 model predictions for different locations.
+* Off-shore Sydney wave buoy data from Australian Integrated Marine Observing System (IMOS) and
+* Different dataset from the Bureau of Meteorology, CSIRO as well as forecast model outputs from NOAA.
 * Extract Ocean Radar dataset for Turquoise Bay from IMOS and plot them on a map.
 
 Download the practical documentation from Canvas website and answer the questions using: the `Waverider.ipynb` notebook.
