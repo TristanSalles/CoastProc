@@ -16,7 +16,7 @@ dependencies:
   - scikit-image
   - scikit-learn=0.23
   - h5py
-  - xarray 
+  - xarray
   - cmocean
   - shapely
   - cartopy
@@ -28,3 +28,4 @@ dependencies:
       - pybeach
       - py-wave-runup
       - matplotlib==3.3.4
+      - windrose
