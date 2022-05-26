@@ -20,8 +20,8 @@ dependencies:
   - cmocean
   - shapely
   - cartopy
-  - dask
-  - zarr
+  #- dask
+  #- zarr
   - wavespectra
   - pip:
       - radwave
