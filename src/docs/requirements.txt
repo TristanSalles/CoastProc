@@ -10,3 +10,4 @@ sphinxemoji
 mock
 numpy-indexed
 sphinx-togglebutton
+quantecon-book-theme
