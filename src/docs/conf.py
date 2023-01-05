@@ -109,10 +109,11 @@ todo_include_todos = False
 #
 # html_theme = 'alabaster'
 # html_theme = 'sphinx_rtd_theme'
-html_theme = "press"
+# html_theme = "press"
+html_theme = "quantecon_book_theme"
 
-
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+html_theme_path = [quantecon_book_theme.get_html_theme_path()]
+#html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 # html_theme_path = [sphinx_press_theme.get_html_theme_path()]
 html_logo = "logo/logo2.jpg"
 html_theme_options = {
