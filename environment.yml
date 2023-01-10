@@ -28,7 +28,7 @@ dependencies:
 #   - pillow
 #   - astropy
 #   - spyder
-  - pymt
+#  - pymt
   - pip:
       - radwave
       - pybeach
