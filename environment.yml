@@ -27,10 +27,10 @@ dependencies:
 #   - geopandas
 #   - pillow
 #   - astropy
-#   - spyder
-#  - pymt
+  - spyder
+  - pymt
   - pip:
-      - radwave
+#       - radwave
       - pybeach
       - py-wave-runup
       - matplotlib==3.3.4
