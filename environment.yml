@@ -23,6 +23,12 @@ dependencies:
   - dask
   - zarr
   - wavespectra
+  - gdal
+  - geopandas
+  - pillow
+  - astropy
+  - spyder
+  - pymt
   - pip:
       - radwave
       - pybeach
