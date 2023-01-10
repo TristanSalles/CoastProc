@@ -29,9 +29,9 @@ dependencies:
 #   - astropy
   - spyder
   - pymt
-  - pip:
-#       - radwave
+  - pip:   
       - pybeach
       - py-wave-runup
       - matplotlib==3.3.4
       - windrose
+      - radwave
